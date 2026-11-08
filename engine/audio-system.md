@@ -45,7 +45,7 @@ rebuild):
 ## MP3 playback internals (LibAmp, reconstructed)
 
 LibAmp's source is lost, so it was reconstructed from the binary
-([../reconstruction/thirdparty/README.md](../reconstruction/thirdparty/README.md)).
+([../reconstruction/thirdparty/README.md](../reconstruction/thirdparty/PROVENANCE.md)).
 How it works (VERIFIED from the decompiled code and objdump):
 
 - `load_amp(file, loop)` opens the file as an Allegro `PACKFILE`, reads the
