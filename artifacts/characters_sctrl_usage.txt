@@ -1,0 +1,80 @@
+== abomb.def  mugenversion=06,14,2003  files=2 statedefs=19 controllers=115 types=28
+   file abomb.cns
+   file common1.cns (missing; engine data/ fallback)
+   used: varset:34, destroyself:10, posset:8, helper:8, changestate:7, assertspecial:5, changeanim:5, velset:5, nothitby:4, hitdef:4, lifeset:3, playsnd:2, reversaldef:2, bindtoroot:2, parentvarset:2, varrangeset:2, allpalfx:1, projectile:1, explod:1, hitoverride:1, screenbound:1, playerpush:1, selfstate:1, trans:1, angleset:1, angledraw:1, veladd:1, velmul:1
+   not in 2002.04.14: -
+== Balam_Knowledge.def  mugenversion=-  files=11 statedefs=13153 controllers=32284 types=58
+   file config.st
+   file st/root.st
+   file st/Administrator.st
+   file st/enemy.st
+   file st/helper.st
+   file st/null.st
+   file st/DEK1.st
+   file st/DEK2.st
+   file st/DEK3.st
+   file st/DEK4.st
+   file st/senyou.st
+   used: null:16233, changestate:13385, parentvarset:382, projectile:210, explod:185, selfstate:160, statetypeset:151, changeanim:140, hitdef:126, varset:116, lifeset:92, targetstate:91, assertspecial:85, posset:83, helper:80, playsnd:78, reversaldef:69, tagout:62, targetlifeadd:51, destroyself:41, pause:37, ctrlset:37, hitoverride:29, superpause:27, removeexplod:26, hitby:25, hitadd:24, envshake:23, targetvelset:18, targetdrop:17, hitfallset:17, velset:16, offset:14, posadd:14, nothitby:13, posfreeze:13, screenbound:12, targetpoweradd:12, modifyexplod:11, attackdist:9, varadd:8, turn:8, powerset:7, changeanim2:7, targetbind:6, varrandom:6, playerpush:5, stopsnd:4, hitfalldamage:3, angledraw:3, width:3, movehitreset:2, targetfacing:2, lifeadd:2, palfx:1, attackmulset:1, afterimage:1, varrangeset:1
+   not in 2002.04.14: tagout:62
+== Blizzard_Sword_Princess.def  mugenversion=04,14,2002  files=7 statedefs=162 controllers=2653 types=72
+   file config.txt
+   file cns/-3.cns
+   file cns/Blizzard_Sword_Princess.cns
+   file cns/Enemy.cns
+   file cns/helper.cns
+   file cns/AISystem.cns
+   file cns/common_kousa.cns
+   used: varset:369, changestate:279, selfstate:241, explod:163, changeanim:157, parentvarset:130, velset:105, varadd:104, playsnd:102, statetypeset:99, assertspecial:61, null:59, ctrlset:59, helper:57, turn:47, nothitby:43, hitdef:40, velmul:38, posset:37, angledraw:37, posadd:36, poweradd:33, palfx:23, modifyexplod:22, hitby:22, veladd:22, projectile:19, trans:16, screenbound:13, targetbind:13, envshake:12, removeexplod:12, gravity:11, changeanim2:10, hitvelset:10, playerpush:9, afterimage:9, superpause:7, targetlifeadd:7, targetstate:7, hitfallset:7, angleset:7, pause:6, envcolor:6, posfreeze:6, reversaldef:6, defencemulset:6, bindtoroot:6, attackdist:6, varrandom:6, width:5, hitoverride:5, destroyself:5, lifeset:4, afterimagetime:4, bgpalfx:4, attackmulset:3, hitfalldamage:3, varrangeset:2, movehitreset:2, offset:2, fallenvshake:2, lifeadd:1, targetfacing:1, gamemakeanim:1, angleadd:1, targetdrop:1, bindtoparent:1, displaytoclipboard:1, parentvaradd:1, hitfallvel:1, sprpriority:1
+   not in 2002.04.14: gamemakeanim:1
+== D-Donald.def  mugenversion=04,14,2002  files=7 statedefs=278 controllers=3390 types=69
+   file Donald.cns
+   file common1.cns (missing; engine data/ fallback)
+   file Donald1.cns
+   file Donald2.cns
+   file Donald3.cns
+   file AI.cns
+   file OPTION.txt
+   used: changestate:596, projectile:405, null:358, playsnd:332, assertspecial:106, parentvarset:106, helper:103, velset:99, nothitby:91, hitdef:90, veladd:77, changeanim:75, destroyself:74, posset:63, ctrlset:60, varset:59, width:52, screenbound:37, selfstate:35, envshake:35, hitoverride:33, lifeadd:32, explod:28, statetypeset:26, attackmulset:25, playerpush:23, palfx:22, defencemulset:21, turn:20, targetlifeadd:20, targetbind:19, envcolor:19, targetstate:17, forcefeedback:16, allpalfx:16, changeanim2:15, superpause:14, poweradd:13, afterimage:12, bgpalfx:12, sprpriority:10, posadd:10, varadd:9, lifeset:9, stopsnd:9, hitvelset:8, velmul:8, afterimagetime:7, varrandom:7, removeexplod:7, bindtoroot:6, angledraw:6, targetpoweradd:5, reversaldef:5, gravity:5, gamemakeanim:3, posfreeze:3, trans:3, fallenvshake:2, hitfalldamage:2, attackdist:2, hitby:2, hitfallvel:1, hitfallset:1, powerset:1, hitadd:1, targetdrop:1, displaytoclipboard:1, appendtoclipboard:1
+   not in 2002.04.14: gamemakeanim:3
+== genjitsu&friends.def  mugenversion=-  files=3 statedefs=65 controllers=241 types=36
+   file genjitsu&friends.cns
+   file genjitsu&friends_-2-3.cns
+   file genjitsu&friends_common.cns
+   used: null:52, velset:19, changestate:17, playsnd:13, changeanim:13, playerpush:10, screenbound:10, posset:10, angledraw:9, selfstate:8, destroyself:7, parentvaradd:7, trans:7, helper:7, projectile:6, assertspecial:6, lifeadd:5, explod:4, turn:4, varset:3, statetypeset:3, hitby:3, ctrlset:3, targetdrop:2, reversaldef:2, lifeset:1, allpalfx:1, envshake:1, targetstate:1, posadd:1, modifyexplod:1, removeexplod:1, velmul:1, hitoverride:1, varadd:1, veladd:1
+   not in 2002.04.14: -
+== Gloria.def  mugenversion=04,3,2009  files=12 statedefs=418 controllers=8146 types=60
+   file Gloria.cns
+   file Gloria_sou.cns
+   file Gloria_T.cns
+   file Gloria_X.cns
+   file Gloria_I.cns
+   file Gloria_S.cns
+   file Gloria_HL.cns
+   file rensei.cns
+   file Gloria_H.cns
+   file Gloria_-3.cns
+   file Gloria_souHL.cns
+   file common1.cns (missing; engine data/ fallback)
+   used: null:2540, explod:934, playsnd:591, changestate:566, helper:403, parentvarset:360, velset:317, varset:201, angledraw:161, assertspecial:147, posset:120, varadd:118, afterimage:117, selfstate:115, projectile:106, changeanim:105, envshake:104, destroyself:104, hitdef:101, angleset:100, nothitby:98, sprpriority:75, hitoverride:66, trans:56, modifyexplod:52, screenbound:51, veladd:49, superpause:40, changeanim2:40, targetstate:37, lifeadd:35, targetlifeadd:28, targetbind:26, reversaldef:25, bgpalfx:19, pause:15, hitby:14, lifeset:14, statetypeset:13, turn:11, palfx:11, angleadd:10, removeexplod:10, poweradd:8, bindtoroot:6, attackmulset:4, hitadd:4, powerset:3, allpalfx:3, attackdist:3, envcolor:3, ctrlset:3, targetdrop:1, hitvelset:1, posadd:1, posfreeze:1, velmul:1, s:1, a:1, varrandom:1
+   not in 2002.04.14: a:1, s:1
+== Gloria_EX.def  mugenversion=26,2,2013  files=9 statedefs=59 controllers=740 types=52
+   file Gloria_EX.cns
+   file Gloria_EX_A.cns
+   file Gloria_EX_HL.cns
+   file Gloria_EX_-3.cns
+   file Gloria_EX_S.cns
+   file Gloria_EX_H.cns
+   file Gloria_EX_T.cns
+   file Gloria_EX_I.cns
+   file common1.cns (missing; engine data/ fallback)
+   used: explod:179, playsnd:93, changestate:74, varset:64, helper:40, velset:38, afterimage:21, assertspecial:21, changeanim:19, varadd:19, posset:18, selfstate:15, screenbound:13, modifyexplod:13, destroyself:12, angledraw:8, projectile:8, envshake:8, nothitby:7, veladd:7, trans:6, displaytoclipboard:5, angleset:4, stopsnd:4, lifeadd:3, hitoverride:3, bgpalfx:3, turn:3, ctrlset:2, attackmulset:2, bindtoroot:2, palfx:2, changeanim2:2, targetdrop:2, targetlifeadd:2, lifeset:2, pause:1, hitdef:1, parentvaradd:1, superpause:1, varrandom:1, hitvelset:1, posadd:1, posfreeze:1, reversaldef:1, hitby:1, playerpush:1, velmul:1, movehitreset:1, statetypeset:1, sprpriority:1, powerset:1
+   not in 2002.04.14: -
+== norris.def  mugenversion=14,04,2002  files=5 statedefs=133 controllers=3606 types=68
+   file norris.cns
+   file common1.cns (missing; engine data/ fallback)
+   file norriscommon.cns
+   file norriskiller.cns
+   file norris-2-3.cns
+   used: null:1651, parentvarset:353, projectile:239, varset:188, changestate:136, helper:117, explod:89, playsnd:86, assertspecial:82, changeanim:79, posset:64, velset:59, destroyself:53, removeexplod:25, statetypeset:24, selfstate:23, screenbound:20, envshake:19, nothitby:17, bindtoroot:16, angledraw:14, veladd:14, changeanim2:13, lifeset:13, forcefeedback:13, superpause:12, turn:11, stopsnd:10, varadd:10, hitadd:10, reversaldef:10, allpalfx:9, hitdef:9, hitoverride:9, targetstate:8, varrandom:7, varrangeset:7, pause:6, powerset:6, targetlifeadd:6, targetdrop:6, ctrlset:5, trans:5, velmul:5, hitby:5, bgpalfx:4, palfx:4, lifeadd:4, gravity:3, hitvelset:2, posfreeze:2, targetbind:2, fallenvshake:2, gamemakeanim:2, hitfalldamage:2, playerpush:2, movehitreset:2, targetpoweradd:2, modifyexplod:1, sndpan:1, posadd:1, angleadd:1, afterimage:1, hitfallset:1, angleset:1, defencemulset:1, poweradd:1, afterimagetime:1
+   not in 2002.04.14: gamemakeanim:2

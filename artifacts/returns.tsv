@@ -1,0 +1,1308 @@
+addr	name	return	was	reason
+08048200	AnimRCReadFile	int *	int *	unchanged
+08048290	AnimRCReadFileTP	int *	int *	unchanged
+08048830	AnimElemParseLine	bool	bool	unchanged
+080489b0	AnimElemProcessFlipFlags	uint	uint	unchanged
+08048a00	AnimElemProcessDrawFlags	undefined4	undefined4	unchanged
+08048b40	AnimRCFree	undefined4	void	result used by a caller
+08048bf0	AnimNew	undefined4 *	undefined4 *	unchanged
+08048c40	AnimSet	void	void	unchanged
+08048c70	AnimCopy	void	void	unchanged
+08048c90	AnimFree	undefined4	undefined4	unchanged
+08048cd0	AnimUpdate	undefined4	undefined4	unchanged
+08048d70	AnimUpdateElemptr	undefined4	void	result used by a caller
+08048dd0	AnimResetAction	void	void	unchanged
+08048e10	AnimChangeAction	undefined4	void	result used by a caller
+08048e30	AnimChangeActionTime	undefined4	undefined4	unchanged
+08048ec0	AnimChangeActionElem	undefined4	undefined4	unchanged
+08048f60	AnimDraw	void	void	unchanged
+08048f80	AnimDrawFlip	void	void	unchanged
+080491e0	AnimDrawScale	void	void	unchanged
+08049210	AnimDrawScaleFlip	void	void	unchanged
+08049540	AnimDrawRotateFlip	void	void	unchanged
+08049880	AnimCurIDGrp	void	void	unchanged
+080498a0	AnimCurIDno	undefined4	void	result used by a caller
+080498c0	AnimCurElemStartTime	undefined4	undefined4	unchanged
+08049900	AnimElemNo	undefined4	undefined8	baseline non-void
+080499a0	AnimIdxToIDGrp	void	void	unchanged
+080499c0	AnimIdxToIDno	void	void	unchanged
+080499e0	AnimGrpNoToIdx	undefined4	void	result used by a caller
+08049a00	AnimGetLooptime	undefined4	undefined4	unchanged
+08049a20	AnimGetLooptimeID	undefined4	undefined4	unchanged
+08049a50	AnimGetLoopstarttime	undefined4	undefined4	unchanged
+08049a70	AnimGetLoopstarttimeID	undefined4	undefined4	unchanged
+08049aa0	AnimGetTime	undefined4	undefined4	unchanged
+08049ab0	AnimGetCorrectedTime	undefined4	undefined8	baseline non-void
+08049ae0	AnimCurSpriteIdx	undefined4	undefined4	unchanged
+08049af0	PRSprArrayNew	undefined4 *	undefined4 *	unchanged
+08049b70	PRSprArrayFree	undefined4	undefined4	unchanged
+08049bb0	PRSprArrayClear	void	void	unchanged
+08049bc0	PRSprAdd	undefined4	undefined4	unchanged
+08049c60	PRSprDraw	void	void	unchanged
+08049dd0	PRSprArrayDraw	void	void	unchanged
+08049e10	PRSprArrayScale	undefined4	ulonglong	baseline non-void
+08049ef0	AnimPerUpdate	byte	byte	unchanged
+08049f20	AnimPerDraw	void	void	unchanged
+08049f60	AnimPerDrawScale	void	void	unchanged
+0804a000	AnimPerArrayNew	undefined4	undefined8	baseline non-void
+0804a050	AnimPerArrayFree	void	void	unchanged
+0804a080	AnimPerArrayAdd	uint	uint	unchanged
+0804a150	AnimPerArraySetNo	void	void	unchanged
+0804a170	AnimPerArrayDelete	void	void	unchanged
+0804a180	AnimPerArrayClear	void	void	unchanged
+0804a190	AnimPerArrayUpdate	undefined4	undefined4	unchanged
+0804a1e0	AnimPerArrayUpdateGrp	void	void	unchanged
+0804a250	AnimPerArrayDraw	void	void	unchanged
+0804a290	AnimPerArrayDrawGrp	void	void	unchanged
+0804a2f0	AnimPerArrayDrawScaleGrp	void	void	unchanged
+0804a350	FlipFlagMix	uint	uint	unchanged
+0804a360	AnimDrawSprFlip	void	void	unchanged
+0804a650	AnimScaleSpr_S	void	void	unchanged
+0804a790	AnimRotateSpr	void	void	unchanged
+0804a900	AlphaMixSrc	int	int	unchanged
+0804a910	AlphaMixDest	int	int	unchanged
+0804a930	ArrayNew	undefined4 *	undefined4 *	unchanged
+0804a9c0	ArrayCopy	undefined4 *	undefined4 *	unchanged
+0804aa80	ArrayCopyOnto	undefined4 *	undefined4 *	unchanged
+0804ab00	ArrayFree	undefined4	void	result used by a caller
+0804ab50	ArrayHasSpace	bool	bool	unchanged
+0804ab60	ArrayAdd	int	int	unchanged
+0804abf0	ArrayAddUnique	uint	uint	unchanged
+0804ac50	ArrayAddResize	int	int	unchanged
+0804acb0	ArrayAddUniqueResize	uint	uint	unchanged
+0804ad10	ArrayDelete	void	void	unchanged
+0804ada0	ArrayClear	void	void	unchanged
+0804adf0	ArrayResize	undefined4	undefined4	unchanged
+0804aea0	ArrayFindEmpty	int	int	unchanged
+0804af20	ArrayAccessSafe	int	int	unchanged
+0804af40	ArrayFind	uint	uint	unchanged
+0804afe0	ArrayAccessGrpItem	undefined4	undefined8	baseline non-void
+0804b020	ArrayIdxToGrp	undefined4	undefined4	unchanged
+0804b040	ArrayIdxToItem	undefined4	undefined4	unchanged
+0804b060	ArrayScanFirst	int	int	unchanged
+0804b090	ArrayScanNext	int	int	unchanged
+0804b0d0	ArrayAccessUnsafe	int	int	unchanged
+0804b0f0	BGArrayReadFile	void	void	unchanged
+0804b110	BGArrayReadFileSA	char *	char *	unchanged
+0804b1d0	BGArrayReadTP	char *	char *	unchanged
+0804bcf0	BGArrayReadCtrlTP	undefined4	undefined4	unchanged
+0804c350	BGArrayNew	undefined4	undefined8	baseline non-void
+0804c3c0	BGArrayFree	undefined4	void	result used by a caller
+0804c580	BGArrayAdd	int	int	unchanged
+0804c6d0	BGArrayAddAnim	int	int	unchanged
+0804c7b0	BGArraySetViewScale	void	void	unchanged
+0804c7f0	BGArrayMove	undefined4	void	result used by a caller
+0804c810	BGArrayMoveOffset	void	void	unchanged
+0804ca00	BGArrayDraw	void	void	unchanged
+0804ca60	BGArrayDrawLayer	void	void	unchanged
+0804cad0	BGArrayUpdate	void	void	unchanged
+0804cbb0	BGArrayCtrlUpdate	void	void	unchanged
+0804ce80	BGArrayReset	void	void	unchanged
+0804cf70	BGAccess	undefined4	undefined8	result used by a caller
+0804cf90	BGAccessID	int	int	unchanged
+0804cfd0	BGParalSetup	undefined4	undefined4	unchanged
+0804d1f0	BGDraw	void	void	unchanged
+0804d510	BGNormalDrawTile	void	void	unchanged
+0804d890	BGAnimDrawTile	void	void	unchanged
+0804da00	BGParalDraw	void	void	unchanged
+0804da20	BGParalDrawScale	void	void	unchanged
+0804dab0	BGParalDraw8to16	void	void	unchanged
+0804dfb0	BGParalDraw8to16_2X	void	void	unchanged
+0804dfc0	BGParalDraw8to16Flat	void	void	unchanged
+0804e420	BGParalDraw8to16Flat2X	void	void	unchanged
+0804e430	BGParalDraw16	void	void	unchanged
+0804e440	ClipboardNew	int *	int *	unchanged
+0804e4e0	ClipboardFree	undefined4	undefined4	unchanged
+0804e530	ClipboardClear	void	void	unchanged
+0804e550	ClipboardPrint	void	void	unchanged
+0804e5a0	ClipboardAppend	undefined4	void	result used by a caller
+0804e660	ClsnArrayNew	undefined4	undefined8	baseline non-void
+0804e6c0	ClsnArrayFree	undefined4	undefined4	unchanged
+0804e700	ClsnArrayCopy	undefined4	undefined8	baseline non-void
+0804e750	ClsnArrayInstance	undefined4	void	result used by a caller
+0804e760	ClsnArrayAdd	bool	bool	unchanged
+0804e7b0	ClsnArrayAddRect	void	void	unchanged
+0804e800	ClsnParseLine	void *	void *	unchanged
+0804ec00	ClsnMixDetectRectIndiv	undefined4	undefined8	baseline non-void
+0804ec80	ClsnMixDetectRect	undefined4	undefined8	baseline non-void
+0804ed00	ClsnMixDetectRectHFlip1	undefined4	undefined4	unchanged
+0804eda0	ClsnMixDetectRectHFlipAll	undefined4	undefined4	unchanged
+0804ee40	ClsnArrayDetectRect	undefined4	undefined8	baseline non-void
+0804eec0	ClsnArrayDetectRectFlip	undefined4	undefined8	baseline non-void
+0804f030	ClsnDetectRect	undefined4	undefined4	unchanged
+0804f080	ClsnDetectRectHFlip1	undefined4	undefined4	unchanged
+0804f0e0	ClsnDetectRectHFlipAll	undefined4	undefined4	unchanged
+0804f140	KBUpdateHold	void	void	unchanged
+0804f160	KBFillBuffer	undefined4	undefined4	unchanged
+0804f3a0	KBClearCommandValidTimes	void	void	unchanged
+0804f3c0	KBClearCommandLastTimes	void	void	unchanged
+0804f3e0	KBCountdownCommandValidTimes	void	void	unchanged
+0804f420	KBCommandIsValid	bool	bool	unchanged
+0804f440	KBGetCommand	void	void	unchanged
+0804f470	KBGetCommandSpecial	undefined4	undefined4	unchanged
+0804f5b0	KBGetHoldFlag	uint	uint	unchanged
+0804f660	KBKeyMap	uint	uint	unchanged
+0804f700	KBKeyIndex	int	int	unchanged
+0804f720	CharMatch	undefined4	undefined4	unchanged
+0804f830	PatternMatch	undefined4	undefined4	unchanged
+0804f960	KBTimeStuffBuf	void	void	unchanged
+0804f9e0	SceneReadFile	undefined4 *	undefined4 *	unchanged
+0804faa0	SceneReadTP	undefined4 *	undefined4 *	unchanged
+0804fb50	SiSceneReadTP	int *	int *	unchanged
+080503b0	SceneRegisterBGMFn	void	void	unchanged
+080503e0	SceneReset	void	void	unchanged
+08050410	SiSceneReset	void	void	unchanged
+080504b0	SceneUpdate	undefined4	undefined4	unchanged
+080504e0	SiSceneUpdate	undefined4	undefined4	unchanged
+08050830	SceneUpdatePal	void	void	unchanged
+08050860	SiSceneUpdatePal	void	void	unchanged
+08050970	SceneDraw	void	void	unchanged
+080509a0	SiSceneDraw	void	void	unchanged
+08050b80	SceneFree	undefined4	undefined4	unchanged
+08050bd0	SiSceneFree	undefined4	void	result used by a caller
+08050cd0	ecalloc	undefined4	void	result used by a caller
+08050d00	ErrorSet	undefined4	void	result used by a caller
+08050d10	ErrorGet	int	int	unchanged
+08050d20	ErrorGetStr	char *	char *	unchanged
+08050d70	CheckExtension	undefined4	undefined4	unchanged
+08050f00	igetw	uint	uint	unchanged
+08050f40	igetl	uint	uint	unchanged
+08050fb0	strimatch	undefined4	undefined4	unchanged
+08051000	strimatchlen	undefined4	undefined4	unchanged
+08051050	strmatchlen	undefined4	undefined4	unchanged
+08051090	strtoupper	void	void	unchanged
+080510c0	splitdirfile	undefined4	void	result used by a caller
+08051140	joindirfile	undefined4	void	result used by a caller
+080511c0	isabsolutedir	undefined4	undefined4	unchanged
+080511f0	ffilelength	long	long	unchanged
+08051230	strcpyslash	void	void	unchanged
+08051260	IntSwap	void	void	unchanged
+08051280	IntMin	int	int	unchanged
+08051290	IntMax	int	int	unchanged
+080512a0	DebugErrorExit	void	void	unchanged
+08051300	MFgetc	uint	uint	unchanged
+08051350	MFfgets	char *	char *	unchanged
+080513f0	MFfread	FILE *	FILE *	unchanged
+080514a0	MFfeof	int	int	unchanged
+080514e0	MFfopenFile	undefined4	undefined8	baseline non-void
+08051540	MFfopenMem	undefined4 *	undefined4 *	unchanged
+08051580	MFzopen	undefined4	undefined4	unchanged
+08051650	MFzclose	void	void	unchanged
+08051660	MFfopenZip	int *	int *	unchanged
+080516d0	MFfclose	undefined4	undefined8	baseline non-void
+08051770	MFfseek	undefined4	undefined8	baseline non-void
+08051810	MFftell	int	int	unchanged
+08051850	MFigetw	uint	uint	unchanged
+08051890	MFigetl	uint	uint	unchanged
+08051900	roundfloat	int	int	unchanged
+08051960	_getfileonly	undefined4	undefined8	baseline non-void
+08051990	V_FontDrawLine	void	void	unchanged
+08051c00	V_FontDrawLineBank	void	void	unchanged
+08051fd0	V_FontDraw	void	void	unchanged
+08052000	V_FontDrawRight	undefined4	void	result used by a caller
+08052030	V_FontDrawCenter	undefined4	void	result used by a caller
+08052060	V_FontDrawBank	void	void	unchanged
+08052090	V_FontDrawRightBank	undefined4	void	result used by a caller
+080520c0	V_FontDrawCenterBank	void	void	unchanged
+080520f0	V_FontWrite	void	void	unchanged
+08052150	V_FontWriteRight	void	void	unchanged
+080521b0	V_FontWriteBank	void	void	unchanged
+08052210	V_FontDrawAlign_I	void	void	unchanged
+08052410	V_FontDrawAlign	void	void	unchanged
+08052440	V_FontDrawAlignBank	undefined4	void	result used by a caller
+08052470	FontReadFile	undefined4	undefined8	baseline non-void
+080524b0	FontReadFilePtr	undefined4	undefined8	baseline non-void
+08052530	FontReadFilePtr_0_01	void *	void *	unchanged
+08052970	FontFree	undefined4	undefined8	baseline non-void
+080529b0	FontGetWidth	int	int	unchanged
+08052a10	FontGetWidthQuick	int	int	unchanged
+08052a50	G_Init	bool	bool	unchanged
+08052aa0	G_DeInit	undefined4	undefined4	unchanged
+08052b00	G_SetRenderMode	undefined4	undefined4	unchanged
+08052b20	G_SetMode	undefined4	undefined4	unchanged
+08052cc0	G_MakeColor	undefined4	undefined8	result used by a caller
+08052cd0	G_SetRGBtoBGR	void	void	unchanged
+08052d10	G_SetBlitMode	undefined4	undefined4	unchanged
+08052e50	G_PageFlip	void	void	unchanged
+08052ea0	VGA_Cls	void	void	unchanged
+08052ec0	VRetrace	void	void	unchanged
+08052ed0	sgn	int	int	unchanged
+08052ef0	GetDrawType	undefined4	undefined8	baseline non-void
+08052fc0	Trig_Init	undefined4	undefined4	unchanged
+08053080	Trig_DeInit	undefined4	undefined4	unchanged
+080530b0	V_DoubleRes	void	void	unchanged
+08053150	V_DoubleResDiag	void	void	unchanged
+08053410	V_DoubleResBlur	void	void	unchanged
+08053880	V_DoubleResLines	void	void	unchanged
+08053910	ElecInit	bool	bool	unchanged
+08053960	ElecDeInit	void	void	unchanged
+08053970	KBIClearKeyflags	void	void	unchanged
+08053990	KBIRefreshKeyflags	void	void	unchanged
+08053a10	KBISetFlip	void	void	unchanged
+08053ab0	KBIUpdate	undefined4	undefined4	unchanged
+08053af0	KBIStuffBuf	undefined4	void	result used by a caller
+08053b20	KBIStuffBufNoFlip	undefined4	void	result used by a caller
+08053b90	KBIGetch	undefined4	undefined4	unchanged
+08053bc0	KBIClearAll	undefined4	undefined4	unchanged
+08053c00	KBIIs6Button	undefined4	undefined4	unchanged
+08053c40	KBIIs6ButtonOrStart	bool	bool	unchanged
+08053c80	KBIKeyMap	uint	uint	unchanged
+08053cf0	KBIFlippedKey	uint	uint	unchanged
+08053d30	KBIMenuGetKey	uint *	uint *	unchanged
+08053ee0	UInpKBHook	undefined4	undefined4	unchanged
+08053f60	UInpPadHook	void	void	unchanged
+08053fe0	UInpInit	undefined4	undefined4	unchanged
+08054070	UInpReInit	undefined4	void	result used by a caller
+08054090	UInpDeInit	void	undefined8	no evidence of a return value
+080540c0	UInpRefreshFlags	void	void	unchanged
+080541a0	UInpSetKeyMap	undefined4	undefined4	unchanged
+080541f0	UInpGetKeyMap	undefined4	undefined4	unchanged
+08054230	UInpResetKeyMap	void	void	unchanged
+08054260	UInpStuff	undefined4	void	result used by a caller
+080542a0	UInpGet	undefined4	undefined4	unchanged
+08054300	UInpHit	bool	bool	unchanged
+08054340	UInpBufClear	void	void	unchanged
+08054360	KBToUInp	uint	uint	unchanged
+080543c0	PadToUInp	uint	uint	unchanged
+08054420	IntCircBufInit	bool	bool	unchanged
+08054470	IntCircBufDeInit	undefined4	undefined8	baseline non-void
+080544b0	IntCircBufIsValid	bool	bool	unchanged
+080544c0	IntCircBufStuff	void	void	unchanged
+08054500	IntCircBufGet	undefined4	undefined4	unchanged
+08054540	IntCircBufIsEmpty	bool	bool	unchanged
+08054550	IntCircBufClear	void	void	unchanged
+08054570	KBBufferRawHook	undefined4	undefined4	unchanged
+08054630	KBInit	undefined4	undefined4	unchanged
+080546b0	KBPoll	void	void	unchanged
+080546c0	KBDeInit	void	void	unchanged
+08054700	KBSuspend	void	void	unchanged
+08054710	KBResume	void	void	unchanged
+08054720	KBRefreshflags	void	void	unchanged
+08054790	KBReset	undefined4	undefined4	unchanged
+080547c0	KBRepeatSet	void	void	unchanged
+08054810	KBInstallHitHook	undefined4	undefined4	unchanged
+08054830	KBRemoveHitHook	void	void	unchanged
+08054840	KBLEDLockSet	void	void	unchanged
+08054860	KBLEDSet	void	void	unchanged
+08054890	KBBufferChange	void	void	unchanged
+080548a0	KBBufferClear	void	void	unchanged
+080548d0	KBungetchraw	void	void	unchanged
+08054940	KBgetchraw	undefined4	undefined4	unchanged
+080549b0	KBkbhit	bool	bool	unchanged
+080549d0	KBRawToChar	int	int	unchanged
+08054a20	KBGetNumLock	byte	byte	unchanged
+08054a30	KBGetCapsLock	byte	byte	unchanged
+08054a40	KBGetScrollLock	byte	byte	unchanged
+08054a50	KBRawToName	undefined4 *	undefined4 *	unchanged
+08054a70	KBInitAllegRemap	void	void	unchanged
+08054e60	KBLockVarFunc	void	void	unchanged
+08054e70	KBAllegRemap	undefined4	undefined4	unchanged
+08054e80	PadInit	undefined4	undefined8	baseline non-void
+08054f20	DeviceInit	undefined4	undefined4	unchanged
+08054f30	PadReset	undefined4	undefined4	unchanged
+08054f80	PadDeInit	void	void	unchanged
+08054fe0	PadPoll	int	int	unchanged
+08055280	PadStuff	void	void	unchanged
+080552e0	PadGet	undefined4	undefined4	unchanged
+08055340	PadHit	bool	bool	unchanged
+08055370	PadBufClear	void	void	unchanged
+08055390	PadInstallHitHook	undefined4	undefined4	unchanged
+080553b0	PadRemoveHitHook	void	void	unchanged
+080553c0	EBPalInit	undefined4	undefined4	unchanged
+08055460	EBPalDeInit	void	void	unchanged
+080554a0	EBPalReset	undefined4	void	result used by a caller
+080554d0	EBPalCopy	undefined4	undefined4	unchanged
+08055540	EBPalGenerateFPal	void	void	unchanged
+08055570	EBPalUpdate	void	void	unchanged
+08055660	EBPalSetDataptr	undefined4	undefined4	unchanged
+080556b0	EBPalGetDataptr	undefined4	undefined4	unchanged
+080556c0	EBPalGetNumcols	undefined4	undefined4	unchanged
+080556d0	EBPalMarkDataChanged	void	void	unchanged
+080556e0	EBPalSettingsReset	void	void	unchanged
+08055710	EBPalSettingsCopy	void	void	unchanged
+08055730	EBPalSettingsMix	void	void	unchanged
+080557b0	EBPalSettingsAreSame	bool	bool	unchanged
+080557e0	EBPalAdd	undefined4	void	result used by a caller
+08055830	EBPalMul	void	void	unchanged
+08055890	EBPalInvertAll	void	void	unchanged
+080558c0	EBPalColorBal	undefined4	void	result used by a caller
+080558f0	MasterPalInit	bool	bool	unchanged
+08055950	MasterPalDeInit	void	void	unchanged
+08055980	MasterPalProcessChanges	void	void	unchanged
+080559d0	MasterPalFinishedDraw	void	void	unchanged
+08055a00	MasterPalReset	void	void	unchanged
+08055a30	MasterPalAdd	undefined4	void	result used by a caller
+08055a70	MasterPalMul	undefined4	void	result used by a caller
+08055ab0	MasterPalInvertAll	void	void	unchanged
+08055ad0	MasterPalColorBal	void	void	unchanged
+08055af0	MasterPalConvertCol16	undefined4	undefined8	baseline non-void
+08055b80	Pal3toPal4	void	void	unchanged
+08055be0	Pal4Copy	void	void	unchanged
+08055c30	Pal4SetSingle	void	void	unchanged
+08055c60	Pal4Contrast	void	void	unchanged
+08055d00	Pal4ContrastRGB	void	void	unchanged
+08055dd0	Pal4Brightness	void	void	unchanged
+08055ea0	Pal4BrightnessRGB	void	void	unchanged
+08055f90	Pal4ColorBal	void	void	unchanged
+080560d0	Pal4InvertAll	void	void	unchanged
+08056120	Pal4Read3File	undefined4	undefined4	unchanged
+080561c0	Pal4Read3FilePtr	undefined4	undefined4	unchanged
+08056260	Pal4ToFpal	void	void	unchanged
+080562c0	Pal4SettingsToFpal	void	void	unchanged
+08056760	SndSetMode	void	void	unchanged
+08056770	GetSndMode	int	int	unchanged
+08056780	SndSetBufReadMode	void	void	unchanged
+08056790	GetNumVoices	int	int	unchanged
+080567a0	SndInit	undefined4	undefined4	unchanged
+08056a30	SndDeInit	void	void	unchanged
+08056ab0	SndDetectWavDevice	undefined4	undefined4	unchanged
+08056af0	SndDetectMidiDevice	undefined4	undefined8	baseline non-void
+08056b30	SndSetReverseStereo	void	void	unchanged
+08056b50	SndFree	void	void	unchanged
+08056b70	SndMidiFree	void	void	unchanged
+08056b80	SndArrayNew	undefined4 *	undefined4 *	unchanged
+08056bd0	SndArrayAdd	bool	bool	unchanged
+08056c00	SndArrayFree	undefined4	void	result used by a caller
+08056c60	SndPlay	void	void	unchanged
+08056cb0	SndPlayLoop	void	void	unchanged
+08056d00	SndPlayPanFreq	void	void	unchanged
+08056d70	SndMidiPlay	void	void	unchanged
+08056da0	SndMidiPlayLoop	void	void	unchanged
+08056dc0	SndMidiStop	void	void	unchanged
+08056de0	SndMidiPause	void	void	unchanged
+08056e00	SndMidiResume	void	void	unchanged
+08056e20	SndMidiSeek	void	void	unchanged
+08056e40	SndVoiceReserve	undefined4	undefined4	unchanged
+08056ec0	SndVoiceReserveAuto	undefined4	undefined8	baseline non-void
+08056f20	SndVoiceUnreserve	undefined4	undefined8	baseline non-void
+08056f80	SndVoiceUnreserveAll	undefined4	undefined8	baseline non-void
+08056fb0	SndVoiceIsReserved	undefined4	undefined4	unchanged
+08056fd0	SndVoiceGetVoiceno	undefined4	undefined4	unchanged
+08056ff0	SndVoiceIsPlaying	uint	uint	unchanged
+08057040	SndVoiceIsFree	undefined4	undefined8	baseline non-void
+08057090	SndVoiceGetFree	int	int	unchanged
+080570d0	SndVoicePlay	undefined4	undefined8	baseline non-void
+08057130	SndVoicePrepare	int	int	unchanged
+080571f0	SndVoiceStart	undefined4	undefined8	result used by a caller
+08057230	SndVoiceStop	void	void	unchanged
+08057290	SndVoiceStopAll	undefined4	undefined4	unchanged
+080572c0	SndVoiceSetVol	void	void	unchanged
+08057300	SndVoiceGetVol	int	int	unchanged
+08057340	SndVoiceSetFreq	void	undefined8	no evidence of a return value
+08057380	SndVoiceGetFreq	undefined4	undefined4	unchanged
+080573c0	SndVoiceSetPan	void	void	unchanged
+08057410	SndVoiceGetPan	int	int	unchanged
+08057460	SndVoiceSetLoop	void	void	unchanged
+080574b0	SndVoiceCleanup	undefined4	void	result used by a caller
+08057540	SndIDPlay	int	int	unchanged
+080575a0	SndIDPrepare	int	int	unchanged
+08057600	SndIDStart	void	undefined8	no evidence of a return value
+08057640	SndIDStop	void	void	unchanged
+08057690	SndIDIsPlaying	uint	uint	unchanged
+080576d0	SndIDGetChannel	int	int	unchanged
+08057720	SndIDGetChannelOrFree	undefined4	void	result used by a caller
+08057750	SndReadFile	int *	int *	unchanged
+080578f0	SndMidiReadFile	uint *	uint *	unchanged
+08057900	SndReadFileWAVPtr	int *	int *	unchanged
+08057be0	SndReadFileSNDPtr	int *	int *	unchanged
+08057d00	SndSetVol	undefined4	void	result used by a caller
+08057d60	SndGetVoiceVol	int	int	unchanged
+08057d70	SndGetMidiVol	int	int	unchanged
+08057d80	SndCorrectVolOff	undefined4	undefined8	baseline non-void
+08057db0	SndParseWavDevice	undefined4	undefined8	baseline non-void
+08057e40	SndWavDeviceString	undefined *	undefined *	unchanged
+08057e90	SndParseMidiDevice	undefined4	undefined8	baseline non-void
+08057f20	SndMidiDeviceString	undefined *	undefined *	unchanged
+08057f80	MP3Init	bool	bool	unchanged
+08057fb0	MP3DeInit	void	void	unchanged
+08057fd0	MP3LoadAndPlay	undefined4	undefined4	unchanged
+08057ff0	MP3Unload	void	undefined8	no evidence of a return value
+08058010	MP3Poll	void	undefined4	no evidence of a return value
+08058040	MP3SetVol	void	void	unchanged
+08058060	MP3GetVol	undefined4	undefined4	unchanged
+08058080	MP3Pause	void	void	unchanged
+08058090	MP3Resume	void	void	unchanged
+080580a0	MODInit	bool	bool	unchanged
+080580d0	MODDeInit	void	void	unchanged
+080580f0	MODLoad	undefined4	undefined8	baseline non-void
+08058150	MODUnload	undefined4	undefined4	unchanged
+08058190	MODPlay	void	void	unchanged
+080581c0	MODStop	void	void	unchanged
+080581e0	MODPause	void	void	unchanged
+08058200	MODResume	void	void	unchanged
+08058220	MODSetVol	void	void	unchanged
+08058240	MODGetVol	undefined4	undefined4	unchanged
+08058260	CDAInit	uint	uint	unchanged
+08058290	CDADeInit	void	void	unchanged
+080582c0	CDAPlay	undefined4	undefined8	baseline non-void
+08058340	CDAStop	void	void	unchanged
+08058380	CDAPause	void	void	unchanged
+080583c0	CDAResume	void	void	unchanged
+08058400	CDAPoll	void	void	unchanged
+08058460	CDAIsPlaying	bool	bool	unchanged
+08058490	CDAIsPaused	bool	bool	unchanged
+080584c0	CDATrackIsAudio	uint	uint	unchanged
+080584e0	CDACurrentTrack	undefined1	undefined1	unchanged
+08058510	CDAGetTrackRange	bool	bool	unchanged
+08058550	CDASetVol	void	void	unchanged
+08058590	CDAGetVol	int	int	unchanged
+080585d0	CDAEject	void	void	unchanged
+080585f0	CDAClose	void	void	unchanged
+08058610	SpriteInit	bool	bool	unchanged
+080586e0	SpriteDeInit	void	void	unchanged
+08058740	SpriteCopy	undefined4	undefined4	unchanged
+08058810	SpriteInitLine	int	int	unchanged
+08058880	SpriteUsePal	undefined4	undefined4	unchanged
+080588d0	SpriteSetAxis	void	void	unchanged
+080588f0	SpriteArrayNew	void	void	unchanged
+08058900	SpriteArrayNewSize	undefined4 *	undefined4 *	unchanged
+08058960	SpriteArrayNewInstance	int *	int *	unchanged
+08058a20	SpriteArrayNewInstanceOnto	int *	int *	unchanged
+08058af0	SpriteArrayAddSprite	undefined4	undefined8	baseline non-void
+08058b40	SpriteArrayAddPal	undefined4	undefined8	baseline non-void
+08058ba0	SpriteArrayNumImages	undefined4	undefined4	unchanged
+08058bb0	SpriteArrayNumPals	undefined4	undefined4	unchanged
+08058bc0	SpriteArrayFree	undefined4	undefined8	baseline non-void
+08058c90	SpriteArrayClear	undefined4	undefined4	unchanged
+08058d70	SpriteArrayGetNum	undefined4	void	result used by a caller
+08058d80	SpriteArrayPalGetNum	undefined4	void	result used by a caller
+08058d90	SpriteArrayAccess	int	int	unchanged
+08058db0	SpriteArrayAccessGrpItem	undefined4	undefined8	result used by a caller
+08058dc0	SpriteArrayPalAccess	int	int	unchanged
+08058de0	SpriteArrayPalAccessGrpItem	void	undefined8	no evidence of a return value
+08058df0	SpriteArrayPalUpdateAndAccess	int *	int *	unchanged
+08058e20	SpriteArrayPalRemapFromRoot	bool	bool	unchanged
+08058e70	SpriteArrayPalRemapFromRootGrpItem	bool	bool	unchanged
+08058ee0	ColDepthToBytesPerPixel	int	int	unchanged
+08058ef0	SpriteDecompGetData	undefined4	undefined4	unchanged
+08058f30	SpriteDecompGetAndLockData	undefined4	undefined4	unchanged
+08058f40	SpriteDecompUnlockData	undefined4	void	result used by a caller
+08058f50	W_PutSurface	void	void	unchanged
+08058f60	W_PutSprite	undefined4	void	result used by a caller
+08058ff0	W_PutSpriteA	void	void	unchanged
+08059040	W_PutSpriteAMirH	void	void	unchanged
+08059090	W_PutSpriteAPal	void	void	unchanged
+08059100	W_PutSpriteAMirHPal	void	void	unchanged
+08059170	W_PutSpriteFlat	void	void	unchanged
+080591d0	W_PutSpriteMirH	undefined4	void	result used by a caller
+08059230	W_PutSpriteMirV	undefined4	void	result used by a caller
+08059290	W_PutSpriteMirHV	undefined4	void	result used by a caller
+080592f0	W_PutSpriteShadow	void	void	unchanged
+08059390	W_ScaleSprite	void	void	unchanged
+08059480	W_ScaleSpriteFlat	void	void	unchanged
+08059500	W_ScaleSpriteMirH	void	void	unchanged
+08059590	W_ScaleSpriteMirV	void	void	unchanged
+08059620	W_ScaleSpriteMirHV	void	void	unchanged
+080596b0	W_ScaleSprite_S	undefined4	void	result used by a caller
+08059800	W_ScaleSpriteFlat_S	void	void	unchanged
+080598b0	W_ScaleSpriteMirH_S	void	void	unchanged
+080598f0	W_ScaleSpriteMirV_S	void	void	unchanged
+08059920	W_ScaleSpriteMirHV_S	void	void	unchanged
+08059960	W_RotateSprite	void	void	unchanged
+080599a0	W_RotateSpriteMirH	void	void	unchanged
+080599e0	W_RotateSprite_P	undefined4	void	result used by a caller
+08059c00	W_RotateSpriteMirH_P	void	void	unchanged
+08059c30	W_PutSpriteTransAdd	undefined4	void	result used by a caller
+08059ca0	W_PutSpriteTransAddMirH	undefined4	void	result used by a caller
+08059d10	W_PutSpriteTransAddMirV	undefined4	void	result used by a caller
+08059d80	W_PutSpriteTransAddMirHV	undefined4	void	result used by a caller
+08059df0	W_PutSpriteTransAddFlip	void	void	unchanged
+08059e90	W_PutSpriteTransAdd_B	undefined4	void	result used by a caller
+08059f20	W_PutSpriteTransAddMirH_B	undefined4	void	result used by a caller
+08059fb0	W_PutSpriteTransAddMirV_B	undefined4	void	result used by a caller
+0805a040	W_PutSpriteTransAddMirHV_B	undefined4	void	result used by a caller
+0805a0d0	W_PutSpriteTransAddFlip_B	void	void	unchanged
+0805a1c0	W_ScaleSpriteTransAdd	undefined4	void	result used by a caller
+0805a250	W_ScaleSpriteTransAdd_S	undefined4	void	result used by a caller
+0805a3a0	W_ScaleSpriteTransAddMirH	void	void	unchanged
+0805a430	W_ScaleSpriteTransAddMirV	void	void	unchanged
+0805a4c0	W_ScaleSpriteTransAddMirHV	void	void	unchanged
+0805a550	W_ScaleSpriteTransAdd_B	void	void	unchanged
+0805a600	W_ScaleSpriteTransAdd_B_S	undefined4	void	result used by a caller
+0805a790	W_ScaleSpriteTransAddMirH_B	void	void	unchanged
+0805a840	W_ScaleSpriteTransAddMirV_B	void	void	unchanged
+0805a8f0	W_ScaleSpriteTransAddMirHV_B	void	void	unchanged
+0805a9a0	W_RotateSpriteTransAdd	void	void	unchanged
+0805a9e0	W_RotateSpriteTransAddMirH	void	void	unchanged
+0805aa20	W_RotateSpriteTransAdd_P	undefined4	void	result used by a caller
+0805ac40	W_RotateSpriteTransAddMirH_P	void	void	unchanged
+0805ac70	W_RotateSpriteTransAdd_B	void	void	unchanged
+0805acc0	W_RotateSpriteTransAddMirH_B	void	void	unchanged
+0805ad10	W_RotateSpriteTransAdd_B_P	undefined4	void	result used by a caller
+0805af90	W_RotateSpriteTransAddMirH_B_P	void	void	unchanged
+0805afc0	W_PutSpriteTransSub	undefined4	void	result used by a caller
+0805b030	W_PutSpriteTransSubMirH	undefined4	void	result used by a caller
+0805b0a0	W_PutSpriteTransSubMirV	void	void	unchanged
+0805b110	W_PutSpriteTransSubMirHV	undefined4	void	result used by a caller
+0805b180	W_ScaleSpriteTransSub	undefined4	void	result used by a caller
+0805b210	W_ScaleSpriteTransSub_S	undefined4	void	result used by a caller
+0805b360	W_ScaleSpriteTransSubMirH	void	void	unchanged
+0805b3f0	W_ScaleSpriteTransSubMirV	void	void	unchanged
+0805b480	W_ScaleSpriteTransSubMirHV	void	void	unchanged
+0805b510	W_RotateSpriteTransSub	void	void	unchanged
+0805b550	W_RotateSpriteTransSubMirH	void	void	unchanged
+0805b590	W_RotateSpriteTransSub_P	undefined4	void	result used by a caller
+0805b7b0	W_RotateSpriteTransSubMirH_P	void	void	unchanged
+0805b7e0	W_ScaleShadowTransSub	void	void	unchanged
+0805b880	W_ScaleShadowTransSub_S	undefined4	void	result used by a caller
+0805b9f0	W_ScaleShadowTransSubMirH	void	void	unchanged
+0805ba90	W_ScaleShadowTransSubMirV	void	void	unchanged
+0805bb30	W_ScaleShadowTransSubMirHV	void	void	unchanged
+0805bbd0	W_RotateShadowTransSub	void	void	unchanged
+0805bc10	W_RotateShadowTransSubMirH	void	void	unchanged
+0805bc50	W_RotateShadowTransSub_P	undefined4	void	result used by a caller
+0805beb0	W_RotateShadowTransSubMirH_P	void	void	unchanged
+0805bee0	HFlipToSgn	int	int	unchanged
+0805bf00	VFlipToSgn	int	int	unchanged
+0805bf20	SpriteSetReadMode	void	void	unchanged
+0805bf30	SpriteSetBufReadMode	void	void	unchanged
+0805bf40	SpriteReadFile	int *	int *	unchanged
+0805c080	SpriteReadSFFPtr	int *	int *	unchanged
+0805c140	SpriteReadSFFPtr_1_01	int *	int *	unchanged
+0805c3a0	SpriteReadSFFPtr_2_00	undefined4	undefined4	unchanged
+0805c3b0	SpriteReadSFFList	undefined4	undefined8	baseline non-void
+0805c410	SpriteReadSFFListPtr	int *	int *	unchanged
+0805c4c0	SpriteReadSFFListPtr_1_01	int *	int *	unchanged
+0805c7b0	SpriteReadSFFListPtr_2_00	undefined4	undefined4	unchanged
+0805c7c0	SpriteReadPCXRawPtr	void *	void *	unchanged
+0805cc80	SpriteReadPCXPtr	int *	int *	unchanged
+0805cd70	W_PutSprite8to16	void	void	unchanged
+0805cfa0	W_PutSpriteFlat8to16	void	void	unchanged
+0805d1c0	W_PutSpriteMirH8to16	void	void	unchanged
+0805d420	W_PutSpriteMirV8to16	void	void	unchanged
+0805d660	W_PutSpriteMirHV8to16	void	void	unchanged
+0805d8b0	W_ScaleSprite8to16	void	void	unchanged
+0805e190	W_ScaleSpriteFlat8to16	void	void	unchanged
+0805ea80	W_ScaleSpriteMirH8to16	void	void	unchanged
+0805f370	W_ScaleSpriteMirV8to16	void	void	unchanged
+0805fc70	W_ScaleSpriteMirHV8to16	void	void	unchanged
+08060570	W_RotateSprite8to16_P	undefined4	void	result used by a caller
+08061400	W_RotateSpriteMirH8to16_P	undefined4	void	result used by a caller
+08062250	W_PutSpriteShadow8to16	void	void	unchanged
+08062430	W_PutSpriteShadow16	void	void	unchanged
+08062440	W_PutSpriteTransAdd8to16	void	void	unchanged
+08062710	W_PutSpriteTransAddMirH8to16	void	void	unchanged
+080629f0	W_PutSpriteTransAddMirV8to16	void	void	unchanged
+08062ce0	W_PutSpriteTransAddMirHV8to16	void	void	unchanged
+08062fe0	W_PutSpriteTransAdd8to16_B	void	void	unchanged
+080638c0	W_PutSpriteTransAddMirH8to16_B	void	void	unchanged
+080641e0	W_PutSpriteTransAddMirV8to16_B	void	void	unchanged
+08064b00	W_PutSpriteTransAddMirHV8to16_B	void	void	unchanged
+08065440	W_ScaleSpriteTransAdd8to16	void	void	unchanged
+08065df0	W_ScaleSpriteTransAddMirH8to16	void	void	unchanged
+080667a0	W_ScaleSpriteTransAddMirV8to16	void	void	unchanged
+08067170	W_ScaleSpriteTransAddMirHV8to16	void	void	unchanged
+08067b30	W_ScaleSpriteTransAdd8to16_B	void	void	unchanged
+08068c00	W_ScaleSpriteTransAddMirH8to16_B	void	void	unchanged
+08069cf0	W_ScaleSpriteTransAddMirV8to16_B	void	void	unchanged
+0806aee0	W_ScaleSpriteTransAddMirHV8to16_B	void	void	unchanged
+0806c100	W_RotateSpriteTransAdd8to16_P	uint	uint	unchanged
+0806d020	W_RotateSpriteTransAddMirH8to16_P	uint	uint	unchanged
+0806df40	W_RotateSpriteTransAdd8to16_B_P	uint	uint	unchanged
+0806fff0	W_RotateSpriteTransAddMirH8to16_B_P	uint	uint	unchanged
+08072060	W_PutSpriteTransSub8to16	void	void	unchanged
+08072300	W_PutSpriteTransSubMirH8to16	void	void	unchanged
+080725b0	W_PutSpriteTransSubMirV8to16	void	void	unchanged
+08072860	W_PutSpriteTransSubMirHV8to16	void	void	unchanged
+08072b30	W_ScaleSpriteTransSub8to16	void	void	unchanged
+080734b0	W_ScaleSpriteTransSubMirH8to16	void	void	unchanged
+08073e30	W_ScaleSpriteTransSubMirV8to16	void	void	unchanged
+080747c0	W_ScaleSpriteTransSubMirHV8to16	void	void	unchanged
+08075150	W_RotateSpriteTransSub8to16_P	uint	uint	unchanged
+08076040	W_RotateSpriteTransSubMirH8to16_P	uint	uint	unchanged
+08076ef0	W_ScaleShadowTransSub8to16	void	void	unchanged
+08077790	W_ScaleShadowTransSubMirH8to16	void	void	unchanged
+08078040	W_ScaleShadowTransSubMirV8to16	void	void	unchanged
+08078910	W_ScaleShadowTransSubMirHV8to16	void	void	unchanged
+080791e0	W_RotateShadowTransSub8to16_P	int	int	unchanged
+0807a090	W_RotateShadowTransSubMirH8to16_P	int	int	unchanged
+0807af40	TimerHandler	void	void	unchanged
+0807af90	TimerInit	bool	bool	unchanged
+0807b000	TimerDeInit	void	void	unchanged
+0807b020	TimerChangeSpeed	void	void	unchanged
+0807b040	TimerDelay	undefined4	void	result used by a caller
+0807b050	TimerSetTicks	void	void	unchanged
+0807b060	TimerGetFPS	longdouble	longdouble	unchanged
+0807b0d0	TimerSetFPSDelay	void	void	unchanged
+0807b0f0	TimerSyncReset	void	void	unchanged
+0807b110	TimerSetSyncFPS	void	void	unchanged
+0807b150	TimerGetSync	bool	bool	unchanged
+0807b160	TimerWaitSync	void	void	unchanged
+0807b1a0	TimerIsSync	undefined4	undefined4	unchanged
+0807b1f0	TimerSkipSync	void	void	unchanged
+0807b200	TPFree	undefined4	void	result used by a caller
+0807b2f0	TPReadMFPtr	undefined4 *	undefined4 *	unchanged
+0807b780	TPReadMF	int *	int *	unchanged
+0807b7c0	TPReadFile	FILE *	FILE *	unchanged
+0807b800	TPClone	undefined4 *	undefined4 *	unchanged
+0807b840	TPReadFileForWrite	FILE *	FILE *	unchanged
+0807b880	TPReadFilePtr	int *	int *	unchanged
+0807bd10	TPWriteFile	undefined4	undefined4	unchanged
+0807bd80	TPGroupSeek	undefined4	undefined4	unchanged
+0807be50	TPGroupSeekIdx	undefined4	undefined4	unchanged
+0807beb0	TPGroupReset	void	void	unchanged
+0807bef0	TPGroupScanFirst	undefined4	void	result used by a caller
+0807bf00	TPGroupScanNext	undefined4	undefined4	unchanged
+0807bf70	TPGroupMatchCount	int	int	unchanged
+0807bfc0	TPGetLineNo	undefined4	void	result used by a caller
+0807bfe0	TPGetLineNo_Skip	int	int	unchanged
+0807c0a0	TPGetValue	char *	char *	unchanged
+0807c1c0	TPSeekValue	int	int	unchanged
+0807c210	TPSeekEog	int	int	unchanged
+0807c250	TPGetValueNewStr	char *	char *	unchanged
+0807c2b0	TPGetValueNext	char *	char *	unchanged
+0807c3e0	TPGetValueFloat	bool	bool	unchanged
+0807c420	TPGetValueInt	bool	bool	unchanged
+0807c460	TPScanf	int	int	unchanged
+0807c4a0	TPAccessReset	void	void	unchanged
+0807c4d0	TPAccessFirstLine	undefined4	void	result used by a caller
+0807c4f0	TPReaccessCurLine	undefined4	undefined4	unchanged
+0807c510	TPAccessNextLine	undefined4	undefined4	unchanged
+0807c550	TPAccessPrevLine	undefined4	undefined4	unchanged
+0807c580	TPGetLine	bool	bool	unchanged
+0807c5c0	TPGetGroupText	int	int	unchanged
+0807c670	TPWLineNo	int	int	unchanged
+0807c6e0	TPGroupRename	undefined4	undefined4	unchanged
+0807c850	TPPrintf	undefined4	undefined4	unchanged
+0807ca00	TPPrintf_Skip	undefined4	undefined4	unchanged
+0807cbc0	TPInsertLine	undefined4	undefined4	unchanged
+0807cca0	TPDeleteLine	undefined4	undefined4	unchanged
+0807cd50	TPDeleteAllLines	void	void	unchanged
+0807cd80	TPWExpandLinespace	undefined4	undefined8	baseline non-void
+0807cdd0	strgetto	void	void	unchanged
+0807ce20	TPisspace	undefined4	undefined4	unchanged
+0807ce40	V_Alloc	undefined4	void	result used by a caller
+0807ce60	V_AllocDepth	undefined4	void	result used by a caller
+0807ce80	V_AllocDepthAry	int *	int *	unchanged
+0807cf60	V_DeAlloc	undefined4	undefined8	baseline non-void
+0807cfa0	V_SetBuf	undefined4	undefined4	unchanged
+0807d030	V_BufGetSurface	undefined4	undefined4	unchanged
+0807d060	V_BufLock	undefined4	undefined4	unchanged
+0807d0a0	V_BufUnlock	void	void	unchanged
+0807d0e0	V_BufLockCurrent	void	void	unchanged
+0807d100	V_BufUnlockCurrent	void	void	unchanged
+0807d120	V_BufToScreen	void	void	unchanged
+0807d200	V_BufToScreenXY	void	void	unchanged
+0807d350	V_BufToScreenStretch	void	void	unchanged
+0807d470	blit_32to16_RGBtoBGR	void	void	unchanged
+0807d690	stretch_blit_32to16_RGBtoBGR	void	void	unchanged
+0807da70	W_Define	undefined4	void	result used by a caller
+0807db40	W_DefineV	void	void	unchanged
+0807db60	W_GetV	void	void	unchanged
+0807db90	W_Cls	void	void	unchanged
+0807dc40	W_PutPixel	void	void	unchanged
+0807dd30	W_PutPixelTransAdd16	void	void	unchanged
+0807de20	W_PutPixelXor16	void	void	unchanged
+0807de90	W_Line	void	void	unchanged
+0807e020	DoDrawLine	void	void	unchanged
+0807e660	CyrusT	longdouble	longdouble	unchanged
+0807e6a0	TrivialTestPoint	uint	uint	unchanged
+0807e6f0	DoDrawClippedLine	void	void	unchanged
+0807ec50	W_HLine	void	void	unchanged
+0807ed10	W_VLine	void	void	unchanged
+0807ede0	W_HLineTransAdd16	void	uint	no evidence of a return value
+0807ef20	W_HLineTransAdd16_B50	void	uint	no evidence of a return value
+0807f060	W_VLineTransAdd16	void	uint	no evidence of a return value
+0807f1b0	W_VLineTransAdd16_B50	void	uint	no evidence of a return value
+0807f300	W_HLineTransSub16	void	uint	no evidence of a return value
+0807f430	W_HLineTransSub16_B50	void	uint	no evidence of a return value
+0807f560	W_VLineTransSub16	void	uint	no evidence of a return value
+0807f6a0	W_VLineTransSub16_B50	void	uint	no evidence of a return value
+0807f7e0	W_Box	void	void	unchanged
+0807f900	W_BoxTransAdd16	void	void	unchanged
+0807f970	W_BoxTransAdd16_B50	void	void	unchanged
+0807f9e0	W_BoxTransSub16	void	void	unchanged
+0807fa50	W_BoxTransSub16_B50	void	void	unchanged
+0807fac0	W_BoxFill	void	void	unchanged
+0807fbf0	W_BoxFillTransAdd16	void	void	unchanged
+0807fdb0	W_BoxFillTransAdd16_B50	void	void	unchanged
+0807ff60	W_BoxFillTransSub16	void	void	unchanged
+08080120	W_BoxFillTransSub16_B50	void	void	unchanged
+080802e0	unzlocal_getByte	undefined4	undefined8	baseline non-void
+08080330	unzlocal_getShort	int	int	unchanged
+08080390	unzlocal_getLong	int	int	unchanged
+08080420	strcmpcasenosensitive_internal	int	int	unchanged
+08080480	unzStringFileNameCompare	undefined4	void	result used by a caller
+080804c0	unzlocal_SearchCentralDir	int	int	unchanged
+080805e0	unzOpen	undefined4 *	undefined4 *	unchanged
+080807a0	unzClose	undefined4	undefined8	baseline non-void
+080807e0	unzGetGlobalInfo	undefined4	undefined4	unchanged
+08080810	unzlocal_DosDateToTmuDate	void	void	unchanged
+08080870	unzlocal_GetCurrentFileInfoInternal	uint	uint	unchanged
+08080c30	unzGetCurrentFileInfo	undefined4	void	result used by a caller
+08080c70	unzGoToFirstFile	uint	uint	unchanged
+08080cc0	unzGoToNextFile	undefined4	undefined8	baseline non-void
+08080d40	unzLocateFile	uint	uint	unchanged
+08080e10	unzlocal_CheckCurrentFileCoherencyHeader	uint	uint	unchanged
+08081040	unzOpenCurrentFile	undefined4	undefined4	unchanged
+080811a0	unzReadCurrentFile	uint	uint	unchanged
+080813a0	unztell	undefined4	undefined4	unchanged
+080813c0	unzeof	uint	uint	unchanged
+080813e0	unzGetLocalExtrafield	uint	uint	unchanged
+08081480	unzCloseCurrentFile	undefined4	undefined4	unchanged
+08081500	unzGetGlobalComment	uint	uint	unchanged
+08081580	NewListNode	undefined4	void	result used by a caller
+08081590	AddNodeToEnd	void	void	unchanged
+080815b0	MoveNodeToEnd	void	void	unchanged
+080815f0	MoveNodeToStart	void	void	unchanged
+08081600	EB_GUIInit	undefined4	undefined4	unchanged
+08081730	EB_GUIDeInit	void	void	unchanged
+08081740	EB_GUISetWinAttr	void	void	unchanged
+08081760	EB_GUINewWindow	int *	int *	unchanged
+08081970	EB_GUICloseWindow	void	void	unchanged
+080819b0	EB_GUIDrawClipboard	void	void	unchanged
+08081ab0	EB_GUIPutSurface	void	void	unchanged
+08081ac0	EB_GUIRaiseWindow	undefined4	undefined4	unchanged
+08081ae0	EB_GUIPutSprite	void	void	unchanged
+08081b50	EB_GUIClearWindow	void	void	unchanged
+08081b90	EB_GUIDrawWindow	void	void	unchanged
+08081dd0	EB_DrawWindows	undefined4	undefined8	baseline non-void
+08081e00	EB_GUIMoveWindow	void	void	unchanged
+08081e60	DetermineFocus	undefined4	undefined8	baseline non-void
+08081eb0	EB_GUIUpdate	void	undefined8	no evidence of a return value
+08081ff0	EBT_ThreadCreate	undefined4	void	result used by a caller
+08082020	EBT_MutexInit	undefined4	void	result used by a caller
+08082040	EBT_MutexDestroy	int	int	unchanged
+08082050	EBT_MutexLock	int	int	unchanged
+08082060	EBT_MutexUnlock	int	int	unchanged
+08082070	AftImgNew	undefined4	undefined8	baseline non-void
+080820c0	AftImgInit	undefined4	undefined4	unchanged
+08082150	AftImgFree	undefined4	undefined4	unchanged
+08082180	AftImgDeInit	void	void	unchanged
+080821f0	AftImgSetup	void	void	unchanged
+08082230	AftImgUpdate	undefined4	undefined4	unchanged
+080823f0	AftImgDraw	void	void	unchanged
+08082880	ipow	int	int	unchanged
+080828d0	StackErrorExit	void	void	unchanged
+080828f0	PriorityCheck	undefined4	undefined4	unchanged
+08082980	OpLength	undefined4	undefined4	unchanged
+080829b0	OpTypeCheck	bool	bool	unchanged
+080829e0	OperCode	int	int	unchanged
+08082ad0	InfToPostArray	char *	char *	unchanged
+08083780	InfixToPostfix	undefined4	undefined4	unchanged
+08083870	FreeExpression	undefined4	undefined4	unchanged
+080838f0	FreeExpNoTrig	void	void	unchanged
+08083930	FreeExpArray	undefined4	undefined4	unchanged
+08083980	ConstExpI	undefined4	undefined8	baseline non-void
+080839c0	ConstExpF	void	void	unchanged
+08083a00	expcpy	undefined4	undefined4	unchanged
+08083aa0	expcpytrig	undefined4	undefined4	unchanged
+08083b40	ExpMulF	undefined4	void	result used by a caller
+08083c00	ExpDivI	undefined4	void	result used by a caller
+08083cd0	ShowExp	void	void	unchanged
+08083e40	EvalExpressionI	int	int	unchanged
+08083f60	EvalExpressionF	longdouble *	longdouble *	unchanged
+08084020	EvalExpression	undefined4	undefined4	unchanged
+08085240	BGMParse	bool	bool	unchanged
+080852b0	BGMStart	void	void	unchanged
+080853c0	BGMPause	void	void	unchanged
+08085440	BGMSysPause	void	void	unchanged
+080854c0	BGMGetPause	undefined4	undefined4	unchanged
+080854e0	BGMResume	undefined4	undefined4	unchanged
+08085570	BGMSysResume	void	void	unchanged
+08085600	BGMGetVolume	int	int	unchanged
+08085660	BGMSetVolume	void	void	unchanged
+080856e0	BGMPoll	void	undefined8	no evidence of a return value
+08085760	BGMPollIgnoreDefocus	undefined4	undefined8	baseline non-void
+08085800	BGMCheckExtension	undefined4	undefined4	unchanged
+08085810	BGMLoad	undefined4	undefined4	unchanged
+08085a60	BGMLoadAndStart	undefined4	undefined4	unchanged
+08085b40	BGMFree	undefined4	void	result used by a caller
+08085be0	BGMPlayForScene	void	void	unchanged
+08085c10	BGMStopForScene	void	void	unchanged
+08085c30	InitSelectScreenMatrix	bool	bool	unchanged
+08085cd0	FreeSelectScreenMatrix	void	void	unchanged
+08085d00	CharInfoInit	bool	bool	unchanged
+08085db0	CharInfoFree	void	void	unchanged
+08085df0	FindCharacters	undefined4	undefined4	unchanged
+08087150	CharacterSelectScreen	undefined4	undefined4	unchanged
+08088630	CharacterSelectScreenDraw	undefined4	undefined4	unchanged
+08089810	BuildSelectList	int	int	unchanged
+08089da0	InitSelectDisp	void	void	unchanged
+08089e00	UpdateSelectDisp	void	void	unchanged
+08089e50	SelectDispState	void	void	unchanged
+08089e70	FlashBox	void	void	unchanged
+08089ec0	CharacterSelectScreenKey	int	int	unchanged
+0808a230	CharacterSelectStageKey	bool	bool	unchanged
+0808a2a0	CharacterSelectMenuKey	undefined4	undefined4	unchanged
+0808a3a0	CharselResetCursor	void	void	unchanged
+0808a3e0	CharselSaveCursor	void	void	unchanged
+0808a410	CharselRestoreCursor	void	void	unchanged
+0808a4c0	CharselResetMenuPos	void	void	unchanged
+0808a4e0	CharselSaveMenuPos	void	void	unchanged
+0808a520	CharselRestoreMenuPos	void	void	unchanged
+0808a560	CharselReadConfig	bool	bool	unchanged
+0808af70	VersusScreen	uint	uint	unchanged
+0808b9f0	ArcadeListBuild	undefined4	void	result used by a caller
+0808ba60	ArcadeListBuildSet	void	void	unchanged
+0808bd80	ArcadeListGetCurrent	undefined4	void	result used by a caller
+0808bd90	ArcadeListGet	int	int	unchanged
+0808bf70	ArcadeListGetCurSize	int	int	unchanged
+0808bff0	ArcadeListPeekCur	void	void	unchanged
+0808c010	ArcadeListPeekNext	void	void	unchanged
+0808c030	ArcadeListPeek	int	int	unchanged
+0808c100	ArcadeListEnemiesLeft	int	int	unchanged
+0808c120	SurvivalBuildRandomTeam	void	void	unchanged
+0808c390	GetPlayerRowCol	undefined4	undefined4	unchanged
+0808c410	SlctStateListChanged	undefined4	undefined4	unchanged
+0808c430	SlctStateListNextItem	int	int	unchanged
+0808c470	SlctStateListUpdate	void	void	unchanged
+0808c490	BuildSlctCtrl	void	void	unchanged
+0808c630	BuildSlctTeamForArcade	void	void	unchanged
+0808c6d0	BuildMenuCtrl	void	void	unchanged
+0808c8a0	MenuItemVal	void	void	unchanged
+0808c8e0	CharReservePal	uint	uint	unchanged
+0808c9b0	CharStopUsingPal	void	void	unchanged
+0808ca00	CharStopUsingPalAll	void	void	unchanged
+0808ca40	ParseCmdLine	void	void	unchanged
+0808d090	PrintHelp	undefined4	void	result used by a caller
+0808d0f0	GlobalInputUpdate	void	void	unchanged
+0808d100	Warn	undefined4	void	result used by a caller
+0808d150	VWarn	undefined4	void	result used by a caller
+0808d1c0	WarnR	undefined4	void	result used by a caller
+0808d220	StripDoublePercent	void	void	unchanged
+0808d250	FontDrawClipboard	void	void	unchanged
+0808d300	ErrorExit	undefined4	void	result used by a caller
+0808d3d0	ErrorExitM	undefined4	void	result used by a caller
+0808d400	fileexist	bool	bool	unchanged
+0808d440	ChangeFileDir	undefined4	undefined4	unchanged
+0808d5c0	FindFileDir	undefined4	void	result used by a caller
+0808d5e0	FindFileDirEx	undefined4	undefined4	unchanged
+0808d750	GetQuotedString	undefined4	undefined4	unchanged
+0808d830	MDYDateCmp	int	int	unchanged
+0808d870	datenotostr	void	void	unchanged
+0808d940	FrameSkipReset	void	void	unchanged
+0808d960	FrameSkipUpdate	void	void	unchanged
+0808da20	DrawToScreen	void	void	unchanged
+0808dbb0	ScreenSnap	void	void	unchanged
+0808dc30	ExplodArrayNew	int *	int *	unchanged
+0808dcb0	ExplodArrayFree	void	void	unchanged
+0808dd20	ExplodArrayUpdate	void	void	unchanged
+0808dd50	ExplodUpdate	undefined4	void	result used by a caller
+0808ded0	ExplodArrayDraw	void	void	unchanged
+0808df40	ExplodDraw	void	void	unchanged
+0808e210	ExplodArrayDrawShadow	void	void	unchanged
+0808e2b0	ExplodDrawShadow	void	void	unchanged
+0808e840	ExplodArrayReset	void	void	unchanged
+0808e870	ExplodDefault	void	void	unchanged
+0808e990	ExplodMakeFromInfo	void	void	unchanged
+0808ea70	ExplodModifyFromInfo	void	void	unchanged
+0808eb10	ExplodSetParams	void	void	unchanged
+0808f300	ExplodAdd	int	int	unchanged
+0808f3c0	ExplodAddSprite	int	int	unchanged
+0808f460	ExplodAddText	int	int	unchanged
+0808f4f0	ExplodRemove	void	void	unchanged
+0808f520	ExplodRemoveID	void	void	unchanged
+0808f580	ExplodRemoveGetHit	void	void	unchanged
+0808f5d0	ExplodAccessID	int	int	unchanged
+0808f620	ExplodGetUniqID	undefined4	void	result used by a caller
+0808f630	ExplodBindChange	void	void	unchanged
+0808f680	ExplodCount	int	int	unchanged
+0808f6d0	SysExplodParse	undefined4	undefined4	unchanged
+0808f900	SysExplodParseGetSprGrpImgNo	undefined4	undefined4	unchanged
+0808f930	SysExplodCreateDraw	void	void	unchanged
+0808f940	SysExplodCreateDrawPal	int	int	unchanged
+0808fa20	SysExplodCreate	int	int	unchanged
+0808fc90	SysExplodCreate_Fight	undefined4	void	result used by a caller
+0808fcd0	SysExplodCreate_Sys	void	void	unchanged
+0808fd20	SysExplodCreateDraw_Fight	undefined4	void	result used by a caller
+0808fd70	SysExplodCreateDraw_Sys	undefined4	void	result used by a caller
+0808fdc0	GameLoop	undefined4	undefined4	unchanged
+08091100	GameUpdate	undefined4	undefined4	unchanged
+08091e30	GameWinScreenUpdate	void	void	unchanged
+08091fc0	GameSurvivalResultsUpdate	void	void	unchanged
+08092180	GameDemoUpdate	undefined4	undefined4	unchanged
+08092250	GameRoundUpdate	undefined4	undefined4	unchanged
+08093540	GameRoundDraw	void	void	unchanged
+08093900	GameInputUpdate	undefined4	undefined4	unchanged
+08094350	CameraMoveAbs	undefined4	ulonglong	baseline non-void
+080943d0	CameraMoveP	void	int	no evidence of a return value
+08094d00	ComboAdd	void	void	unchanged
+08094d70	ComboClear	void	void	unchanged
+08094d90	ComboDisplay	void	void	unchanged
+08095050	ComboDisplayUpdate	void	void	unchanged
+08095110	PlayerComboCountCheck	void	void	unchanged
+080951b0	GameBGDraw	void	void	unchanged
+080952f0	GameFGDraw	void	void	unchanged
+08095310	GameBarsDraw	void	void	unchanged
+08096400	GameLifeBarDraw	void	void	unchanged
+080968c0	GameBarsUpdate	void	void	unchanged
+08096930	GameLifeBarUpdate	void	void	unchanged
+08096ab0	GamePowerBarDraw	undefined4	void	result used by a caller
+08096c10	GamePowerBarUpdate	int	int	unchanged
+08096d00	RequestNewAftImg	int	int	unchanged
+08096d30	GameAftImgReset	void	void	unchanged
+08096d70	GameAftImgCount	undefined4	undefined8	baseline non-void
+08096db0	PlayerAftImgUpdate	void	void	unchanged
+08096e80	PlayerAftImgDraw	void	void	unchanged
+08096ed0	ProjArrayAftImgUpdate	void	void	unchanged
+08096f00	ProjAftImgUpdate	void	void	unchanged
+08096fa0	ProjArrayAftImgDraw	void	void	unchanged
+08096fd0	ProjAftImgDraw	void	void	unchanged
+08097020	GameClsnDraw	void	void	unchanged
+08097210	TeamLifeBack	undefined4	undefined8	baseline non-void
+080972e0	WinIconCheckTeam	void	void	unchanged
+08097360	WinIconCheck	void	void	unchanged
+08097420	TeamHasFullLife	undefined4	undefined4	unchanged
+080974b0	ShowDebugInfo	void	void	unchanged
+08097940	ContinueScreenLoop	byte	byte	unchanged
+080980d0	HelperMake	int *	int *	unchanged
+08098930	HelperDestroy	void	void	unchanged
+08098ad0	HelperParent	uint	uint	unchanged
+08098b00	HelperRoot	undefined4	undefined4	unchanged
+08098b10	HelperCount	undefined4	undefined8	baseline non-void
+08098bb0	HelperAccessID	undefined4	undefined8	baseline non-void
+08098c50	CloseAllFunc	void	void	unchanged
+08098c60	GameInit	void	void	unchanged
+08099350	GameDeInit	void	void	unchanged
+08099490	GameInitPads	void	void	unchanged
+080995f0	GameDefKeyInit	void	void	unchanged
+08099640	GameInputSetup	bool	bool	unchanged
+080997c0	GfxResize	bool	bool	unchanged
+08099880	GameLoadFightData	undefined4	undefined4	unchanged
+0809bc20	GameFreeFightData	void	void	unchanged
+0809bcf0	GameVarInit	undefined4	undefined4	unchanged
+0809c160	GameVarLoadFonts	undefined4	undefined4	unchanged
+0809c200	GameVarDeInit	undefined4	void	result used by a caller
+0809c320	GameAftImgArrayNew	undefined4 *	undefined4 *	unchanged
+0809c3b0	GameAftImgArrayFree	undefined4	undefined4	unchanged
+0809c400	SwitchCallbacksInit	void	void	unchanged
+0809c410	SwitchCallbacksDeInit	void	void	unchanged
+0809c420	SwitchAwayCallback	void	void	unchanged
+0809c440	SwitchBackCallback	void	void	unchanged
+0809c470	gcc2_compiled_	undefined4	undefined4	unchanged
+0809c6f0	QuickVSSetup	void	void	unchanged
+0809cb60	MainLoop	void	void	unchanged
+0809d120	GamePlay	undefined4	undefined4	unchanged
+0809d630	ArcadeWinScreen	undefined4	void	result used by a caller
+0809d830	SurvivalResultsScreen	void	void	unchanged
+0809da60	DemoFightSetup	void	void	unchanged
+0809dc00	ContinueScreen	byte	byte	unchanged
+0809dc10	GameModeInFightScreen	bool	bool	unchanged
+0809dc30	GameModeInPassiveFightScreen	bool	bool	unchanged
+0809dc50	GameLoadStage	undefined4	undefined4	unchanged
+0809e630	GameBGLoad	bool	bool	unchanged
+0809e730	GameUnloadStage	void	void	unchanged
+0809e8d0	GameStgInitFightData	undefined4	undefined4	unchanged
+0809eb00	GameStgDeInitFightData	void	undefined4	no evidence of a return value
+0809eb60	GameNextRound	void	void	unchanged
+0809ece0	GameReloadStage	undefined4	undefined8	baseline non-void
+0809edf0	GameMatchReset	void	void	unchanged
+0809f210	GameRoundReset	void	void	unchanged
+0809f880	GameRoundResetPlayerPos	int	int	unchanged
+0809f960	GameRoundWinner	int	int	unchanged
+0809f970	GameMatchWinner	int	int	unchanged
+0809fa40	LogPreMatch	void	void	unchanged
+0809fc40	LogMatch	void	void	unchanged
+0809fd70	IntroScreen	void	void	unchanged
+0809fd90	PlayCutscene	void	void	unchanged
+080a01b0	ModeSelect	void	void	unchanged
+080a1830	OptionsScreen	void	void	unchanged
+080a3aa0	KeyConfigScreen	int	int	unchanged
+080a4ff0	TrainingMenuUpdate	undefined4	undefined4	unchanged
+080a5480	TrainingMenuReset	undefined4	void	result used by a caller
+080a54b0	TrainingMenuDraw	void	void	unchanged
+080a5b70	InfoTextDraw	void	void	unchanged
+080a5d70	PlayerAIInit	undefined4	undefined8	baseline non-void
+080a5dd0	PlayerAIDeInit	void	void	unchanged
+080a5e00	AILearnDataLoad	undefined4	undefined4	unchanged
+080a6080	AILearnDataSave	undefined4	undefined4	unchanged
+080a61d0	AIStateSetInit	undefined4	undefined4	unchanged
+080a6230	AIStateSetDeInit	void	void	unchanged
+080a6270	AIStateSetClear	void	void	unchanged
+080a62a0	AIStateSetMerge	undefined4	undefined4	unchanged
+080a6380	AIStateSetCopy	void	void	unchanged
+080a63b0	PlayerAISetLevel	void	void	unchanged
+080a63c0	PlayerResetAI	void	void	unchanged
+080a6440	PlayerAI	void	void	unchanged
+080a6570	PlayerAIProcessCommands	void	void	unchanged
+080a65c0	AIInsertCommand	undefined4	undefined4	unchanged
+080a6600	AICopyCommands	void	void	unchanged
+080a6630	AIClearCommands	void	void	unchanged
+080a6640	AICountCommands	undefined4	void	result used by a caller
+080a6660	PlayerAILearnMoveStart	undefined4	undefined4	unchanged
+080a67f0	PlayerAILearnMoveUpdate	void	void	unchanged
+080a71f0	AILearnClsnUpdate	int	int	unchanged
+080a7460	AILearnIdleClsnUpdate	void	void	unchanged
+080a7620	AIIdleClsnMatchState	int	int	unchanged
+080a7670	PlayerAILearnMoveEnd	undefined4	undefined4	unchanged
+080a79d0	PlayerAIGetAIPLHS	undefined4	undefined4	unchanged
+080a7a20	AIFetchLearnDataArray	undefined4	undefined4	unchanged
+080a7a50	PlayerAIMsgAttack	void	void	unchanged
+080a7ad0	PlayerAIMsgAttackEnd	void	void	unchanged
+080a7b20	PlayerAIBroadcastMsg	int	int	unchanged
+080a7bf0	PlayerAIFindMsg	int	int	unchanged
+080a7c40	PlayerAIGetMsg	undefined4 *	undefined4 *	unchanged
+080a7ce0	PlayerAIGetAndRemoveMsg	undefined4 *	undefined4 *	unchanged
+080a7d80	PlayerAIClearMsg	void	void	unchanged
+080a7d90	PlayerAIMsgStateUpdate	void	void	unchanged
+080a7de0	PlayerAISctrlProjectile	void	void	unchanged
+080a7e00	AIForNormal	void	void	unchanged
+080a7f30	AIForNormalDecisions	undefined4	undefined4	unchanged
+080a86d0	AIMovePlanRoute	undefined4	undefined4	unchanged
+080a88d0	AIMoveReachedDest	undefined4	undefined4	unchanged
+080a8910	AIMoveReachedDestIdx	undefined4	undefined4	unchanged
+080a8a10	AIForNormalIdle	undefined4	undefined4	unchanged
+080a8ad0	AISetIdleAction	void	void	unchanged
+080a8ae0	AIForNormalMove	undefined4	undefined4	unchanged
+080a8dd0	AIForNormalAttack	undefined4	undefined4	unchanged
+080a8fb0	AIAttackSetupAttack	undefined4	undefined4	unchanged
+080a8fe0	AIForNormalGuard	undefined4	undefined4	unchanged
+080a90c0	AIAttackInRange	int	int	unchanged
+080a93a0	AIBuildCounterAttackList	int	int	unchanged
+080a9640	AIForNormalRandom	undefined4	undefined4	unchanged
+080a9e50	AIForTrainingMode	void	void	unchanged
+080aa560	AICheckForAttacks	undefined4	undefined8	baseline non-void
+080aa600	AIValMake	void	void	unchanged
+080aa650	AIValMerge	float *	float *	unchanged
+080aa720	AIValMergeR	void	void	unchanged
+080aa780	AILearnStopRecord	undefined4	void	result used by a caller
+080aa7b0	AIMergeLearnData	void	void	unchanged
+080ab080	AIChangeState	undefined4	undefined4	unchanged
+080ab0a0	AIKBReleaseDir	void	void	unchanged
+080ab0e0	AIKBReleaseDirExcept	void	void	unchanged
+080ab130	AIKBReleaseAll	void	void	unchanged
+080ab170	AIKBReleaseAllExcept	void	void	unchanged
+080ab1c0	PlayerNearestEnemy	int	int	unchanged
+080ab3b0	PartnerAccess	int	int	unchanged
+080ab430	PartnerCount	int	int	unchanged
+080ab4b0	EnemyAccess	int	int	unchanged
+080ab540	EnemyCount	int	int	unchanged
+080ab5d0	EnemyAccessNear	undefined4	undefined8	baseline non-void
+080ab6d0	PlayerAccessID	int	int	unchanged
+080ab740	PlayerGetDamagedLife	int	int	unchanged
+080ab760	PlayerInCorner	undefined4	undefined8	baseline non-void
+080ab7e0	PlayerDistX	undefined4	undefined8	baseline non-void
+080ab830	PlayerBodyDistX	int	int	unchanged
+080ab930	PlayerInAnyGuardDist	undefined4	undefined4	unchanged
+080ab9f0	PlayerInGuardDist	undefined4	undefined8	baseline non-void
+080abab0	HitdefAffectTeam	bool	bool	unchanged
+080abae0	PlayerAreEnemies	undefined4	undefined4	unchanged
+080abb10	PlayerGetWidth	int	int	unchanged
+080abbf0	PlayerAnimExist	bool	bool	unchanged
+080abc20	PlayerSelfAnimExist	bool	bool	unchanged
+080abc70	PlayerLyingDead	undefined4	undefined4	unchanged
+080abc90	PlayerFindTarget	int *	int *	unchanged
+080abcc0	TargetAccessID	undefined4	undefined8	baseline non-void
+080abd00	TargetCount	int	int	unchanged
+080abd40	PlayerKBUpdate	void	void	unchanged
+080ac660	PlayerCacheLoad	int	int	unchanged
+080ac930	PlayerCacheFree	void	void	unchanged
+080ac950	PlayerCacheFreePriority	undefined4	void	result used by a caller
+080ac9b0	PlayerCacheChangePriority	void	void	unchanged
+080aca00	PlayerIsCached	bool	bool	unchanged
+080aca40	PlayerCacheClear	void	void	unchanged
+080acb40	PlayerCacheHasUnused	undefined4	undefined4	unchanged
+080acba0	PlayerDefLoad	FILE *	FILE *	unchanged
+080acc70	PlayerDefLoadZip	int *	int *	unchanged
+080ada90	PlayerDefLoadPtr	char *	char *	unchanged
+080ae4a0	PlayerCNSLoadTP	undefined4	undefined8	baseline non-void
+080aeca0	PlayerSTLoadTP	bool	bool	unchanged
+080aecd0	PlayerSTLoadAppend	undefined4	undefined8	baseline non-void
+080aed20	PlayerCMDLoad	undefined4	undefined4	unchanged
+080aed90	PlayerCMDLoadTP	undefined4	undefined4	unchanged
+080af400	ParseCMD	undefined4	undefined4	unchanged
+080af680	ParseCMDElem	undefined4	undefined4	unchanged
+080af780	CmdSetFreeLabel	void	void	unchanged
+080af7b0	StringArrayFree	void	void	unchanged
+080af800	CmdSetDeInit	void	void	unchanged
+080af870	PlayerRCFree	void	void	unchanged
+080af8f0	PlayerNew	int *	int *	unchanged
+080afcc0	GetRampedAILevel	int	int	unchanged
+080afdd0	PlayerChangePal	undefined4	undefined4	unchanged
+080aff80	PlayerFree	undefined4	undefined4	unchanged
+080b0090	PlayerCheck	undefined4	undefined4	unchanged
+080b02d0	ResetPersistVar	void	void	unchanged
+080b02f0	GameResetPersistVars	undefined4	void	result used by a caller
+080b0310	TeamResetPersistVars	void	void	unchanged
+080b03a0	PlayerSavePersistVars	void	void	unchanged
+080b0410	PlayerRestorePersistVars	void	void	unchanged
+080b0470	GameLoadAndActivateTeam	void	void	unchanged
+080b0560	GameActivateAI	void	void	unchanged
+080b0610	GameLoadAndCreateChars	undefined4	undefined4	unchanged
+080b09d0	GameFreeChars	undefined4	undefined4	unchanged
+080b0b50	GameFreePlayerDependencies	undefined4	undefined4	unchanged
+080b0cb0	TeamReorderAll	int	int	unchanged
+080b0fe0	PlayerReset	void	void	unchanged
+080b15d0	PlayerEnableSet	undefined4	void	result used by a caller
+080b1730	PlayerChangeState	byte	byte	unchanged
+080b17d0	PlayerLifeSet	undefined4	void	result used by a caller
+080b18d0	PlayerLifeSetNoIcon	void	void	unchanged
+080b1950	PlayerPowerSet	void	void	unchanged
+080b1990	PlayerChangeAnim	void	void	unchanged
+080b1a10	PlayerChangeAnimElem	void	void	unchanged
+080b1ac0	PlayerSelfAnim	undefined4	void	result used by a caller
+080b1ae0	PlayerSelfAnimElem	void	void	unchanged
+080b1b00	PlayerAutoTurn	undefined4	void	result used by a caller
+080b1bc0	PlayerTurnAround	undefined4	void	result used by a caller
+080b1bf0	PlayerUpdate	void	void	unchanged
+080b2cf0	PlayerUpdateBindTo	undefined4	ulonglong	baseline non-void
+080b2db0	ScreenBound	void	void	unchanged
+080b2f00	StageBound	void	void	unchanged
+080b2fa0	GameClsnUpdate	void	void	unchanged
+080b3430	PlayerPushCheck	void	void	unchanged
+080b36a0	PlayerCheckOverlap	void	void	unchanged
+080b37d0	PlayerCheckP1HitP2	undefined4	undefined4	unchanged
+080b3830	PlayerCheckHit	bool	bool	unchanged
+080b3b40	Player1HitP2	void	void	unchanged
+080b4400	PlayerGetHit	undefined4	undefined4	unchanged
+080b4f10	PlayerTakeDamage	void	void	unchanged
+080b4fa0	PlayerGetCorrectedDamage	int	int	unchanged
+080b5040	PlayerGetHitG	undefined4	undefined4	unchanged
+080b5310	PlayerCheckReversal	undefined4	undefined8	baseline non-void
+080b5510	Player1ReverseP2	void	void	unchanged
+080b5a90	PlayerCheckHitProj	void	void	unchanged
+080b5db0	PlayerCheckProjHit	void	void	unchanged
+080b6760	PlayerProjDoHit	undefined4	undefined8	baseline non-void
+080b67e0	CheckProjHitProj	undefined4	void	result used by a caller
+080b6a60	PlayerCheckFlagHit	undefined4	undefined4	unchanged
+080b6b00	PlayerCheckAttrHit	undefined4	void	result used by a caller
+080b6b20	AttrMatch	bool	bool	unchanged
+080b6b40	PlayerAttrStateSet	void	void	unchanged
+080b6ba0	PlayerDropBoundTargets	void	void	unchanged
+080b6c60	PlayerSparkCreate	int	int	unchanged
+080b6da0	PlayerMakeDust	int	int	unchanged
+080b6f40	PlayerCalcDraw	undefined4	ulonglong	baseline non-void
+080b71c0	PlayerDrawAnim	void	void	unchanged
+080b73c0	PlayerDrawShadow	void	void	unchanged
+080b79b0	PlayerDrawClsn	void	void	unchanged
+080b8460	PalGrpAdd	undefined4	undefined4	unchanged
+080b8610	PalGrpRemove	void	void	unchanged
+080b86d0	PalGrpAddSpr	undefined4	undefined4	unchanged
+080b8730	PalGrpBuildFight	void	void	unchanged
+080b8960	PalGrpClear	undefined4	void	result used by a caller
+080b89e0	PalGrpResetPalette	void	void	unchanged
+080b8a20	PalGrpSetAdd	void	void	unchanged
+080b8ac0	PalGrpSetMul	void	void	unchanged
+080b8b70	PalGrpSetInvertAll	void	void	unchanged
+080b8c00	PalGrpSetColorBal	void	void	unchanged
+080b8c90	PalGrpSetClear	void	void	unchanged
+080b8d10	PalGrpMakeFlag	void	void	unchanged
+080b8d80	PalGrpMakeFlagALL	undefined4 *	undefined4 *	unchanged
+080b8dd0	PalGrpOrFlag	undefined4 *	undefined4 *	unchanged
+080b8e20	PalGrpXorFlag	undefined4 *	undefined4 *	unchanged
+080b8e70	PalGrpAndFlagZero	undefined4	undefined4	unchanged
+080b8e90	PalGrpFlagEqual	undefined4	undefined4	unchanged
+080b8eb0	PalGrpFlagIsNonZero	undefined4	undefined4	unchanged
+080b8ed0	PalFXReset	void	void	unchanged
+080b8f10	PalFXUpdate	void	void	unchanged
+080b9170	ProjArrayNew	undefined4	undefined8	baseline non-void
+080b91e0	ProjArrayFree	void	void	unchanged
+080b9210	ProjArrayAdd	int	int	unchanged
+080b92b0	ProjArrayDelete	void	void	unchanged
+080b9310	ProjArrayUpdate	void	void	unchanged
+080b9670	ProjArrayCalcDraw	void	void	unchanged
+080b97a0	ProjArrayCountActive	undefined4	undefined8	baseline non-void
+080b97e0	ProjArrayCountActiveID	int	int	unchanged
+080b9830	ProjClsnDetect	undefined4	undefined8	baseline non-void
+080b9910	ProjArrayDraw	undefined4	undefined4	unchanged
+080b9980	ProjArrayDrawShadow	void	void	unchanged
+080b9a00	ProjDrawShadow	void	void	unchanged
+080b9ea0	ProjArrayClsnDraw	void	void	unchanged
+080b9ee0	ProjClsnDraw	void	void	unchanged
+080b9fd0	GameSndPlay	undefined4	void	result used by a caller
+080ba000	GameSndPlayID	void	void	unchanged
+080ba090	GameSndPlayIDPos	int	int	unchanged
+080ba180	ScrPositionToPan	int	int	unchanged
+080ba230	PanVolumeAdjust	undefined4	undefined8	baseline non-void
+080ba2a0	GameSetVol	void	int	no evidence of a return value
+080ba330	PlayerSndID	int	int	unchanged
+080ba360	ParseSndGI	void	void	unchanged
+080ba390	SCtrlParseElemType	undefined4	undefined4	unchanged
+080bee10	SCtrlParseElem	bool	bool	unchanged
+080bf1d0	PlayerDoSCtrlApplyElem	undefined4	undefined4	unchanged
+080bf290	PlayerSCtrlApplyElem	undefined4	undefined4	unchanged
+080c3630	SCtrlRCElemFree	undefined4	undefined4	unchanged
+080c3810	TPGetValuePrefix	undefined4	void	result used by a caller
+080c3850	StringAdd	char *	char *	unchanged
+080c3880	SCtrlParseAftImgParams	undefined4	undefined4	unchanged
+080c3e20	SCtrlInitAftImgParams	undefined4	undefined4	unchanged
+080c40c0	AftImgParamsEFree	void	void	unchanged
+080c41f0	SCtrlParseEnvShake	undefined4	undefined4	unchanged
+080c4310	SCtrlInitEnvShake	undefined4	undefined4	unchanged
+080c43e0	EnvShakeEFree	void	void	unchanged
+080c4420	SCtrlParseExplod	undefined4	undefined4	unchanged
+080c4b10	ExplodInfoFree	void	void	unchanged
+080c4c90	SCtrlParsePalFX	bool	bool	unchanged
+080c4e80	SCtrlInitPalFX	undefined4	undefined4	unchanged
+080c5020	PalFXEFree	void	void	unchanged
+080c50c0	SCtrlParsePlaySndInfo	undefined4	undefined4	unchanged
+080c52a0	SCtrlDoPlaySndInfo	float	float	unchanged
+080c55f0	PlaySndInfoFree	void	void	unchanged
+080c5650	SCtrlParseHitOverride	bool	bool	unchanged
+080c5740	SCtrlInitHitOverride	undefined4	undefined4	unchanged
+080c57e0	HitOverrideEFree	void	void	unchanged
+080c5810	SCtrlParseHitDef	bool	bool	unchanged
+080c7360	SCtrlInitHitDef	undefined4	undefined4	unchanged
+080c7f30	HitDefEFree	void	void	unchanged
+080c83a0	SCtrlParseProjectile	undefined4	undefined4	unchanged
+080c8b90	SCtrlInitProjectile	int	int	unchanged
+080c93d0	ProjMakeInfoFree	void	void	unchanged
+080c95c0	SCtrlParseHelper	bool	bool	unchanged
+080c9a90	HelperInfoFree	void	void	unchanged
+080c9bc0	SCtrlParsePause	bool	bool	unchanged
+080c9c50	SCtrlInitPause	undefined4	undefined4	unchanged
+080c9d80	PauseInfoFree	void	void	unchanged
+080c9dc0	SCtrlParseSuperPause	bool	bool	unchanged
+080c9f50	SuperPauseInfoFree	void	void	unchanged
+080c9fd0	MoreExpFree	void	void	unchanged
+080ca000	SCtrlParseTrigger	char *	char *	unchanged
+080ccef0	SCtrlParseTriggerCMD	undefined4	undefined4	unchanged
+080ccfc0	SCtrlParseTriggerRange	undefined4	undefined4	unchanged
+080cd2b0	SCtrlTrigArity	char	char	unchanged
+080cd2f0	SCtrlTrigArrayTest	undefined4	undefined4	unchanged
+080cd3c0	SCtrlTrigTest	bool	bool	unchanged
+080cd450	SCtrlTrigEval	void	void	unchanged
+080d0740	TriggerFree	void	void	unchanged
+080d0780	trigcpy	undefined4	undefined4	unchanged
+080d0830	SPopI	char	char	unchanged
+080d0900	SPopF	char	char	unchanged
+080d09a0	StackUnderflow	undefined4	void	result used by a caller
+080d09c0	ItoP_TPConstI	undefined4	undefined4	unchanged
+080d0a30	ItoP_TPConstF	undefined4	undefined4	unchanged
+080d0aa0	SCtrlReadExpList	byte *	byte *	unchanged
+080d0c90	SCtrlReadExpListArray	int	int	unchanged
+080d0e80	ParsePosType	int	int	unchanged
+080d0ee0	ParseSpecialFlag	undefined4	undefined4	unchanged
+080d12f0	ParseAnim	bool	bool	unchanged
+080d1370	ParseSnd	undefined4	undefined8	baseline non-void
+080d13f0	ParseVel	bool	bool	unchanged
+080d1530	ParseHitAttr	uint	uint	unchanged
+080d1850	ParseHitFlag	uint	uint	unchanged
+080d18e0	PlayerGetRedirInfo	void	void	unchanged
+080d19b0	SctrlReadFileTP	int *	int *	unchanged
+080d1b30	SctrlAddFileTP	undefined4	undefined4	unchanged
+080d1c90	SCtrlParseState	undefined4	undefined4	unchanged
+080d2460	SCtrlInit	undefined4	undefined4	unchanged
+080d2480	SCtrlRCFree	void	void	unchanged
+080d2590	PlayerSCtrlUpdate	undefined4	undefined4	unchanged
+080d2a60	PlayerSCtrlUpdateSpec	void	void	unchanged
+080d2b60	GameLoadSystem	undefined4	undefined4	unchanged
+080d39b0	GameUnloadSystem	void	void	unchanged
+080d3b40	GameReloadSystemSprSnd	undefined4	void	result used by a caller
+080d3dd0	GameUnloadSystemSprSnd	void	void	unchanged
+080d3e70	GameConfigRead	undefined4	undefined4	unchanged
+080d4ea0	GameResetOptions	void	void	unchanged
+080d4ef0	GameLoadOptions	undefined4	undefined4	unchanged
+080d51e0	GameSaveOptions	void	void	unchanged
+080d5480	PlayerLoadKeys	bool	bool	unchanged
+080d5580	PlayerSaveKeys	void	void	unchanged
+080d56a0	PlayerKeysRemoveZero	void	void	unchanged
+080d56d0	PlayerKeysConvertToZero	void	void	unchanged
+080d5700	PrecacheInit	undefined4	undefined8	baseline non-void
+080d5770	PrecacheRequestTeam	undefined4	undefined4	unchanged
+080d57f0	PrecacheRequestCurArcadeTeam	void	void	unchanged
+080d5800	PrecacheRequestNextArcadeTeam	void	void	unchanged
+080d5810	PrecacheRequestArcadeTeam	undefined4	undefined4	unchanged
+080d58a0	PrecacheRequestChar	bool	bool	unchanged
+080d5900	PrecacheStart	undefined4	undefined4	unchanged
+080d59f0	PrecacheRequestCancel	void	void	unchanged
+080d5a30	PrecacheIsRunning	int	int	unchanged
+080d5a70	PrecacheIsDone	undefined4	undefined4	unchanged
+080d5ad0	PrecacheFinish	void	void	unchanged
+080d5b60	PrecacheWorkerThread	void	void	unchanged
+080d5d90	IntQueueAddUnique	bool	bool	unchanged
+080d5df0	IntQueueIsEmpty	bool	bool	unchanged
+080d5e00	IntQueuePeekTop	undefined4	undefined4	unchanged
+080d5e20	IntQueueDequeue	undefined4	undefined4	unchanged
+080d5e60	IntQueueClear	undefined4	void	result used by a caller

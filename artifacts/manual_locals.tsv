@@ -1,0 +1,7 @@
+func	offset	type	name	evidence
+0807b880	-0x130	int *	extra	ecalloc(1,0x10) result, indexed [0..3]
+0807b880	-0x12c	char[256]	line	fgets(line, 0x100, file) at 0x807b9f0
+0807b2f0	-0x130	int *	extra	same layout as TPReadFilePtr
+0807b2f0	-0x12c	char[256]	line	MFfgets(line, 0x100, mf)
+08082ad0	-0x220	int[132]	vstack	cells hold ints, floats (bit patterns) and pointers; switch on cell values 1..N
+08097940	-0x44	int *	plist	assigned from g[0x73db]/g[0x73da] (player pointers), indexed [0x4ef]

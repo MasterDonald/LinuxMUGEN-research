@@ -1,0 +1,483 @@
+[
+ {
+  "addr": "0x8048a00",
+  "name": "AnimElemProcessDrawFlags",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x804e4e0",
+  "name": "ClipboardFree",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8050860",
+  "name": "SiSceneUpdatePal",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8050b80",
+  "name": "SceneFree",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8052210",
+  "name": "V_FontDrawAlign_I",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8052cc0",
+  "name": "G_MakeColor",
+  "reasons": [
+   "calls-missing-in-pid:makecol_depth"
+  ]
+ },
+ {
+  "addr": "0x8053960",
+  "name": "ElecDeInit",
+  "reasons": [
+   "calls-missing-in-pid:free"
+  ]
+ },
+ {
+  "addr": "0x8053ab0",
+  "name": "KBIUpdate",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8056b70",
+  "name": "SndMidiFree",
+  "reasons": [
+   "calls-missing-in-pid:free,stop_midi"
+  ]
+ },
+ {
+  "addr": "0x8056f20",
+  "name": "SndVoiceUnreserve",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80578f0",
+  "name": "SndMidiReadFile",
+  "reasons": [
+   "calls-missing-in-pid:destroy_midi,lock_midi,malloc,pack_fclose,pack_fopen,pack_fread,pack_mgetl,pack_mgetw"
+  ]
+ },
+ {
+  "addr": "0x8058f30",
+  "name": "SpriteDecompGetAndLockData",
+  "reasons": [
+   "calls-missing-in-pid:SpriteArrayAccess"
+  ]
+ },
+ {
+  "addr": "0x8067b30",
+  "name": "W_ScaleSpriteTransAdd8to16_B",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x806aee0",
+  "name": "W_ScaleSpriteTransAddMirHV8to16_B",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x807b040",
+  "name": "TimerDelay",
+  "reasons": [
+   "calls-missing-in-pid:rest_callback"
+  ]
+ },
+ {
+  "addr": "0x807b2f0",
+  "name": "TPReadMFPtr",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x807b880",
+  "name": "TPReadFilePtr",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x80802e0",
+  "name": "unzlocal_getByte",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8081dd0",
+  "name": "EB_DrawWindows",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8081eb0",
+  "name": "EB_GUIUpdate",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8082050",
+  "name": "EBT_MutexLock",
+  "reasons": [
+   "calls-missing-in-pid:__pthread_alt_lock,__pthread_find_self,__pthread_lock"
+  ]
+ },
+ {
+  "addr": "0x8082060",
+  "name": "EBT_MutexUnlock",
+  "reasons": [
+   "calls-missing-in-pid:__pthread_alt_unlock,__pthread_find_self,__pthread_unlock"
+  ]
+ },
+ {
+  "addr": "0x8083930",
+  "name": "FreeExpArray",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8083980",
+  "name": "ConstExpI",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8084020",
+  "name": "EvalExpression",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8085760",
+  "name": "BGMPollIgnoreDefocus",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8085800",
+  "name": "BGMCheckExtension",
+  "reasons": [
+   "calls-missing-in-pid:_alemu_stricmp,strlen"
+  ]
+ },
+ {
+  "addr": "0x8085df0",
+  "name": "FindCharacters",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x808a560",
+  "name": "CharselReadConfig",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x808ca40",
+  "name": "ParseCmdLine",
+  "reasons": [
+   "calls-missing-in-pid:builtin_strncpy"
+  ]
+ },
+ {
+  "addr": "0x808d5e0",
+  "name": "FindFileDirEx",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x808d870",
+  "name": "datenotostr",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x808e2b0",
+  "name": "ExplodDrawShadow",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x808eb10",
+  "name": "ExplodSetParams",
+  "reasons": [
+   "pid-unaff_",
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x808fa20",
+  "name": "SysExplodCreate",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x808fdc0",
+  "name": "GameLoop",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x8091e30",
+  "name": "GameWinScreenUpdate",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x8091fc0",
+  "name": "GameSurvivalResultsUpdate",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x8097940",
+  "name": "ContinueScreenLoop",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x80980d0",
+  "name": "HelperMake",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x8098c60",
+  "name": "GameInit",
+  "reasons": [
+   "pid-in_stack_",
+   "calls-missing-in-pid:builtin_strncpy"
+  ]
+ },
+ {
+  "addr": "0x809c3b0",
+  "name": "GameAftImgArrayFree",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x809c470",
+  "name": "gcc2_compiled.",
+  "reasons": [
+   "pid-removed-blocks",
+   "pid-StackY",
+   "calls-missing-in-pid:FindCharacters,InitSelectScreenMatrix,strcat"
+  ]
+ },
+ {
+  "addr": "0x809c6f0",
+  "name": "QuickVSSetup",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x809dc00",
+  "name": "ContinueScreen",
+  "reasons": [
+   "calls-missing-in-pid:AnimPerArrayDrawGrp,AnimPerArrayUpdate,AnimUpdate,BGArrayUpdate,BGMPoll,DrawToScreen,FrameSkipReset,FrameSkipUpdate,GameBGDraw,GameFGDraw,GameResetPersistVars,GameRoundReset,GlobalInputUpdate,KBBufferClear,KBIMenuGetKey,KBPoll,KBgetchraw,KBkbhit,MasterPalFinishedDraw,MasterPalMul,MasterPalProcessChanges,PRSprArrayClear,PRSprArrayDraw,PadBufClear,PadGet,PadHit,PadPoll,PalGrpMakeFlag,PalGrpResetPalette,PalGrpSetMul,PlayerChangeState,PlayerDrawAnim,PlayerDrawShadow,PlayerReset,PlayerUpdate,TimerSetSyncFPS,TimerWaitSync,UInpBufClear,UInpGet,UInpHit,UInpRefreshFlags,VRetrace,V_FontDraw,V_FontDrawCenter,V_FontDrawRight,V_SetBuf"
+  ]
+ },
+ {
+  "addr": "0x809e730",
+  "name": "GameUnloadStage",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80a8ae0",
+  "name": "AIForNormalMove",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x80ab1c0",
+  "name": "PlayerNearestEnemy",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80acc70",
+  "name": "PlayerDefLoadZip",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80ada90",
+  "name": "PlayerDefLoadPtr",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x80af8f0",
+  "name": "PlayerNew",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80aff80",
+  "name": "PlayerFree",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80b0090",
+  "name": "PlayerCheck",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80b3830",
+  "name": "PlayerCheckHit",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x80b73c0",
+  "name": "PlayerDrawShadow",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x80b8460",
+  "name": "PalGrpAdd",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x80b8730",
+  "name": "PalGrpBuildFight",
+  "reasons": [
+   "pid-in_stack_"
+  ]
+ },
+ {
+  "addr": "0x80b9a00",
+  "name": "ProjDrawShadow",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x80ba390",
+  "name": "SCtrlParseElemType",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x80bf290",
+  "name": "PlayerSCtrlApplyElem",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80c52a0",
+  "name": "SCtrlDoPlaySndInfo",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ },
+ {
+  "addr": "0x80ca000",
+  "name": "SCtrlParseTrigger",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x80ccfc0",
+  "name": "SCtrlParseTriggerRange",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x80cd450",
+  "name": "SCtrlTrigEval",
+  "reasons": [
+   "pid-unaff_",
+   "calls-missing-in-pid:ABS,NAN"
+  ]
+ },
+ {
+  "addr": "0x80d0900",
+  "name": "SPopF",
+  "reasons": [
+   "pid-unaff_"
+  ]
+ },
+ {
+  "addr": "0x80d0c90",
+  "name": "SCtrlReadExpListArray",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x80d1530",
+  "name": "ParseHitAttr",
+  "reasons": [
+   "type-prop"
+  ]
+ },
+ {
+  "addr": "0x80d2590",
+  "name": "PlayerSCtrlUpdate",
+  "reasons": [
+   "calls-missing-in-pid:NAN"
+  ]
+ }
+]

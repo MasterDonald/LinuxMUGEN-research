@@ -1,0 +1,113 @@
+path	size	mtime	sha256	file_type
+chars/kfm/ending.def	2047	2001-03-22	7a61119695005495bcf31ae5da84daedbf6d7cdb5df21c6685ec6ba974bb74ad	Generic INItialization configuration [Scene 0]
+chars/kfm/ending.sff	48958	2001-03-22	abd3b10e42d3518a86c214ee38a394c8e2f08984e165387c47fa7a1153a37484	data
+chars/kfm/intro.def	2989	2001-03-21	dfa6964fe91c32fa0addf742bb1b70c641d6ab899602460e778716b5a206225b	Generic INItialization configuration [Scene 0]
+chars/kfm/intro.sff	90427	2001-03-21	ea90366a6f85fd60e4940de3c37636c7b4c80a96c61e72edd02fd07e0d18229d	data
+chars/kfm/kfm.act	768	2000-02-03	fbac5739886a9f4216c4f149600c6fb2e63f9b9fcdd2fe029776c5ee1e5b28ff	data
+chars/kfm/kfm.air	47098	2001-10-31	06f0fbbfbec757f6b7268bd590995294684101286e56dc2e064c69b47f07b175	ASCII text, with CRLF line terminators
+chars/kfm/kfm.cmd	20636	2001-10-31	7e4834834cf076557a135501d8bc99997c72c609cbe8722ba41168860b3f40ba	Generic INItialization configuration [Command]
+chars/kfm/kfm.cns	64798	2001-10-31	9b92442393710a471190c3fcea4c738e14aa922fddd18ae980c94cd2171bb564	Non-ISO extended-ASCII text, with CRLF line terminators
+chars/kfm/kfm.def	955	2001-11-01	2a00dae21dd7cd7b6c62d6cb5d8243485245af31c5399011ef69db4fa84d2c26	ASCII text
+chars/kfm/kfm.sff	563380	2001-11-10	761cb9c7d66b2d74d4a582e822e8dc38c1542b43c92294f57d5681fa936ea560	data
+chars/kfm/kfm.snd	76631	2001-11-10	daae16a39cc22b5eaf7b40c09a20076ee2278c1fb34ab40af4caa3f3b4db669a	data
+chars/kfm/kfm2.act	768	2000-02-09	1a49e3fbb47cb4e01cd459a05bb6ec5f40f9f3ec9bc175472f440387892a6dae	data
+chars/kfm/kfm3.act	768	2001-10-15	78c691be0655e872a561c6b535d94e62fc56c446e328eb044d4700099696aea2	data
+chars/kfm/kfm4.act	768	2001-10-15	4c2a453aa990f94da5b8a594b1c31923a24db87618c42d1ac1c80d26907a4ca6	data
+chars/kfm/kfm5.act	768	2001-10-15	4bbda4183dea04d34b05fe7a2f0259ac9da67ae92f5bc1aad8c157c93d411efb	data
+chars/kfm/kfm6.act	768	2000-03-08	8bd35db16ed92834b72f51163597eff9a1e7407bff3488c74d783a82e50dd78f	data
+chars/kfm/readme.txt	4986	2001-10-31	0fbb3d0fd7f3d3e40aa60a67616291ff1e05f2d537a4a20bf1aa550cc931f60f	ASCII text, with CRLF line terminators
+chars/readme.txt	101	2002-04-21	5feff90e849222c2edc4d313809ca8b68932a2ca48bf3d90f54c12c7fdced0b3	ASCII text, with CRLF line terminators
+data/big/readme.txt	589	2002-04-21	e3145cc9ef03166dbaf05e6f7b50eb48e6cafc7541b8a4e47dd79021ff14306e	ASCII text
+data/big/system.def	12589	2001-12-10	d8b50b92e684c8c99766a8eb8be8214f8a69a58f8e8a01a5ac4713a744c92ade	ASCII text
+data/common.snd	72705	2001-10-31	b49c8b62fb07a1212ce3e3d2c98bf5f59446ad68451b6a70a4740110f75d5926	data
+data/common1.cns	39382	2002-04-21	c5d1d264af776ab1c2684a2a1185ab97779e40ec37ef2756e92be192efd22cf0	ASCII text
+data/fight.def	15074	2001-10-31	c19368ad1d909138d5baee7f6bc683c9b70514f4149dfb449004e5edaf899659	ASCII text
+data/fight.sff	70125	2001-10-31	59be2efaaf5f519293b3ea4df6cf86783a96511afe580a268b2953e3fe31e532	data
+data/fight.snd	89579	2001-10-31	82cf3132b38be9b1f88487f58d37067e7d2c7dd5b19e2994618ddfe60ff26945	data
+data/fightfx.air	3921	2001-10-31	d9f6bc1d98682815f69a793f6a709163ad5beed971786eea8db2483221124bc7	ASCII text, with CRLF line terminators
+data/fightfx.sff	148215	2001-10-31	e65fcbb0b98e4a6753c474c4f4cfa8189ef18fa055c5b3a7f54a9c674a9c04e5	data
+data/kfm/credits.def	1477	2001-10-31	fc7edd583743148e11f9c429d5fd5072c75143ccc0d52579f914f759023eef7c	ASCII text
+data/kfm/credits.sff	29331	2001-10-31	d16071b6cbe65071edc5265ed4afc3f38d9c286303044db2a474de51a42b0f49	data
+data/kfm/gameover.def	990	2001-10-31	e718691d9fe651ca88754670e397b20d45722f5a161fcda6d73e6319e7573618	ASCII text
+data/kfm/gameover.sff	5767	2001-10-31	9cbb0d1491de1bc766256138674e73c3d9c6bd9ff0551c1ac1b5a66ed7b169e9	data
+data/kfm/intro.def	3087	2001-10-31	2d7ecb79bb44dede23b496a7c5450b307b56f9e5304c1b867bd5c7f084a26777	ASCII text
+data/kfm/intro.sff	97583	2001-10-31	56df904524eb471840bf4c8de26d87da10a85e491b0e9d00fc94f6a0c19d0153	data
+data/kfm/kfmtitle.sff	30894	2001-10-31	8000c7764fd01f14840b1f6585e085f8f2073d3e0bc52a67cd32f13d2dcc4c14	data
+data/kfm/logo.def	403	2001-10-31	b2b4c703ada3ca5af0ed65e63f255a74a07278c22e13215316f43a04294335c4	ASCII text
+data/kfm/logo.sff	7997	2001-10-31	c1e5560521a4009036dc7f9c644ae44492a3d10737ae862e57f6dc84a9a59d60	data
+data/kfm/select.def	3434	2002-04-21	f43e21f71086df41640f38f4f443b1d9c327080a0560c56ab03d836518b30b03	ASCII text
+data/kfm/system.def	12716	2001-12-10	e052404138cf3eeb84a2980f5fb328e977945ac4ca641edbe243f94458e4667a	ASCII text
+data/mugen.cfg	10995	2002-04-21	3815db7c08e4d7b60280be5b8ab5db24489c9d2f10d2e8027e1e9ebc728d6e41	ASCII text
+data/select.def	3434	2002-04-21	f43e21f71086df41640f38f4f443b1d9c327080a0560c56ab03d836518b30b03	ASCII text
+data/system.def	12638	2001-12-10	8bb896c944d022b8a68068d00d127f106f8f458e911d3dfdfac8f9590a7adc24	ASCII text
+data/system.sff	145264	2001-10-31	ee6d64bba221b5cb7f3cfad4b513e5aa389ab0562de227482a8ded2ad7c05b5a	data
+data/system.snd	8976	2001-10-31	421b989a6af8b0c046ded40f3de63dde0b376827ccf4d9bb241c12a064b63341	data
+docs/air.txt	14441	2002-04-20	83283842c80139967862bcc083a01e71e5d59bed6ea75ccddec7af7836307f8f	ASCII text
+docs/bgs.html	60545	2002-04-20	9f1c7308e0ada517a6bf1ec9bd371ec8f7781f141132f6a68d2eeb62faed3874	HTML document, ASCII text
+docs/bgs.rtf	30108	2002-04-20	274c09b4c1a74b677d432c263e24936c7d1b753d28fe7444923e3135bb1fe972	Rich Text Format data, version 1, ANSI, code page 1252, default language ID 1033
+docs/cns.html	95481	2002-04-20	c5c457fe68b7f401c5cd7ece7fa9a042af00967bacaf792f2f0e71d2da7f89a8	HTML document, ASCII text
+docs/cns.rtf	47679	2002-04-20	de3536c617b489f7d396865ad36c3e43a6d28b4342b39da1574c9a57ebbae202	Rich Text Format data, version 1, ANSI, code page 1252, default language ID 1033
+docs/exp.html	64413	2002-04-20	00632741ba5d5fb7187fda1c462f7f32bb6f2cbf01d6e431935e3f5d02a38109	HTML document, ASCII text
+docs/exp.rtf	27466	2002-04-20	fe2e2c2192f0fa2f7450aaf5e89c1cc3f7ff56933a87bca52dc3860a6bab1f03	Rich Text Format data, version 1, ANSI, code page 1252, default language ID 1033
+docs/formats.txt	3052	2002-04-06	aebad3ab4ada4279d07dcb7380ccb0361f345eb74ad78a58415fd57ab428869c	ASCII text, with CRLF line terminators
+docs/incompt2.txt	7050	2001-10-28	8428c188b6dd5add633018a853eef177ab48929227206f695ffec0a45f8cdb6e	ASCII text
+docs/mugen.html	2397	2002-04-20	2207f4e0d6368042f41d90fcc7bc9dde2715dfdb0852165f3ed0b6f1ea19116e	HTML document, ASCII text
+docs/mugenfaq.html	62438	2002-04-20	ce362e3a6e49155be6142beabcefb5dbee4ec00ff6094355d774a8d076e96109	HTML document, ASCII text, with very long lines (349)
+docs/overview.html	23393	2002-04-20	3c481af140fff5b85e62b6c0b43cf498ddf2218833b962ea9f825f02c68b3e40	HTML document, ASCII text
+docs/overview.rtf	7807	2002-04-20	bf86bc9377552ae0a4fe0bd859b62733cc5588e0ae521c1916fe811c4654f9d2	Rich Text Format data, version 1, ANSI, code page 1252, default language ID 1033
+docs/readme.txt	24176	2002-04-20	4ebacb7ee74ec2827fbdb5d8301a8cc96f9974c5ba4c3934554ddb50396c90b3	ASCII text
+docs/sctrls.html	379064	2002-04-20	6e80074b038ca283fd88dcdd247e7fbed51da62be94ed39fbade20536c85d959	HTML document, ASCII text
+docs/sctrls.rtf	128823	2002-04-20	0aba4a98a3e24f7b9fe16687966f75e71d7c28ad42889bd33b9cb8fd7f07929a	Rich Text Format data, version 1, ANSI, code page 1252, default language ID 1033
+docs/spr.txt	7250	2002-04-20	d6484a77b7d9090e8c90552a82cf75e29bbfa9493c8daf9d5a0c276c7e213f35	ASCII text
+docs/storybrd.html	41085	2002-04-20	dc30d8c75cfc6971c859598d08d6de3db5ec30d59c2fba2410de288587592364	HTML document, ASCII text
+docs/storybrd.rtf	18240	2002-04-20	797ef7aec33ee51b4a433311e8ddbb8b47f6076b50c56d54ed2f3d3045c3988e	Rich Text Format data, version 1, ANSI, code page 1252, default language ID 1033
+docs/trigger.html	334021	2002-04-20	d2da6340c09f37159b4f776d329549f7e352e6eedc621f19ecf9d4c1205b9bfa	HTML document, ASCII text
+docs/trigger.rtf	98626	2002-04-20	99f87948895cb238dcfc0832e3936dc99356eb7e5825b2c324922ff7bebd99fe	Rich Text Format data, version 1, ANSI, code page 1252, default language ID 1033
+docs/tutorial/airvw0.gif	4778	2001-11-13	40f463d93e89fe604926df203ebfac7e9ae4ea5b765c26ab4ee5f6b69fc623b6	GIF image data, version 89a, 320 x 240
+docs/tutorial/airvw1.gif	5060	2001-11-13	59b08527b12448a79d4e683ea8b6b15a975830fe951ef6837f61c8923d709ad2	GIF image data, version 89a, 320 x 240
+docs/tutorial/airvw2.gif	5177	2001-11-13	8641c3e4b31432544152b72e3811bd530c19d39376dadccb207fdd8fe9de121b	GIF image data, version 89a, 320 x 240
+docs/tutorial/airvw3.gif	5166	2001-11-13	ecd14269897b1ea1dc886ab39d712b9fa3da5d773f90028ab4594c233427bedd	GIF image data, version 89a, 320 x 240
+docs/tutorial/airvw4.gif	5033	2001-11-13	d1535f00a63cd1a73934852c73f3c3a6c0d2e013fba5c02e799cc39584b0355b	GIF image data, version 89a, 320 x 240
+docs/tutorial/atkbox.gif	4163	2001-11-13	15cb3fdcb05304c5eddf7714191c607ff3179bcaeff786a4db2e05c00dc6a1b2	GIF image data, version 89a, 300 x 120
+docs/tutorial/atkx-hih.gif	3820	2001-11-13	0ef8386873e3ba878eb4f67f43823723e1a74bed5adb39f31e93a36c1439d129	GIF image data, version 89a, 144 x 120
+docs/tutorial/atkx-hil.gif	4003	2001-11-13	781e978907b1499b0aeaf94c18063e163888cfc59dbbbb61c7dd466913b2f5b7	GIF image data, version 89a, 144 x 120
+docs/tutorial/atkx-him.gif	3876	2001-11-13	8461b6e51932e1a1c592f5f22a8eb4192553c5f3b02e330747017d1f9cac0e03	GIF image data, version 89a, 144 x 120
+docs/tutorial/atkx-loh.gif	3856	2001-11-13	32778078f91463b31c398ddf7dbf6ab5ae7332efc89c499da144edbc7ff52371	GIF image data, version 89a, 144 x 120
+docs/tutorial/atkx-lol.gif	3912	2001-11-13	a2d38cd6730e9248cc55231960c61828ed5e2b09ed52f674a32b44c816506710	GIF image data, version 89a, 144 x 120
+docs/tutorial/atkx-lom.gif	3883	2001-11-13	9a8103b723709718f0521d06c80a0c57b11ab96e14051007db827fc5b8c66b55	GIF image data, version 89a, 144 x 120
+docs/tutorial/atkx0.gif	4162	2001-11-13	783d7a113cd1c915e96197b13a2f0a02affd12dba5ee6e1e4852e123c6768f7b	GIF image data, version 89a, 144 x 120
+docs/tutorial/atkx1.gif	4021	2001-11-13	bcfbdf7199aa3349ba47603c7301a31cc025721fa30b1b2be12ff7d16a908054	GIF image data, version 89a, 144 x 120
+docs/tutorial/axis0.gif	1276	2001-11-13	1dd700a7d171166972e28c66d3a9ef017b478650764df68589da9df3b7c2b25f	GIF image data, version 89a, 47 x 117
+docs/tutorial/axis1.gif	1067	2001-11-13	b3b1371de2de74d1ed0092be6232fbe3cb779a72c8c6a167dff605f775c1d6c4	GIF image data, version 89a, 93 x 116
+docs/tutorial/axis2.gif	1079	2001-11-13	1d58645551d4ccb90dfda5645c5509c1ce4835ef8fd03e6e9fc8a6fd5ddee338	GIF image data, version 89a, 48 x 84
+docs/tutorial/axis3.gif	1037	2001-11-13	ba2116cfe4a576551f6b8702df64f12d0951bbc2ef4d27850f00337fdce5e8ed	GIF image data, version 89a, 44 x 114
+docs/tutorial/axis4.gif	1193	2001-11-13	582791f8498ae29c7e2bf843b63f0e908ff1ed91a0499effdc07e3be52c70b96	GIF image data, version 89a, 97 x 109
+docs/tutorial/bg-tut.html	12644	2002-04-21	8401023a0223c40814b94ba39913fbb1cde2c629907a4e62af5d0b94e3efcdba	HTML document, ASCII text
+docs/tutorial/color0.gif	4748	2001-11-13	40bf4245b2403516a60bb5945af9ae578a62187eaecf7fd0706659988098ad63	GIF image data, version 89a, 228 x 165
+docs/tutorial/color0n.gif	2106	2001-11-13	3d1ca909b53d5a4e2d9b94149be4d71423ad0e01fccebd718c3f95f2a8445c73	GIF image data, version 89a, 80 x 120
+docs/tutorial/color0y.gif	2084	2001-11-13	75625690d6748ecaccfeb2d2a13fa56dae279c80b495b2f4a3acd51d99453ff0	GIF image data, version 89a, 80 x 120
+docs/tutorial/debug0.gif	2573	2001-11-13	cc1047f21845d1cb707c20ec16b2051e2fe43fea9c03e5cba1952e322598d461	GIF image data, version 89a, 250 x 55
+docs/tutorial/pshop0.gif	9085	2001-11-13	300dff16fee6ddd3a0fa0c8a58b053ed9b65d3b6c6340891ebfd46cf1daae96a	GIF image data, version 89a, 409 x 334
+docs/tutorial/pshop1.gif	5975	2001-11-13	43da9bb061e192e7e29fccd88e2de4affb49f678d18d8734d9b6a73f405e0921	GIF image data, version 89a, 317 x 274
+docs/tutorial/pshop2.gif	7077	2001-11-13	f329b4bee856103685297bf21a073232f002a4083ad3514b9333fc5631636a0b	GIF image data, version 89a, 358 x 332
+docs/tutorial/pshop3.gif	6927	2001-11-13	6455c6367d39acf7faa070898d5f4bda9f2db07287c4119ff7673b0e85137c6d	GIF image data, version 89a, 359 x 333
+docs/tutorial/tutorial1.html	17990	2002-04-21	53ee9fb89c75050f8021dbbe7bfcd1273bda9a9a34fa7e9ed8d96d151b058114	HTML document, Non-ISO extended-ASCII text
+docs/tutorial/tutorial2.html	6744	2002-04-21	7ea8aa83d95f96ae4bc928f7c1bd01ce36009b02e53450e7027e43e60b3ab6b9	HTML document, ASCII text
+docs/tutorial/tutorial3.html	15632	2002-04-21	f0720b6ccdc1b0625a6fae53c342cc8e142ce91df3c24566b907057d23c58239	HTML document, ASCII text
+docs/tutorial/tutorial4.html	12772	2002-04-21	d2d75deb92f2610e563277a1c71500184be78ce586ab000e83abbffb13c48d18	HTML document, ASCII text
+docs/updates.txt	66978	2002-04-20	00e184a565c3e36961ecda58d8867ee31c87583fc1d12516252b3363273f9ad9	ASCII text
+font/f-4x6.fnt	3028	2001-10-13	7a4ecf40f4548e301546a50835af06015d2a0b1a0e4901222d2f9b589c6d9402	data
+font/f-6x8f.fnt	4314	2001-10-13	49bce8c6b14597247f5ea9fc6da5b0028f136e2e851ac5fdebe3c437cb551cfb	data
+font/f-6x9.fnt	4410	2002-04-21	48f14ca06f152c7b302ea019a7a22a3cb17a14a0db270a12e7a69948508eff9c	data
+font/f-6x9f.fnt	4307	2001-10-13	ccfa2311f46f8bd03e4d5c6ba4a66fdb1c9d91bcda90559bf5f545e213b4e8bf	data
+font/f-pad.fnt	1648	2001-10-13	e2d5c96ed261c1617a3f4dca5278eb9f3da19dbea93e63fe045484e7b0520902	data
+font/jg.fnt	7029	2001-10-13	c0c7849b57912cd36734478d26f6b49c636b796580ea705a679f3cac64ae5f80	data
+font/name1.fnt	3859	2001-10-13	ec50e35895abbc5ae0c5c0da9dc17c1118aa63edfcf97e3ee8e29a9b2f8c49d9	data
+font/num1.fnt	2477	2001-10-13	8d0188cf91e830a3b586fa579b4694e021f1d0353c9f7dde5ef5d1755ba0cc7e	data
+mugen	1695688	2002-04-20	c6edaee6b4ce6736f20cfbe9ce1e6e1104d30b6aaf124a52a1d60950be1fe4fc	ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), statically linked, no s
+readme.txt	24176	2002-04-21	4ebacb7ee74ec2827fbdb5d8301a8cc96f9974c5ba4c3934554ddb50396c90b3	ASCII text
+stages/kfm.def	11377	2001-10-25	d2ca03f41f0c2974077b010d94bbaaa09067c5e290a674d9ca9635e5421de3d0	Generic INItialization configuration [Camera]
+stages/kfm.sff	231149	2001-10-12	a858fdd90859f93a21bd06f8652829207e4a3381ec8eccdc27c49bb6c18233da	data
+stages/stage0.def	10116	2001-10-25	fbe2636883e38306c16cb9ddf23552522e1aa4ad660c1b679c9eb1b3fd7339f9	Generic INItialization configuration [Camera]
+stages/stage0.sff	4530	2001-10-13	1a3c25f767d35b220990fd6c0f58189d05e09aed528e5c1b74a462746299d8fa	data
+updates.txt	66978	2002-04-21	00e184a565c3e36961ecda58d8867ee31c87583fc1d12516252b3363273f9ad9	ASCII text

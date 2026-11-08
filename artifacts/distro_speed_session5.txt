@@ -1,0 +1,9 @@
+=== debian12-i386
+mugen.unpacked.nodebug: 31.0 s, Player load time: 2472.2 ms, 677.8 ms
+mugen-rebuilt: 26.3 s, Player load time: 2783.3 ms, 727.8 ms
+=== fedora42
+mugen.unpacked.nodebug: 26.4 s, Player load time: 2411.1 ms, 677.8 ms
+mugen-rebuilt: 26.7 s, Player load time: 2794.4 ms, 727.8 ms
+=== archlinux
+mugen.unpacked.nodebug: 31.8 s, Player load time: 2411.1 ms, 694.4 ms
+mugen-rebuilt: 23.7 s, Player load time: 2744.4 ms, 716.7 ms

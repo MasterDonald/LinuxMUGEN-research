@@ -1,0 +1,42 @@
+address	size	name	likely_file	share	references_by_file	evidence
+0x082c0680	256	DebugTmpStr	elecbyte-lib/init-lib.c	100%	elecbyte-lib/init-lib.c:1	HYPOTHESIS
+0x082c0780	256	ErrorMessage	game/st-trig.c	41%	game/st-trig.c:60, game/arith.c:31, elecbyte-lib/bg-lib.c:22, elecbyte-lib/anim-lib.c:15	HYPOTHESIS
+0x082c0880	4	S_Size	elecbyte-lib/g-lib.c	100%	elecbyte-lib/g-lib.c:1	HYPOTHESIS
+0x082c0884	4	V_Height	game/gameloop.c	54%	game/gameloop.c:21, elecbyte-lib/vbuf.c:5, elecbyte-lib/bg-lib.c:5, game/menus.c:4	HYPOTHESIS
+0x082c0888	4	W_y2	elecbyte-lib/spr16add.c	28%	elecbyte-lib/spr16add.c:56, elecbyte-lib/vbuf.c:47, elecbyte-lib/spr16sub.c:44, elecbyte-lib/spr16-lb.c:37	HYPOTHESIS
+0x082c088c	4	V_Size	elecbyte-lib/vbuf.c	100%	elecbyte-lib/vbuf.c:1	HYPOTHESIS
+0x082c0890	4	W_Width	elecbyte-lib/vbuf.c	100%	elecbyte-lib/vbuf.c:2	HYPOTHESIS
+0x082c0894	4	W_x1	elecbyte-lib/spr16add.c	34%	elecbyte-lib/spr16add.c:82, elecbyte-lib/spr16sub.c:54, elecbyte-lib/vbuf.c:49, elecbyte-lib/spr16-lb.c:47	HYPOTHESIS
+0x082c0898	4	V_BytesPerPixel	elecbyte-lib/vbuf.c	50%	elecbyte-lib/vbuf.c:1, elecbyte-lib/g-lib.c:1	HYPOTHESIS
+0x082c089c	4	W_Skip	elecbyte-lib/vbuf.c	100%	elecbyte-lib/vbuf.c:2	HYPOTHESIS
+0x082c08a0	4	W_Height	elecbyte-lib/vbuf.c	100%	elecbyte-lib/vbuf.c:1	HYPOTHESIS
+0x082c08a4	4	S_Width	elecbyte-lib/vbuf.c	42%	elecbyte-lib/vbuf.c:5, game/display.c:3, elecbyte-lib/g-lib.c:3, elecbyte-lib/gui-lib.c:1	HYPOTHESIS
+0x082c08a8	4	S_Height	elecbyte-lib/vbuf.c	46%	elecbyte-lib/vbuf.c:6, game/display.c:3, elecbyte-lib/g-lib.c:3, elecbyte-lib/gui-lib.c:1	HYPOTHESIS
+0x082c08ac	4	V_ColDepth	elecbyte-lib/spr-lib.c	97%	elecbyte-lib/spr-lib.c:186, elecbyte-lib/vbuf.c:3, elecbyte-lib/g-lib.c:1, elecbyte-lib/bg-lib.c:1	STRONGLY INFERRED
+0x082c08b0	4	W_x2	elecbyte-lib/spr16add.c	33%	elecbyte-lib/spr16add.c:72, elecbyte-lib/vbuf.c:52, elecbyte-lib/spr16sub.c:44, elecbyte-lib/spr16-lb.c:37	HYPOTHESIS
+0x082c08b4	4	V_Width	game/menus.c	31%	game/menus.c:21, game/gameloop.c:16, elecbyte-lib/vbuf.c:11, elecbyte-lib/bg-lib.c:11	HYPOTHESIS
+0x082c08b8	4	W_y1	elecbyte-lib/spr16add.c	30%	elecbyte-lib/spr16add.c:68, elecbyte-lib/spr16sub.c:52, elecbyte-lib/vbuf.c:49, elecbyte-lib/spr16-lb.c:46	HYPOTHESIS
+0x082c08c0	385	uinpflag	elecbyte-lib/input-lb.c	81%	elecbyte-lib/input-lb.c:22, game/p-make.c:3, game/charsel.c:1, elecbyte-lib/inp-kbi.c:1	STRONGLY INFERRED
+0x082c0a60	257	keyflag	game/gameloop.c	48%	game/gameloop.c:14, elecbyte-lib/kbll-lib.c:9, elecbyte-lib/input-lb.c:3, game/menus.c:2	HYPOTHESIS
+0x082c0b61	1	keypauseflag	game/gameloop.c	42%	game/gameloop.c:5, game/menus.c:4, elecbyte-lib/kbll-lib.c:2, game/match.c:1	HYPOTHESIS
+0x082c0b80	129	padflag	elecbyte-lib/pad-lib.c	83%	elecbyte-lib/pad-lib.c:5, elecbyte-lib/input-lb.c:1	STRONGLY INFERRED
+0x082c0c04	4	TimerFPS	game/menus.c	33%	game/menus.c:1, game/st-trig.c:1, elecbyte-lib/time-lib.c:1	HYPOTHESIS
+0x082c0c08	4	Ticks	elecbyte-lib/time-lib.c	47%	elecbyte-lib/time-lib.c:7, game/match.c:4, game/p-make.c:2, game/main.c:2	HYPOTHESIS
+0x082c0c0c	4	FPSUpdateTicks	elecbyte-lib/time-lib.c	100%	elecbyte-lib/time-lib.c:4	STRONGLY INFERRED
+0x082c0c10	4	SyncRate	elecbyte-lib/time-lib.c	100%	elecbyte-lib/time-lib.c:5	STRONGLY INFERRED
+0x082c0c14	4	TicksUpdate	elecbyte-lib/time-lib.c	100%	elecbyte-lib/time-lib.c:2	HYPOTHESIS
+0x082c0c18	4	SyncCur	elecbyte-lib/time-lib.c	100%	elecbyte-lib/time-lib.c:12	STRONGLY INFERRED
+0x082c0c1c	4	SyncLast	elecbyte-lib/time-lib.c	100%	elecbyte-lib/time-lib.c:7	STRONGLY INFERRED
+0x082c0c20	4	TicksPerSecond	elecbyte-lib/time-lib.c	60%	elecbyte-lib/time-lib.c:3, game/init.c:2	HYPOTHESIS
+0x082c0c24	4	InSync	elecbyte-lib/time-lib.c	100%	elecbyte-lib/time-lib.c:5	STRONGLY INFERRED
+0x082c0c40	4	num_windows	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:7	STRONGLY INFERRED
+0x082c0c44	4	GUI_state	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:11	STRONGLY INFERRED
+0x082c0c48	4	GUI_root	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:8	STRONGLY INFERRED
+0x082c0c4c	4	EB_ListTail	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:15	STRONGLY INFERRED
+0x082c0c60	2048	window_order	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:2	HYPOTHESIS
+0x082c1460	4	EB_ListHead	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:8	STRONGLY INFERRED
+0x082c1464	4	GUI_globalfont	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:8	STRONGLY INFERRED
+0x082c1468	4	EB_ListCurrent	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:1	HYPOTHESIS
+0x082c146c	4	has_focus	elecbyte-lib/gui-lib.c	100%	elecbyte-lib/gui-lib.c:13	STRONGLY INFERRED
+0x082c1480	512	MyStack	game/st-trig.c	60%	game/st-trig.c:59, game/arith.c:33, game/state-i.c:6	HYPOTHESIS
+0x082c1680	36864	ci	-	-	-	UNKNOWN (no reference in the reconstruction)

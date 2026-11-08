@@ -1,0 +1,35 @@
+=== debian11-i386 (library/debian:bullseye 386)
+original, title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  match (vs Debian 11 original):  595/600 frames identical
+rebuilt,  match (vs rebuilt on Debian 11): 600/600 frames identical
+=== debian12-i386 (library/debian:bookworm 386)
+original, title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  match (vs Debian 11 original):  595/600 frames identical
+rebuilt,  match (vs rebuilt on Debian 11): 600/600 frames identical
+=== ubuntu2404 (library/ubuntu:24.04 amd64)
+original, title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  match (vs Debian 11 original):  595/600 frames identical
+rebuilt,  match (vs rebuilt on Debian 11): 600/600 frames identical
+=== fedora42 (library/fedora:42 amd64)
+original, title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  match (vs Debian 11 original):  595/600 frames identical
+rebuilt,  match (vs rebuilt on Debian 11): 600/600 frames identical
+=== archlinux (library/archlinux:latest amd64)
+original, title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  match (vs Debian 11 original):  595/600 frames identical
+rebuilt,  match (vs rebuilt on Debian 11): 600/600 frames identical
+=== opensuse-tw (opensuse/tumbleweed:latest amd64)
+original, title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  match (vs Debian 11 original):  595/600 frames identical
+rebuilt,  match (vs rebuilt on Debian 11): 600/600 frames identical
+=== alpine322-x86 (library/alpine:3.22 386)
+original, title (vs Debian 11 original):  90/90 frames identical
+rebuilt,  title (vs Debian 11 original):  0/0 frames identical
+rebuilt,  match (vs Debian 11 original):  0/0 frames identical
+rebuilt,  match (vs rebuilt on Debian 11): 0/0 frames identical

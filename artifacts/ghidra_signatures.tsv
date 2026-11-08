@@ -1,0 +1,1307 @@
+08048200	AnimRCReadFile	int * AnimRCReadFile(char * param_1)	1
+08048290	AnimRCReadFileTP	int * AnimRCReadFileTP(int param_1)	1
+08048830	AnimElemParseLine	bool AnimElemParseLine(char * param_1, int param_2, undefined4 param_3, int param_4)	4
+080489b0	AnimElemProcessFlipFlags	uint AnimElemProcessFlipFlags(char * param_1)	1
+08048a00	AnimElemProcessDrawFlags	undefined4 AnimElemProcessDrawFlags(char * param_1, uint * param_2, uint * param_3)	3
+08048b40	AnimRCFree	undefined4 AnimRCFree(int * param_1)	1
+08048bf0	AnimNew	undefined4 * AnimNew(undefined4 param_1, undefined4 param_2)	2
+08048c40	AnimSet	void AnimSet(undefined4 * param_1, undefined4 param_2, undefined4 param_3)	3
+08048c70	AnimCopy	void AnimCopy(undefined4 * param_1, undefined4 * param_2)	2
+08048c90	AnimFree	undefined4 AnimFree(void * param_1)	1
+08048cd0	AnimUpdate	undefined4 AnimUpdate(undefined4 * param_1)	1
+08048d70	AnimUpdateElemptr	undefined4 AnimUpdateElemptr(undefined4 * param_1)	1
+08048dd0	AnimResetAction	void AnimResetAction(int * param_1)	1
+08048e10	AnimChangeAction	undefined4 AnimChangeAction(int * param_1, int param_2, int param_3)	3
+08048e30	AnimChangeActionTime	undefined4 AnimChangeActionTime(int * param_1, int param_2, int param_3, int param_4)	4
+08048ec0	AnimChangeActionElem	undefined4 AnimChangeActionElem(int * param_1, int param_2, int param_3, int param_4)	4
+08048f60	AnimDraw	void AnimDraw(undefined4 * param_1, int param_2, int param_3)	3
+08048f80	AnimDrawFlip	void AnimDrawFlip(undefined4 * param_1, int param_2, int param_3, uint param_4)	4
+080491e0	AnimDrawScale	void AnimDrawScale(undefined4 * param_1, int param_2, int param_3, float param_4, float param_5)	5
+08049210	AnimDrawScaleFlip	void AnimDrawScaleFlip(undefined4 * param_1, int param_2, int param_3, float param_4, float param_5, uint param_6)	6
+08049540	AnimDrawRotateFlip	void AnimDrawRotateFlip(undefined4 * param_1, int param_2, int param_3, float param_4, float param_5, float param_6, uint param_7)	7
+08049880	AnimCurIDGrp	void AnimCurIDGrp(undefined4 * param_1)	1
+080498a0	AnimCurIDno	undefined4 AnimCurIDno(undefined4 * param_1)	1
+080498c0	AnimCurElemStartTime	undefined4 AnimCurElemStartTime(undefined4 * param_1, int param_2)	2
+08049900	AnimElemNo	undefined4 AnimElemNo(undefined4 * param_1, int param_2)	2
+080499a0	AnimIdxToIDGrp	void AnimIdxToIDGrp(undefined4 * param_1, int param_2)	2
+080499c0	AnimIdxToIDno	void AnimIdxToIDno(undefined4 * param_1, int param_2)	2
+080499e0	AnimGrpNoToIdx	undefined4 AnimGrpNoToIdx(undefined4 * param_1, int param_2, int param_3)	3
+08049a00	AnimGetLooptime	undefined4 AnimGetLooptime(undefined4 * param_1)	1
+08049a20	AnimGetLooptimeID	undefined4 AnimGetLooptimeID(undefined4 * param_1, int param_2, int param_3)	3
+08049a50	AnimGetLoopstarttime	undefined4 AnimGetLoopstarttime(undefined4 * param_1)	1
+08049a70	AnimGetLoopstarttimeID	undefined4 AnimGetLoopstarttimeID(undefined4 * param_1, int param_2, int param_3)	3
+08049aa0	AnimGetTime	undefined4 AnimGetTime(int param_1)	1
+08049ab0	AnimGetCorrectedTime	undefined4 AnimGetCorrectedTime(undefined4 * param_1)	1
+08049ae0	AnimCurSpriteIdx	undefined4 AnimCurSpriteIdx(int param_1)	1
+08049af0	PRSprArrayNew	undefined4 * PRSprArrayNew(size_t param_1)	1
+08049b70	PRSprArrayFree	undefined4 PRSprArrayFree(undefined4 * param_1)	1
+08049bb0	PRSprArrayClear	void PRSprArrayClear(int * param_1)	1
+08049bc0	PRSprAdd	undefined4 PRSprAdd(int * param_1, int * param_2)	2
+08049c60	PRSprDraw	void PRSprDraw(int param_1)	1
+08049dd0	PRSprArrayDraw	void PRSprArrayDraw(int * param_1)	1
+08049e10	PRSprArrayScale	undefined4 PRSprArrayScale(int * param_1, float param_2)	2
+08049ef0	AnimPerUpdate	byte AnimPerUpdate(int param_1)	1
+08049f20	AnimPerDraw	void AnimPerDraw(int * param_1, int param_2, int param_3)	3
+08049f60	AnimPerDrawScale	void AnimPerDrawScale(int * param_1, int param_2, int param_3, float param_4)	4
+0804a000	AnimPerArrayNew	undefined4 AnimPerArrayNew(size_t param_1)	1
+0804a050	AnimPerArrayFree	void AnimPerArrayFree(undefined4 * param_1)	1
+0804a080	AnimPerArrayAdd	uint AnimPerArrayAdd(int * param_1, undefined4 param_2, undefined4 param_3, int param_4, int param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9)	9
+0804a150	AnimPerArraySetNo	void AnimPerArraySetNo(int * param_1, int param_2, undefined4 param_3)	3
+0804a170	AnimPerArrayDelete	void AnimPerArrayDelete(int * param_1, int param_2)	2
+0804a180	AnimPerArrayClear	void AnimPerArrayClear(int * param_1)	1
+0804a190	AnimPerArrayUpdate	undefined4 AnimPerArrayUpdate(int * param_1)	1
+0804a1e0	AnimPerArrayUpdateGrp	void AnimPerArrayUpdateGrp(int * param_1, uint param_2)	2
+0804a250	AnimPerArrayDraw	void AnimPerArrayDraw(int * param_1, int param_2, int param_3)	3
+0804a290	AnimPerArrayDrawGrp	void AnimPerArrayDrawGrp(int * param_1, uint param_2, int param_3, int param_4)	4
+0804a2f0	AnimPerArrayDrawScaleGrp	void AnimPerArrayDrawScaleGrp(int * param_1, uint param_2, int param_3, int param_4, float param_5)	5
+0804a350	FlipFlagMix	uint FlipFlagMix(uint param_1, uint param_2)	2
+0804a360	AnimDrawSprFlip	void AnimDrawSprFlip(int * param_1, int param_2, int param_3, int param_4, int param_5, undefined4 param_6, int param_7, int param_8)	8
+0804a650	AnimScaleSpr_S	void AnimScaleSpr_S(int * param_1, int param_2, int param_3, int param_4, float param_5, float param_6, undefined4 param_7, int param_8, int param_9)	9
+0804a790	AnimRotateSpr	void AnimRotateSpr(int * param_1, int param_2, int param_3, int param_4, float param_5, float param_6, float param_7, float param_8, float param_9, undefined4 param_10, int param_11, int param_12)	12
+0804a900	AlphaMixSrc	int AlphaMixSrc(int param_1, int param_2)	2
+0804a910	AlphaMixDest	int AlphaMixDest(int param_1, int param_2)	2
+0804a930	ArrayNew	undefined4 * ArrayNew(size_t param_1, size_t param_2, undefined4 param_3)	3
+0804a9c0	ArrayCopy	undefined4 * ArrayCopy(undefined4 * param_1)	1
+0804aa80	ArrayCopyOnto	undefined4 * ArrayCopyOnto(undefined4 * param_1, undefined4 * param_2)	2
+0804ab00	ArrayFree	undefined4 ArrayFree(void * param_1)	1
+0804ab50	ArrayHasSpace	bool ArrayHasSpace(int param_1)	1
+0804ab60	ArrayAdd	int ArrayAdd(int param_1, void * param_2, undefined4 param_3, undefined4 param_4)	4
+0804abf0	ArrayAddUnique	uint ArrayAddUnique(int param_1, void * param_2, int param_3, int param_4)	4
+0804ac50	ArrayAddResize	int ArrayAddResize(int param_1, void * param_2, undefined4 param_3, undefined4 param_4)	4
+0804acb0	ArrayAddUniqueResize	uint ArrayAddUniqueResize(int param_1, void * param_2, int param_3, int param_4)	4
+0804ad10	ArrayDelete	void ArrayDelete(int param_1, int param_2)	2
+0804ada0	ArrayClear	void ArrayClear(int param_1)	1
+0804adf0	ArrayResize	undefined4 ArrayResize(int param_1, int param_2)	2
+0804aea0	ArrayFindEmpty	int ArrayFindEmpty(int param_1)	1
+0804af20	ArrayAccessSafe	int ArrayAccessSafe(int param_1, int param_2)	2
+0804af40	ArrayFind	uint ArrayFind(int param_1, int param_2, int param_3)	3
+0804afe0	ArrayAccessGrpItem	undefined4 ArrayAccessGrpItem(int param_1, int param_2, int param_3)	3
+0804b020	ArrayIdxToGrp	undefined4 ArrayIdxToGrp(int param_1, int param_2)	2
+0804b040	ArrayIdxToItem	undefined4 ArrayIdxToItem(int param_1, int param_2)	2
+0804b060	ArrayScanFirst	int ArrayScanFirst(int param_1)	1
+0804b090	ArrayScanNext	int ArrayScanNext(int param_1)	1
+0804b0d0	ArrayAccessUnsafe	int ArrayAccessUnsafe(int param_1, int param_2)	2
+0804b0f0	BGArrayReadFile	void BGArrayReadFile(char * param_1, char * param_2)	2
+0804b110	BGArrayReadFileSA	char * BGArrayReadFileSA(char * param_1, char * param_2, int param_3, int param_4)	4
+0804b1d0	BGArrayReadTP	char * BGArrayReadTP(char * param_1, char * param_2, char * param_3, int param_4, int param_5)	5
+0804bcf0	BGArrayReadCtrlTP	undefined4 BGArrayReadCtrlTP(int param_1, int param_2, undefined4 param_3)	3
+0804c350	BGArrayNew	undefined4 BGArrayNew(size_t param_1, undefined4 param_2)	2
+0804c3c0	BGArrayFree	undefined4 BGArrayFree(int param_1)	1
+0804c580	BGArrayAdd	int BGArrayAdd(int param_1, undefined4 param_2, int param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9, undefined4 param_10, undefined4 param_11, int param_12, int param_13)	13
+0804c6d0	BGArrayAddAnim	int BGArrayAddAnim(int param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, int param_7)	7
+0804c7b0	BGArraySetViewScale	void BGArraySetViewScale(int param_1, undefined4 param_2)	2
+0804c7f0	BGArrayMove	undefined4 BGArrayMove(float * param_1, float param_2, float param_3)	3
+0804c810	BGArrayMoveOffset	void BGArrayMoveOffset(float * param_1, float param_2, float param_3, int param_4, int param_5)	5
+0804ca00	BGArrayDraw	void BGArrayDraw(int param_1)	1
+0804ca60	BGArrayDrawLayer	void BGArrayDrawLayer(int param_1, int param_2)	2
+0804cad0	BGArrayUpdate	void BGArrayUpdate(int param_1)	1
+0804cbb0	BGArrayCtrlUpdate	void BGArrayCtrlUpdate(int param_1)	1
+0804ce80	BGArrayReset	void BGArrayReset(int param_1)	1
+0804cf70	BGAccess	undefined4 BGAccess(int param_1, int param_2)	2
+0804cf90	BGAccessID	int BGAccessID(int param_1, int param_2)	2
+0804cfd0	BGParalSetup	undefined4 BGParalSetup(int param_1, undefined4 * param_2, int param_3, int param_4, undefined4 param_5, undefined4 param_6, uint param_7, undefined4 param_8)	8
+0804d1f0	BGDraw	void BGDraw(int param_1, int * param_2)	2
+0804d510	BGNormalDrawTile	void BGNormalDrawTile(int param_1, int param_2)	2
+0804d890	BGAnimDrawTile	void BGAnimDrawTile(undefined4 param_1, int param_2)	2
+0804da00	BGParalDraw	void BGParalDraw(int param_1, int param_2)	2
+0804da20	BGParalDrawScale	void BGParalDrawScale(int param_1, int param_2, int param_3)	3
+0804dab0	BGParalDraw8to16	void BGParalDraw8to16(int param_1, int param_2, int param_3)	3
+0804dfb0	BGParalDraw8to16_2X	void BGParalDraw8to16_2X(void)	0
+0804dfc0	BGParalDraw8to16Flat	void BGParalDraw8to16Flat(int param_1, int param_2, int param_3)	3
+0804e420	BGParalDraw8to16Flat2X	void BGParalDraw8to16Flat2X(void)	0
+0804e430	BGParalDraw16	void BGParalDraw16(void)	0
+0804e440	ClipboardNew	int * ClipboardNew(int param_1, size_t param_2)	2
+0804e4e0	ClipboardFree	undefined4 ClipboardFree(undefined4 * param_1)	1
+0804e530	ClipboardClear	void ClipboardClear(undefined4 * param_1)	1
+0804e550	ClipboardPrint	void ClipboardPrint(int * param_1, char * param_2, ...)	2
+0804e5a0	ClipboardAppend	undefined4 ClipboardAppend(int * param_1, char * param_2, ...)	2
+0804e660	ClsnArrayNew	undefined4 ClsnArrayNew(size_t param_1)	1
+0804e6c0	ClsnArrayFree	undefined4 ClsnArrayFree(void * param_1)	1
+0804e700	ClsnArrayCopy	undefined4 ClsnArrayCopy(undefined4 * param_1)	1
+0804e750	ClsnArrayInstance	undefined4 ClsnArrayInstance(int param_1)	1
+0804e760	ClsnArrayAdd	bool ClsnArrayAdd(int param_1, undefined4 * param_2)	2
+0804e7b0	ClsnArrayAddRect	void ClsnArrayAddRect(int param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5)	5
+0804e800	ClsnParseLine	void * ClsnParseLine(int param_1, int param_2)	2
+0804ec00	ClsnMixDetectRectIndiv	undefined4 ClsnMixDetectRectIndiv(int param_1, int param_2, int param_3, int param_4)	4
+0804ec80	ClsnMixDetectRect	undefined4 ClsnMixDetectRect(int param_1, int param_2, int param_3, int param_4)	4
+0804ed00	ClsnMixDetectRectHFlip1	undefined4 ClsnMixDetectRectHFlip1(int param_1, int param_2, int param_3, int param_4)	4
+0804eda0	ClsnMixDetectRectHFlipAll	undefined4 ClsnMixDetectRectHFlipAll(int param_1, int param_2, int param_3, int param_4)	4
+0804ee40	ClsnArrayDetectRect	undefined4 ClsnArrayDetectRect(int * param_1, int * param_2, int param_3, int param_4)	4
+0804eec0	ClsnArrayDetectRectFlip	undefined4 ClsnArrayDetectRectFlip(int * param_1, int * param_2, int param_3, int param_4, int param_5, int param_6)	6
+0804f030	ClsnDetectRect	undefined4 ClsnDetectRect(int param_1, int param_2, int param_3, int param_4)	4
+0804f080	ClsnDetectRectHFlip1	undefined4 ClsnDetectRectHFlip1(int param_1, int param_2, int param_3, int param_4)	4
+0804f0e0	ClsnDetectRectHFlipAll	undefined4 ClsnDetectRectHFlipAll(int param_1, int param_2, int param_3, int param_4)	4
+0804f140	KBUpdateHold	void KBUpdateHold(int param_1, int param_2)	2
+0804f160	KBFillBuffer	undefined4 KBFillBuffer(int param_1, int param_2, uint param_3, int param_4)	4
+0804f3a0	KBClearCommandValidTimes	void KBClearCommandValidTimes(undefined4 * param_1)	1
+0804f3c0	KBClearCommandLastTimes	void KBClearCommandLastTimes(int param_1)	1
+0804f3e0	KBCountdownCommandValidTimes	void KBCountdownCommandValidTimes(int param_1, char param_2, int param_3)	3
+0804f420	KBCommandIsValid	bool KBCommandIsValid(int param_1, int param_2)	2
+0804f440	KBGetCommand	void KBGetCommand(int param_1, int * param_2, int param_3, undefined4 param_4)	4
+0804f470	KBGetCommandSpecial	undefined4 KBGetCommandSpecial(int param_1, int * param_2, int param_3, undefined4 param_4, uint param_5)	5
+0804f5b0	KBGetHoldFlag	uint KBGetHoldFlag(int param_1)	1
+0804f660	KBKeyMap	uint KBKeyMap(undefined4 param_1, uint param_2)	2
+0804f700	KBKeyIndex	int KBKeyIndex(int param_1)	1
+0804f720	CharMatch	undefined4 CharMatch(int param_1, int param_2, uint param_3)	3
+0804f830	PatternMatch	undefined4 PatternMatch(int param_1, int * param_2, undefined4 * param_3)	3
+0804f960	KBTimeStuffBuf	void KBTimeStuffBuf(int param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4)	4
+0804f9e0	SceneReadFile	undefined4 * SceneReadFile(char * param_1, char * param_2, int param_3, int param_4)	4
+0804faa0	SceneReadTP	undefined4 * SceneReadTP(char * param_1, char * param_2, char * param_3, int param_4, int param_5)	5
+0804fb50	SiSceneReadTP	int * SiSceneReadTP(char * param_1, char * param_2, char * param_3, int param_4, int param_5)	5
+080503b0	SceneRegisterBGMFn	void SceneRegisterBGMFn(int * param_1, undefined4 param_2, undefined4 param_3)	3
+080503e0	SceneReset	void SceneReset(int * param_1)	1
+08050410	SiSceneReset	void SiSceneReset(int param_1)	1
+080504b0	SceneUpdate	undefined4 SceneUpdate(int * param_1)	1
+080504e0	SiSceneUpdate	undefined4 SiSceneUpdate(int * param_1)	1
+08050830	SceneUpdatePal	void SceneUpdatePal(int * param_1)	1
+08050860	SiSceneUpdatePal	void SiSceneUpdatePal(int * param_1)	1
+08050970	SceneDraw	void SceneDraw(int * param_1)	1
+080509a0	SiSceneDraw	void SiSceneDraw(int * param_1)	1
+08050b80	SceneFree	undefined4 SceneFree(void * param_1)	1
+08050bd0	SiSceneFree	undefined4 SiSceneFree(int * param_1)	1
+08050cd0	ecalloc	undefined4 ecalloc(size_t param_1, size_t param_2)	2
+08050d00	ErrorSet	undefined4 ErrorSet(undefined4 param_1)	1
+08050d10	ErrorGet	int ErrorGet(void)	0
+08050d20	ErrorGetStr	char * ErrorGetStr(void)	0
+08050d70	CheckExtension	undefined4 CheckExtension(char * param_1)	1
+08050f00	igetw	uint igetw(_IO_FILE * param_1)	1
+08050f40	igetl	uint igetl(_IO_FILE * param_1)	1
+08050fb0	strimatch	undefined4 strimatch(char * param_1, char * param_2)	2
+08051000	strimatchlen	undefined4 strimatchlen(int param_1, int param_2, int param_3)	3
+08051050	strmatchlen	undefined4 strmatchlen(int param_1, int param_2, int param_3)	3
+08051090	strtoupper	void strtoupper(undefined1 * param_1, char * param_2)	2
+080510c0	splitdirfile	undefined4 splitdirfile(char * param_1, char * param_2, char * param_3)	3
+08051140	joindirfile	undefined4 joindirfile(char * param_1, char * param_2, char * param_3)	3
+080511c0	isabsolutedir	undefined4 isabsolutedir(char * param_1)	1
+080511f0	ffilelength	long ffilelength(FILE * param_1)	1
+08051230	strcpyslash	void strcpyslash(int param_1, char * param_2)	2
+08051260	IntSwap	void IntSwap(undefined4 * param_1, undefined4 * param_2)	2
+08051280	IntMin	int IntMin(int param_1, int param_2)	2
+08051290	IntMax	int IntMax(int param_1, int param_2)	2
+080512a0	DebugErrorExit	void DebugErrorExit(int param_1)	1
+08051300	MFgetc	uint MFgetc(int * param_1)	1
+08051350	MFfgets	char * MFfgets(char * s, int n, int * mf)	3
+080513f0	MFfread	size_t MFfread(void * ptr, size_t size, size_t n, int * mf)	4
+080514a0	MFfeof	int MFfeof(int * param_1)	1
+080514e0	MFfopenFile	undefined4 MFfopenFile(char * param_1, char * param_2)	2
+08051540	MFfopenMem	undefined4 * MFfopenMem(int param_1, int param_2)	2
+08051580	MFzopen	undefined4 MFzopen(int * param_1, char * param_2)	2
+08051650	MFzclose	void MFzclose(int param_1)	1
+08051660	MFfopenZip	int * MFfopenZip(char * param_1, char * param_2)	2
+080516d0	MFfclose	undefined4 MFfclose(int * param_1)	1
+08051770	MFfseek	undefined4 MFfseek(int * param_1, int param_2, int param_3)	3
+08051810	MFftell	int MFftell(int * param_1)	1
+08051850	MFigetw	uint MFigetw(int * param_1)	1
+08051890	MFigetl	uint MFigetl(int * param_1)	1
+08051900	roundfloat	int roundfloat(float param_1)	1
+08051960	_getfileonly	undefined4 _getfileonly(char * param_1)	1
+08051990	V_FontDrawLine	void V_FontDrawLine(char * param_1, int * param_2, int param_3, int param_4, uint param_5)	5
+08051c00	V_FontDrawLineBank	void V_FontDrawLineBank(char * param_1, int * param_2, int param_3, int param_4, int param_5)	5
+08051fd0	V_FontDraw	void V_FontDraw(char * param_1, int * param_2, int param_3, int param_4, uint param_5)	5
+08052000	V_FontDrawRight	undefined4 V_FontDrawRight(char * param_1, int * param_2, int param_3, int param_4, uint param_5)	5
+08052030	V_FontDrawCenter	undefined4 V_FontDrawCenter(char * param_1, int * param_2, int param_3, int param_4, uint param_5)	5
+08052060	V_FontDrawBank	void V_FontDrawBank(char * param_1, int * param_2, int param_3, int param_4, int param_5)	5
+08052090	V_FontDrawRightBank	undefined4 V_FontDrawRightBank(char * param_1, int * param_2, int param_3, int param_4, int param_5)	5
+080520c0	V_FontDrawCenterBank	void V_FontDrawCenterBank(char * param_1, int * param_2, int param_3, int param_4, int param_5)	5
+080520f0	V_FontWrite	void V_FontWrite(int * param_1, int param_2, int param_3, uint param_4, char * param_5, ...)	5
+08052150	V_FontWriteRight	void V_FontWriteRight(int * param_1, int param_2, int param_3, uint param_4, char * param_5, ...)	5
+080521b0	V_FontWriteBank	void V_FontWriteBank(int * param_1, int param_2, int param_3, int param_4, char * param_5, ...)	5
+08052210	V_FontDrawAlign_I	void V_FontDrawAlign_I(char * param_1, int * param_2, int param_3, int param_4, int param_5, uint param_6, int param_7)	7
+08052410	V_FontDrawAlign	void V_FontDrawAlign(char * param_1, int * param_2, int param_3, int param_4, int param_5, uint param_6)	6
+08052440	V_FontDrawAlignBank	undefined4 V_FontDrawAlignBank(char * param_1, int * param_2, int param_3, int param_4, int param_5, int param_6)	6
+08052470	FontReadFile	undefined4 FontReadFile(char * param_1)	1
+080524b0	FontReadFilePtr	undefined4 FontReadFilePtr(FILE * param_1)	1
+08052530	FontReadFilePtr_0_01	void * FontReadFilePtr_0_01(FILE * param_1, int param_2)	2
+08052970	FontFree	undefined4 FontFree(void * param_1)	1
+080529b0	FontGetWidth	int FontGetWidth(int param_1, char * param_2)	2
+08052a10	FontGetWidthQuick	int FontGetWidthQuick(int param_1, char * param_2)	2
+08052a50	G_Init	bool G_Init(void)	0
+08052aa0	G_DeInit	undefined4 G_DeInit(void)	0
+08052b00	G_SetRenderMode	undefined4 G_SetRenderMode(int param_1)	1
+08052b20	G_SetMode	undefined4 G_SetMode(uint param_1, int param_2, int param_3, undefined4 param_4)	4
+08052cc0	G_MakeColor	undefined4 G_MakeColor(undefined4 param_1, int param_2, int param_3)	3
+08052cd0	G_SetRGBtoBGR	void G_SetRGBtoBGR(int param_1)	1
+08052d10	G_SetBlitMode	undefined4 G_SetBlitMode(int param_1, uint param_2)	2
+08052e50	G_PageFlip	void G_PageFlip(void)	0
+08052ea0	VGA_Cls	void VGA_Cls(void)	0
+08052ec0	VRetrace	undefined4 VRetrace(void)	0
+08052ed0	sgn	int sgn(uint param_1)	1
+08052ef0	GetDrawType	undefined4 GetDrawType(char * param_1, undefined4 * param_2, undefined4 * param_3)	3
+08052fc0	Trig_Init	undefined4 Trig_Init(void)	0
+08053080	Trig_DeInit	undefined4 Trig_DeInit(void)	0
+080530b0	V_DoubleRes	void V_DoubleRes(uint * param_1, int param_2)	2
+08053150	V_DoubleResDiag	void V_DoubleResDiag(int * param_1, int param_2)	2
+08053410	V_DoubleResBlur	void V_DoubleResBlur(int * param_1, int param_2)	2
+08053880	V_DoubleResLines	void V_DoubleResLines(uint * param_1, int param_2)	2
+08053910	ElecInit	bool ElecInit(void)	0
+08053960	ElecDeInit	undefined4 ElecDeInit(void)	0
+08053970	KBIClearKeyflags	void KBIClearKeyflags(int param_1)	1
+08053990	KBIRefreshKeyflags	void KBIRefreshKeyflags(int param_1, int param_2)	2
+08053a10	KBISetFlip	void KBISetFlip(int param_1, int param_2)	2
+08053ab0	KBIUpdate	undefined4 KBIUpdate(int param_1, int param_2, uint param_3)	3
+08053af0	KBIStuffBuf	undefined4 KBIStuffBuf(int param_1, uint param_2)	2
+08053b20	KBIStuffBufNoFlip	undefined4 KBIStuffBufNoFlip(int param_1, uint param_2)	2
+08053b90	KBIGetch	undefined4 KBIGetch(int param_1)	1
+08053bc0	KBIClearAll	undefined4 KBIClearAll(int param_1)	1
+08053c00	KBIIs6Button	undefined4 KBIIs6Button(uint param_1, int param_2)	2
+08053c40	KBIIs6ButtonOrStart	bool KBIIs6ButtonOrStart(uint param_1, int param_2)	2
+08053c80	KBIKeyMap	uint KBIKeyMap(int param_1, uint param_2)	2
+08053cf0	KBIFlippedKey	uint KBIFlippedKey(int param_1, uint param_2)	2
+08053d30	KBIMenuGetKey	uint * KBIMenuGetKey(uint * param_1, int param_2, int param_3, int param_4)	4
+08053ee0	UInpKBHook	undefined4 UInpKBHook(uint param_1, int param_2)	2
+08053f60	UInpPadHook	void UInpPadHook(int param_1, int param_2)	2
+08053fe0	UInpInit	undefined4 UInpInit(void)	0
+08054070	UInpReInit	undefined4 UInpReInit(void)	0
+08054090	UInpDeInit	void UInpDeInit(void)	0
+080540c0	UInpRefreshFlags	void UInpRefreshFlags(void)	0
+080541a0	UInpSetKeyMap	undefined4 UInpSetKeyMap(undefined4 * param_1)	1
+080541f0	UInpGetKeyMap	undefined4 UInpGetKeyMap(undefined4 * param_1)	1
+08054230	UInpResetKeyMap	void UInpResetKeyMap(void)	0
+08054260	UInpStuff	undefined4 UInpStuff(undefined4 param_1)	1
+080542a0	UInpGet	undefined4 UInpGet(void)	0
+08054300	UInpHit	bool UInpHit(void)	0
+08054340	UInpBufClear	void UInpBufClear(void)	0
+08054360	KBToUInp	uint KBToUInp(uint param_1)	1
+080543c0	PadToUInp	uint PadToUInp(uint param_1)	1
+08054420	IntCircBufInit	bool IntCircBufInit(undefined4 * param_1, int param_2)	2
+08054470	IntCircBufDeInit	undefined4 IntCircBufDeInit(undefined4 * param_1)	1
+080544b0	IntCircBufIsValid	bool IntCircBufIsValid(int * param_1)	1
+080544c0	IntCircBufStuff	void IntCircBufStuff(int * param_1, undefined4 param_2)	2
+08054500	IntCircBufGet	undefined4 IntCircBufGet(int * param_1)	1
+08054540	IntCircBufIsEmpty	bool IntCircBufIsEmpty(int param_1)	1
+08054550	IntCircBufClear	void IntCircBufClear(int param_1)	1
+08054570	KBBufferRawHook	undefined4 KBBufferRawHook(uint param_1)	1
+08054630	KBInit	undefined4 KBInit(void)	0
+080546b0	KBPoll	void KBPoll(void)	0
+080546c0	KBDeInit	void KBDeInit(void)	0
+08054700	KBSuspend	void KBSuspend(void)	0
+08054710	KBResume	void KBResume(void)	0
+08054720	KBRefreshflags	void KBRefreshflags(void)	0
+08054790	KBReset	undefined4 KBReset(void)	0
+080547c0	KBRepeatSet	void KBRepeatSet(int param_1, int param_2)	2
+08054810	KBInstallHitHook	undefined4 KBInstallHitHook(undefined4 param_1)	1
+08054830	KBRemoveHitHook	void KBRemoveHitHook(void)	0
+08054840	KBLEDLockSet	void KBLEDLockSet(int param_1)	1
+08054860	KBLEDSet	void KBLEDSet(uint param_1)	1
+08054890	KBBufferChange	void KBBufferChange(undefined4 param_1)	1
+080548a0	KBBufferClear	void KBBufferClear(void)	0
+080548d0	KBungetchraw	void KBungetchraw(undefined4 param_1)	1
+08054940	KBgetchraw	undefined4 KBgetchraw(void)	0
+080549b0	KBkbhit	bool KBkbhit(void)	0
+080549d0	KBRawToChar	int KBRawToChar(int param_1)	1
+08054a20	KBGetNumLock	byte KBGetNumLock(void)	0
+08054a30	KBGetCapsLock	byte KBGetCapsLock(void)	0
+08054a40	KBGetScrollLock	byte KBGetScrollLock(void)	0
+08054a50	KBRawToName	undefined4 * KBRawToName(byte param_1)	1
+08054a70	KBInitAllegRemap	void KBInitAllegRemap(void)	0
+08054e60	KBLockVarFunc	void KBLockVarFunc(void)	0
+08054e70	KBAllegRemap	undefined4 KBAllegRemap(int param_1)	1
+08054e80	PadInit	undefined4 PadInit(undefined4 param_1, undefined4 param_2)	2
+08054f20	DeviceInit	undefined4 DeviceInit(void)	0
+08054f30	PadReset	undefined4 PadReset(void)	0
+08054f80	PadDeInit	void PadDeInit(void)	0
+08054fe0	PadPoll	int PadPoll(void)	0
+08055280	PadStuff	void PadStuff(undefined4 param_1)	1
+080552e0	PadGet	undefined4 PadGet(void)	0
+08055340	PadHit	bool PadHit(void)	0
+08055370	PadBufClear	void PadBufClear(void)	0
+08055390	PadInstallHitHook	undefined4 PadInstallHitHook(undefined4 param_1)	1
+080553b0	PadRemoveHitHook	void PadRemoveHitHook(void)	0
+080553c0	EBPalInit	undefined4 EBPalInit(int * param_1, int param_2, void * param_3, int param_4)	4
+08055460	EBPalDeInit	void EBPalDeInit(int param_1)	1
+080554a0	EBPalReset	undefined4 EBPalReset(int param_1)	1
+080554d0	EBPalCopy	undefined4 EBPalCopy(int * param_1, int * param_2, int param_3)	3
+08055540	EBPalGenerateFPal	void EBPalGenerateFPal(int * param_1)	1
+08055570	EBPalUpdate	void EBPalUpdate(int * param_1)	1
+08055660	EBPalSetDataptr	undefined4 EBPalSetDataptr(int * param_1, int param_2, int param_3)	3
+080556b0	EBPalGetDataptr	undefined4 EBPalGetDataptr(int param_1)	1
+080556c0	EBPalGetNumcols	undefined4 EBPalGetNumcols(undefined4 * param_1)	1
+080556d0	EBPalMarkDataChanged	void EBPalMarkDataChanged(int param_1)	1
+080556e0	EBPalSettingsReset	void EBPalSettingsReset(undefined4 * param_1)	1
+08055710	EBPalSettingsCopy	void EBPalSettingsCopy(undefined4 * param_1, undefined4 * param_2)	2
+08055730	EBPalSettingsMix	void EBPalSettingsMix(int * param_1, int * param_2, int * param_3)	3
+080557b0	EBPalSettingsAreSame	bool EBPalSettingsAreSame(byte * param_1, byte * param_2)	2
+080557e0	EBPalAdd	undefined4 EBPalAdd(int param_1, int param_2, int param_3, int param_4)	4
+08055830	EBPalMul	void EBPalMul(int param_1, int param_2, int param_3, int param_4)	4
+08055890	EBPalInvertAll	void EBPalInvertAll(int param_1, int param_2)	2
+080558c0	EBPalColorBal	undefined4 EBPalColorBal(int param_1, int param_2)	2
+080558f0	MasterPalInit	bool MasterPalInit(void)	0
+08055950	MasterPalDeInit	void MasterPalDeInit(void)	0
+08055980	MasterPalProcessChanges	void MasterPalProcessChanges(void)	0
+080559d0	MasterPalFinishedDraw	void MasterPalFinishedDraw(void)	0
+08055a00	MasterPalReset	void MasterPalReset(void)	0
+08055a30	MasterPalAdd	undefined4 MasterPalAdd(int param_1, int param_2, int param_3)	3
+08055a70	MasterPalMul	undefined4 MasterPalMul(int param_1, int param_2, int param_3)	3
+08055ab0	MasterPalInvertAll	void MasterPalInvertAll(int param_1)	1
+08055ad0	MasterPalColorBal	void MasterPalColorBal(int param_1)	1
+08055af0	MasterPalConvertCol16	undefined4 MasterPalConvertCol16(uint param_1)	1
+08055b80	Pal3toPal4	void Pal3toPal4(undefined1 * param_1, undefined1 * param_2, int param_3, int param_4)	4
+08055be0	Pal4Copy	void Pal4Copy(int param_1, int param_2, int param_3, int param_4)	4
+08055c30	Pal4SetSingle	void Pal4SetSingle(int param_1, int param_2, undefined1 param_3, undefined1 param_4, undefined1 param_5)	5
+08055c60	Pal4Contrast	void Pal4Contrast(int param_1, int param_2, int param_3, int param_4, int param_5)	5
+08055d00	Pal4ContrastRGB	void Pal4ContrastRGB(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7)	7
+08055dd0	Pal4Brightness	void Pal4Brightness(int param_1, int param_2, int param_3, int param_4, int param_5)	5
+08055ea0	Pal4BrightnessRGB	void Pal4BrightnessRGB(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7)	7
+08055f90	Pal4ColorBal	void Pal4ColorBal(int param_1, int param_2, int param_3, int param_4, int param_5)	5
+080560d0	Pal4InvertAll	void Pal4InvertAll(int param_1, int param_2, int param_3, int param_4)	4
+08056120	Pal4Read3File	undefined4 Pal4Read3File(int param_1, char * param_2)	2
+080561c0	Pal4Read3FilePtr	undefined4 Pal4Read3FilePtr(int param_1, int * param_2)	2
+08056260	Pal4ToFpal	void Pal4ToFpal(int param_1, int param_2, int param_3, int param_4)	4
+080562c0	Pal4SettingsToFpal	void Pal4SettingsToFpal(int param_1, int * param_2, int param_3, int param_4, int param_5)	5
+08056760	SndSetMode	void SndSetMode(undefined4 param_1)	1
+08056770	GetSndMode	int GetSndMode(void)	0
+08056780	SndSetBufReadMode	void SndSetBufReadMode(undefined4 param_1)	1
+08056790	GetNumVoices	int GetNumVoices(void)	0
+080567a0	SndInit	undefined4 SndInit(uint param_1, uint param_2, int param_3)	3
+08056a30	SndDeInit	void SndDeInit(void)	0
+08056ab0	SndDetectWavDevice	undefined4 SndDetectWavDevice(int param_1)	1
+08056af0	SndDetectMidiDevice	undefined4 SndDetectMidiDevice(int param_1)	1
+08056b30	SndSetReverseStereo	void SndSetReverseStereo(int param_1)	1
+08056b50	SndFree	void SndFree(void * param_1)	1
+08056b70	SndMidiFree	undefined4 SndMidiFree(void * param_1)	1
+08056b80	SndArrayNew	undefined4 * SndArrayNew(size_t param_1)	1
+08056bd0	SndArrayAdd	bool SndArrayAdd(int * param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4)	4
+08056c00	SndArrayFree	undefined4 SndArrayFree(undefined4 * param_1)	1
+08056c60	SndPlay	void SndPlay(int * param_1, int param_2, int param_3, undefined4 param_4)	4
+08056cb0	SndPlayLoop	void SndPlayLoop(int * param_1, int param_2, int param_3, undefined4 param_4)	4
+08056d00	SndPlayPanFreq	void SndPlayPanFreq(int * param_1, int param_2, int param_3, undefined4 param_4, int param_5, int param_6)	6
+08056d70	SndMidiPlay	void SndMidiPlay(int * param_1)	1
+08056da0	SndMidiPlayLoop	void SndMidiPlayLoop(int * param_1, undefined4 param_2, undefined4 param_3)	3
+08056dc0	SndMidiStop	void SndMidiStop(void)	0
+08056de0	SndMidiPause	void SndMidiPause(void)	0
+08056e00	SndMidiResume	void SndMidiResume(void)	0
+08056e20	SndMidiSeek	void SndMidiSeek(int param_1)	1
+08056e40	SndVoiceReserve	undefined4 SndVoiceReserve(int param_1)	1
+08056ec0	SndVoiceReserveAuto	undefined4 SndVoiceReserveAuto(void)	0
+08056f20	SndVoiceUnreserve	undefined4 SndVoiceUnreserve(int param_1)	1
+08056f80	SndVoiceUnreserveAll	undefined4 SndVoiceUnreserveAll(void)	0
+08056fb0	SndVoiceIsReserved	undefined4 SndVoiceIsReserved(int param_1)	1
+08056fd0	SndVoiceGetVoiceno	undefined4 SndVoiceGetVoiceno(int param_1)	1
+08056ff0	SndVoiceIsPlaying	uint SndVoiceIsPlaying(int param_1)	1
+08057040	SndVoiceIsFree	undefined4 SndVoiceIsFree(int param_1)	1
+08057090	SndVoiceGetFree	int SndVoiceGetFree(void)	0
+080570d0	SndVoicePlay	undefined4 SndVoicePlay(int param_1, int * param_2, int param_3, int param_4, undefined4 param_5)	5
+08057130	SndVoicePrepare	int SndVoicePrepare(int param_1, int * param_2, int param_3, int param_4)	4
+080571f0	SndVoiceStart	undefined4 SndVoiceStart(int param_1)	1
+08057230	SndVoiceStop	void SndVoiceStop(int param_1)	1
+08057290	SndVoiceStopAll	undefined4 SndVoiceStopAll(void)	0
+080572c0	SndVoiceSetVol	void SndVoiceSetVol(int param_1, int param_2)	2
+08057300	SndVoiceGetVol	int SndVoiceGetVol(int param_1)	1
+08057340	SndVoiceSetFreq	void SndVoiceSetFreq(int param_1, int param_2)	2
+08057380	SndVoiceGetFreq	undefined4 SndVoiceGetFreq(int param_1)	1
+080573c0	SndVoiceSetPan	void SndVoiceSetPan(int param_1, int param_2)	2
+08057410	SndVoiceGetPan	int SndVoiceGetPan(int param_1)	1
+08057460	SndVoiceSetLoop	void SndVoiceSetLoop(int param_1, int param_2)	2
+080574b0	SndVoiceCleanup	undefined4 SndVoiceCleanup(void)	0
+08057540	SndIDPlay	int SndIDPlay(int param_1, int * param_2, int param_3, int param_4, undefined4 param_5)	5
+080575a0	SndIDPrepare	int SndIDPrepare(int param_1, int * param_2, int param_3, int param_4)	4
+08057600	SndIDStart	void SndIDStart(int param_1)	1
+08057640	SndIDStop	void SndIDStop(int param_1)	1
+08057690	SndIDIsPlaying	uint SndIDIsPlaying(int param_1)	1
+080576d0	SndIDGetChannel	int SndIDGetChannel(int param_1)	1
+08057720	SndIDGetChannelOrFree	undefined4 SndIDGetChannelOrFree(int param_1)	1
+08057750	SndReadFile	int * SndReadFile(char * param_1)	1
+080578f0	SndMidiReadFile	uint * SndMidiReadFile(byte * param_1)	1
+08057900	SndReadFileWAVPtr	int * SndReadFileWAVPtr(int * param_1)	1
+08057be0	SndReadFileSNDPtr	int * SndReadFileSNDPtr(int * param_1)	1
+08057d00	SndSetVol	undefined4 SndSetVol(uint param_1, uint param_2)	2
+08057d60	SndGetVoiceVol	int SndGetVoiceVol(void)	0
+08057d70	SndGetMidiVol	int SndGetMidiVol(void)	0
+08057d80	SndCorrectVolOff	undefined4 SndCorrectVolOff(int param_1)	1
+08057db0	SndParseWavDevice	undefined4 SndParseWavDevice(char * param_1)	1
+08057e40	SndWavDeviceString	undefined4 * SndWavDeviceString(int param_1)	1
+08057e90	SndParseMidiDevice	undefined4 SndParseMidiDevice(char * param_1)	1
+08057f20	SndMidiDeviceString	undefined4 * SndMidiDeviceString(int param_1)	1
+08057f80	MP3Init	bool MP3Init(void)	0
+08057fb0	MP3DeInit	void MP3DeInit(void)	0
+08057fd0	MP3LoadAndPlay	undefined4 MP3LoadAndPlay(char * param_1, undefined4 param_2)	2
+08057ff0	MP3Unload	void MP3Unload(void)	0
+08058010	MP3Poll	void MP3Poll(void)	0
+08058040	MP3SetVol	void MP3SetVol(int param_1)	1
+08058060	MP3GetVol	undefined4 MP3GetVol(void)	0
+08058080	MP3Pause	void MP3Pause(void)	0
+08058090	MP3Resume	void MP3Resume(void)	0
+080580a0	MODInit	bool MODInit(int param_1)	1
+080580d0	MODDeInit	void MODDeInit(void)	0
+080580f0	MODLoad	undefined4 MODLoad(byte * param_1)	1
+08058150	MODUnload	undefined4 MODUnload(undefined4 * param_1)	1
+08058190	MODPlay	void MODPlay(int * param_1, int param_2)	2
+080581c0	MODStop	void MODStop(void)	0
+080581e0	MODPause	void MODPause(void)	0
+08058200	MODResume	void MODResume(void)	0
+08058220	MODSetVol	void MODSetVol(int param_1)	1
+08058240	MODGetVol	undefined4 MODGetVol(void)	0
+08058260	CDAInit	uint CDAInit(char * param_1)	1
+08058290	CDADeInit	void CDADeInit(void)	0
+080582c0	CDAPlay	undefined4 CDAPlay(uint param_1, int param_2)	2
+08058340	CDAStop	void CDAStop(void)	0
+08058380	CDAPause	void CDAPause(void)	0
+080583c0	CDAResume	void CDAResume(void)	0
+08058400	CDAPoll	void CDAPoll(void)	0
+08058460	CDAIsPlaying	bool CDAIsPlaying(void)	0
+08058490	CDAIsPaused	bool CDAIsPaused(void)	0
+080584c0	CDATrackIsAudio	uint CDATrackIsAudio(undefined1 param_1)	1
+080584e0	CDACurrentTrack	undefined1 CDACurrentTrack(void)	0
+08058510	CDAGetTrackRange	bool CDAGetTrackRange(uint * param_1, uint * param_2)	2
+08058550	CDASetVol	void CDASetVol(uint param_1)	1
+08058590	CDAGetVol	int CDAGetVol(void)	0
+080585d0	CDAEject	void CDAEject(void)	0
+080585f0	CDAClose	void CDAClose(void)	0
+08058610	SpriteInit	bool SpriteInit(int * param_1, int param_2, void * param_3, size_t param_4, int param_5, int param_6, int param_7, int param_8, int param_9, int param_10)	10
+080586e0	SpriteDeInit	void SpriteDeInit(int param_1)	1
+08058740	SpriteCopy	undefined4 SpriteCopy(undefined4 * param_1, undefined4 * param_2, int param_3)	3
+08058810	SpriteInitLine	int SpriteInitLine(int * param_1, void * param_2)	2
+08058880	SpriteUsePal	undefined4 SpriteUsePal(int param_1, int param_2, int param_3, int param_4)	4
+080588d0	SpriteSetAxis	void SpriteSetAxis(int param_1, undefined4 param_2, undefined4 param_3)	3
+080588f0	SpriteArrayNew	void SpriteArrayNew(void)	0
+08058900	SpriteArrayNewSize	undefined4 * SpriteArrayNewSize(size_t param_1, size_t param_2)	2
+08058960	SpriteArrayNewInstance	int * SpriteArrayNewInstance(int * param_1)	1
+08058a20	SpriteArrayNewInstanceOnto	int * SpriteArrayNewInstanceOnto(int * param_1, int * param_2)	2
+08058af0	SpriteArrayAddSprite	undefined4 SpriteArrayAddSprite(int * param_1, void * param_2, undefined4 param_3, undefined4 param_4)	4
+08058b40	SpriteArrayAddPal	undefined4 SpriteArrayAddPal(int param_1, void * param_2, undefined4 param_3, undefined4 param_4)	4
+08058ba0	SpriteArrayNumImages	undefined4 SpriteArrayNumImages(int * param_1)	1
+08058bb0	SpriteArrayNumPals	undefined4 SpriteArrayNumPals(int param_1)	1
+08058bc0	SpriteArrayFree	undefined4 SpriteArrayFree(int * param_1)	1
+08058c90	SpriteArrayClear	undefined4 SpriteArrayClear(int * param_1)	1
+08058d70	SpriteArrayGetNum	undefined4 SpriteArrayGetNum(int * param_1, int param_2, int param_3)	3
+08058d80	SpriteArrayPalGetNum	undefined4 SpriteArrayPalGetNum(int param_1, int param_2, int param_3)	3
+08058d90	SpriteArrayAccess	int SpriteArrayAccess(int * param_1, int param_2)	2
+08058db0	SpriteArrayAccessGrpItem	undefined4 SpriteArrayAccessGrpItem(int * param_1, int param_2, int param_3)	3
+08058dc0	SpriteArrayPalAccess	int SpriteArrayPalAccess(int param_1, int param_2)	2
+08058de0	SpriteArrayPalAccessGrpItem	void SpriteArrayPalAccessGrpItem(int param_1, int param_2, int param_3)	3
+08058df0	SpriteArrayPalUpdateAndAccess	int * SpriteArrayPalUpdateAndAccess(int param_1, int param_2)	2
+08058e20	SpriteArrayPalRemapFromRoot	bool SpriteArrayPalRemapFromRoot(int param_1, int param_2, int param_3)	3
+08058e70	SpriteArrayPalRemapFromRootGrpItem	bool SpriteArrayPalRemapFromRootGrpItem(int * param_1, int param_2, int param_3, int param_4, int param_5)	5
+08058ee0	ColDepthToBytesPerPixel	int ColDepthToBytesPerPixel(int param_1)	1
+08058ef0	SpriteDecompGetData	undefined4 SpriteDecompGetData(int * param_1, int param_2)	2
+08058f30	SpriteDecompGetAndLockData	undefined4 SpriteDecompGetAndLockData(int * param_1, int param_2)	2
+08058f40	SpriteDecompUnlockData	undefined4 SpriteDecompUnlockData(void)	0
+08058f50	W_PutSurface	void W_PutSurface(void)	0
+08058f60	W_PutSprite	undefined4 W_PutSprite(int * param_1, int param_2, int param_3, int param_4)	4
+08058ff0	W_PutSpriteA	void W_PutSpriteA(int * param_1, int param_2, int param_3, int param_4, int param_5)	5
+08059040	W_PutSpriteAMirH	void W_PutSpriteAMirH(int * param_1, int param_2, int param_3, int param_4, int param_5)	5
+08059090	W_PutSpriteAPal	void W_PutSpriteAPal(int * param_1, int param_2, int param_3, undefined4 param_4, int param_5, int param_6)	6
+08059100	W_PutSpriteAMirHPal	void W_PutSpriteAMirHPal(int * param_1, int param_2, int param_3, undefined4 param_4, int param_5, int param_6)	6
+08059170	W_PutSpriteFlat	void W_PutSpriteFlat(int * param_1, int param_2, int param_3, int param_4)	4
+080591d0	W_PutSpriteMirH	undefined4 W_PutSpriteMirH(int * param_1, int param_2, int param_3, int param_4)	4
+08059230	W_PutSpriteMirV	undefined4 W_PutSpriteMirV(int * param_1, int param_2, int param_3, int param_4)	4
+08059290	W_PutSpriteMirHV	undefined4 W_PutSpriteMirHV(int * param_1, int param_2, int param_3, int param_4)	4
+080592f0	W_PutSpriteShadow	void W_PutSpriteShadow(int * param_1, int param_2, int param_3, int param_4, undefined2 param_5)	5
+08059390	W_ScaleSprite	void W_ScaleSprite(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08059480	W_ScaleSpriteFlat	void W_ScaleSpriteFlat(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08059500	W_ScaleSpriteMirH	void W_ScaleSpriteMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08059590	W_ScaleSpriteMirV	void W_ScaleSpriteMirV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08059620	W_ScaleSpriteMirHV	void W_ScaleSpriteMirHV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+080596b0	W_ScaleSprite_S	undefined4 W_ScaleSprite_S(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08059800	W_ScaleSpriteFlat_S	void W_ScaleSpriteFlat_S(int * param_1, int param_2, int param_3, int param_4, float param_5, float param_6)	6
+080598b0	W_ScaleSpriteMirH_S	void W_ScaleSpriteMirH_S(int * param_1, int param_2, int param_3, int param_4, float param_5, float param_6)	6
+080598f0	W_ScaleSpriteMirV_S	void W_ScaleSpriteMirV_S(int * param_1, int param_2, int param_3, int param_4, float param_5, float param_6)	6
+08059920	W_ScaleSpriteMirHV_S	void W_ScaleSpriteMirHV_S(int * param_1, int param_2, int param_3, int param_4, float param_5, float param_6)	6
+08059960	W_RotateSprite	void W_RotateSprite(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7)	7
+080599a0	W_RotateSpriteMirH	void W_RotateSpriteMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7)	7
+080599e0	W_RotateSprite_P	undefined4 W_RotateSprite_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+08059c00	W_RotateSpriteMirH_P	void W_RotateSpriteMirH_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+08059c30	W_PutSpriteTransAdd	undefined4 W_PutSpriteTransAdd(int * param_1, int param_2, int param_3, int param_4)	4
+08059ca0	W_PutSpriteTransAddMirH	undefined4 W_PutSpriteTransAddMirH(int * param_1, int param_2, int param_3, int param_4)	4
+08059d10	W_PutSpriteTransAddMirV	undefined4 W_PutSpriteTransAddMirV(int * param_1, int param_2, int param_3, int param_4)	4
+08059d80	W_PutSpriteTransAddMirHV	undefined4 W_PutSpriteTransAddMirHV(int * param_1, int param_2, int param_3, int param_4)	4
+08059df0	W_PutSpriteTransAddFlip	void W_PutSpriteTransAddFlip(int * param_1, int param_2, int param_3, int param_4, int param_5)	5
+08059e90	W_PutSpriteTransAdd_B	undefined4 W_PutSpriteTransAdd_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+08059f20	W_PutSpriteTransAddMirH_B	undefined4 W_PutSpriteTransAddMirH_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+08059fb0	W_PutSpriteTransAddMirV_B	undefined4 W_PutSpriteTransAddMirV_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+0805a040	W_PutSpriteTransAddMirHV_B	undefined4 W_PutSpriteTransAddMirHV_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+0805a0d0	W_PutSpriteTransAddFlip_B	void W_PutSpriteTransAddFlip_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7)	7
+0805a1c0	W_ScaleSpriteTransAdd	undefined4 W_ScaleSpriteTransAdd(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805a250	W_ScaleSpriteTransAdd_S	undefined4 W_ScaleSpriteTransAdd_S(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805a3a0	W_ScaleSpriteTransAddMirH	void W_ScaleSpriteTransAddMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805a430	W_ScaleSpriteTransAddMirV	void W_ScaleSpriteTransAddMirV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805a4c0	W_ScaleSpriteTransAddMirHV	void W_ScaleSpriteTransAddMirHV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805a550	W_ScaleSpriteTransAdd_B	void W_ScaleSpriteTransAdd_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+0805a600	W_ScaleSpriteTransAdd_B_S	undefined4 W_ScaleSpriteTransAdd_B_S(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+0805a790	W_ScaleSpriteTransAddMirH_B	void W_ScaleSpriteTransAddMirH_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+0805a840	W_ScaleSpriteTransAddMirV_B	void W_ScaleSpriteTransAddMirV_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+0805a8f0	W_ScaleSpriteTransAddMirHV_B	void W_ScaleSpriteTransAddMirHV_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+0805a9a0	W_RotateSpriteTransAdd	void W_RotateSpriteTransAdd(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7)	7
+0805a9e0	W_RotateSpriteTransAddMirH	void W_RotateSpriteTransAddMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7)	7
+0805aa20	W_RotateSpriteTransAdd_P	undefined4 W_RotateSpriteTransAdd_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+0805ac40	W_RotateSpriteTransAddMirH_P	void W_RotateSpriteTransAddMirH_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+0805ac70	W_RotateSpriteTransAdd_B	void W_RotateSpriteTransAdd_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, int param_8, int param_9)	9
+0805acc0	W_RotateSpriteTransAddMirH_B	void W_RotateSpriteTransAddMirH_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, int param_8, int param_9)	9
+0805ad10	W_RotateSpriteTransAdd_B_P	undefined4 W_RotateSpriteTransAdd_B_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, int param_10, int param_11)	11
+0805af90	W_RotateSpriteTransAddMirH_B_P	void W_RotateSpriteTransAddMirH_B_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, int param_10, int param_11)	11
+0805afc0	W_PutSpriteTransSub	undefined4 W_PutSpriteTransSub(int * param_1, int param_2, int param_3, int param_4)	4
+0805b030	W_PutSpriteTransSubMirH	undefined4 W_PutSpriteTransSubMirH(int * param_1, int param_2, int param_3, int param_4)	4
+0805b0a0	W_PutSpriteTransSubMirV	void W_PutSpriteTransSubMirV(int * param_1, int param_2, int param_3, int param_4)	4
+0805b110	W_PutSpriteTransSubMirHV	undefined4 W_PutSpriteTransSubMirHV(int * param_1, int param_2, int param_3, int param_4)	4
+0805b180	W_ScaleSpriteTransSub	undefined4 W_ScaleSpriteTransSub(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805b210	W_ScaleSpriteTransSub_S	undefined4 W_ScaleSpriteTransSub_S(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805b360	W_ScaleSpriteTransSubMirH	void W_ScaleSpriteTransSubMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805b3f0	W_ScaleSpriteTransSubMirV	void W_ScaleSpriteTransSubMirV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805b480	W_ScaleSpriteTransSubMirHV	void W_ScaleSpriteTransSubMirHV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805b510	W_RotateSpriteTransSub	void W_RotateSpriteTransSub(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7)	7
+0805b550	W_RotateSpriteTransSubMirH	void W_RotateSpriteTransSubMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7)	7
+0805b590	W_RotateSpriteTransSub_P	undefined4 W_RotateSpriteTransSub_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+0805b7b0	W_RotateSpriteTransSubMirH_P	void W_RotateSpriteTransSubMirH_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+0805b7e0	W_ScaleShadowTransSub	void W_ScaleShadowTransSub(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+0805b880	W_ScaleShadowTransSub_S	undefined4 W_ScaleShadowTransSub_S(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+0805b9f0	W_ScaleShadowTransSubMirH	void W_ScaleShadowTransSubMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+0805ba90	W_ScaleShadowTransSubMirV	void W_ScaleShadowTransSubMirV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+0805bb30	W_ScaleShadowTransSubMirHV	void W_ScaleShadowTransSubMirHV(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+0805bbd0	W_RotateShadowTransSub	void W_RotateShadowTransSub(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, uint param_8)	8
+0805bc10	W_RotateShadowTransSubMirH	void W_RotateShadowTransSubMirH(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, uint param_8)	8
+0805bc50	W_RotateShadowTransSub_P	undefined4 W_RotateShadowTransSub_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, uint param_10)	10
+0805beb0	W_RotateShadowTransSubMirH_P	void W_RotateShadowTransSubMirH_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, uint param_10)	10
+0805bee0	HFlipToSgn	int HFlipToSgn(uint param_1)	1
+0805bf00	VFlipToSgn	int VFlipToSgn(uint param_1)	1
+0805bf20	SpriteSetReadMode	void SpriteSetReadMode(undefined4 param_1)	1
+0805bf30	SpriteSetBufReadMode	void SpriteSetBufReadMode(undefined4 param_1)	1
+0805bf40	SpriteReadFile	int * SpriteReadFile(char * param_1)	1
+0805c080	SpriteReadSFFPtr	int * SpriteReadSFFPtr(int * param_1)	1
+0805c140	SpriteReadSFFPtr_1_01	int * SpriteReadSFFPtr_1_01(int * param_1, int param_2)	2
+0805c3a0	SpriteReadSFFPtr_2_00	undefined4 SpriteReadSFFPtr_2_00(void)	0
+0805c3b0	SpriteReadSFFList	undefined4 SpriteReadSFFList(char * param_1, int * param_2)	2
+0805c410	SpriteReadSFFListPtr	int * SpriteReadSFFListPtr(int * param_1, int * param_2)	2
+0805c4c0	SpriteReadSFFListPtr_1_01	int * SpriteReadSFFListPtr_1_01(int * param_1, int param_2, int * param_3)	3
+0805c7b0	SpriteReadSFFListPtr_2_00	undefined4 SpriteReadSFFListPtr_2_00(void)	0
+0805c7c0	SpriteReadPCXRawPtr	void * SpriteReadPCXRawPtr(int * param_1, int * param_2, int * param_3, int * param_4, size_t * param_5, int * param_6)	6
+0805cc80	SpriteReadPCXPtr	int * SpriteReadPCXPtr(int * param_1, int param_2, int param_3)	3
+0805cd70	W_PutSprite8to16	void W_PutSprite8to16(int * param_1, int param_2, int param_3, int param_4)	4
+0805cfa0	W_PutSpriteFlat8to16	void W_PutSpriteFlat8to16(int * param_1, int param_2, int param_3, int param_4)	4
+0805d1c0	W_PutSpriteMirH8to16	void W_PutSpriteMirH8to16(int * param_1, int param_2, int param_3, int param_4)	4
+0805d420	W_PutSpriteMirV8to16	void W_PutSpriteMirV8to16(int * param_1, int param_2, int param_3, int param_4)	4
+0805d660	W_PutSpriteMirHV8to16	void W_PutSpriteMirHV8to16(int * param_1, int param_2, int param_3, int param_4)	4
+0805d8b0	W_ScaleSprite8to16	void W_ScaleSprite8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805e190	W_ScaleSpriteFlat8to16	void W_ScaleSpriteFlat8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805ea80	W_ScaleSpriteMirH8to16	void W_ScaleSpriteMirH8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805f370	W_ScaleSpriteMirV8to16	void W_ScaleSpriteMirV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+0805fc70	W_ScaleSpriteMirHV8to16	void W_ScaleSpriteMirHV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08060570	W_RotateSprite8to16_P	undefined4 W_RotateSprite8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+08061400	W_RotateSpriteMirH8to16_P	undefined4 W_RotateSpriteMirH8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+08062250	W_PutSpriteShadow8to16	void W_PutSpriteShadow8to16(int * param_1, int param_2, int param_3, int param_4, undefined2 param_5)	5
+08062430	W_PutSpriteShadow16	void W_PutSpriteShadow16(void)	0
+08062440	W_PutSpriteTransAdd8to16	void W_PutSpriteTransAdd8to16(int * param_1, int param_2, int param_3, int param_4)	4
+08062710	W_PutSpriteTransAddMirH8to16	void W_PutSpriteTransAddMirH8to16(int * param_1, int param_2, int param_3, int param_4)	4
+080629f0	W_PutSpriteTransAddMirV8to16	void W_PutSpriteTransAddMirV8to16(int * param_1, int param_2, int param_3, int param_4)	4
+08062ce0	W_PutSpriteTransAddMirHV8to16	void W_PutSpriteTransAddMirHV8to16(int * param_1, int param_2, int param_3, int param_4)	4
+08062fe0	W_PutSpriteTransAdd8to16_B	void W_PutSpriteTransAdd8to16_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+080638c0	W_PutSpriteTransAddMirH8to16_B	void W_PutSpriteTransAddMirH8to16_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+080641e0	W_PutSpriteTransAddMirV8to16_B	void W_PutSpriteTransAddMirV8to16_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+08064b00	W_PutSpriteTransAddMirHV8to16_B	void W_PutSpriteTransAddMirHV8to16_B(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+08065440	W_ScaleSpriteTransAdd8to16	void W_ScaleSpriteTransAdd8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08065df0	W_ScaleSpriteTransAddMirH8to16	void W_ScaleSpriteTransAddMirH8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+080667a0	W_ScaleSpriteTransAddMirV8to16	void W_ScaleSpriteTransAddMirV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08067170	W_ScaleSpriteTransAddMirHV8to16	void W_ScaleSpriteTransAddMirHV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08067b30	W_ScaleSpriteTransAdd8to16_B	void W_ScaleSpriteTransAdd8to16_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+08068c00	W_ScaleSpriteTransAddMirH8to16_B	void W_ScaleSpriteTransAddMirH8to16_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+08069cf0	W_ScaleSpriteTransAddMirV8to16_B	void W_ScaleSpriteTransAddMirV8to16_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+0806aee0	W_ScaleSpriteTransAddMirHV8to16_B	void W_ScaleSpriteTransAddMirHV8to16_B(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, int param_7, int param_8)	8
+0806c100	W_RotateSpriteTransAdd8to16_P	uint W_RotateSpriteTransAdd8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+0806d020	W_RotateSpriteTransAddMirH8to16_P	uint W_RotateSpriteTransAddMirH8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+0806df40	W_RotateSpriteTransAdd8to16_B_P	uint W_RotateSpriteTransAdd8to16_B_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, int param_10, int param_11)	11
+0806fff0	W_RotateSpriteTransAddMirH8to16_B_P	uint W_RotateSpriteTransAddMirH8to16_B_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, int param_10, int param_11)	11
+08072060	W_PutSpriteTransSub8to16	void W_PutSpriteTransSub8to16(int * param_1, int param_2, int param_3, int param_4)	4
+08072300	W_PutSpriteTransSubMirH8to16	void W_PutSpriteTransSubMirH8to16(int * param_1, int param_2, int param_3, int param_4)	4
+080725b0	W_PutSpriteTransSubMirV8to16	void W_PutSpriteTransSubMirV8to16(int * param_1, int param_2, int param_3, int param_4)	4
+08072860	W_PutSpriteTransSubMirHV8to16	void W_PutSpriteTransSubMirHV8to16(int * param_1, int param_2, int param_3, int param_4)	4
+08072b30	W_ScaleSpriteTransSub8to16	void W_ScaleSpriteTransSub8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+080734b0	W_ScaleSpriteTransSubMirH8to16	void W_ScaleSpriteTransSubMirH8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08073e30	W_ScaleSpriteTransSubMirV8to16	void W_ScaleSpriteTransSubMirV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+080747c0	W_ScaleSpriteTransSubMirHV8to16	void W_ScaleSpriteTransSubMirHV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6)	6
+08075150	W_RotateSpriteTransSub8to16_P	uint W_RotateSpriteTransSub8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+08076040	W_RotateSpriteTransSubMirH8to16_P	uint W_RotateSpriteTransSubMirH8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9)	9
+08076ef0	W_ScaleShadowTransSub8to16	void W_ScaleShadowTransSub8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+08077790	W_ScaleShadowTransSubMirH8to16	void W_ScaleShadowTransSubMirH8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+08078040	W_ScaleShadowTransSubMirV8to16	void W_ScaleShadowTransSubMirV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+08078910	W_ScaleShadowTransSubMirHV8to16	void W_ScaleShadowTransSubMirHV8to16(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, uint param_7)	7
+080791e0	W_RotateShadowTransSub8to16_P	int W_RotateShadowTransSub8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, uint param_10)	10
+0807a090	W_RotateShadowTransSubMirH8to16_P	int W_RotateShadowTransSubMirH8to16_P(int * param_1, int param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8, float param_9, uint param_10)	10
+0807af40	TimerHandler	void TimerHandler(void)	0
+0807af90	TimerInit	bool TimerInit(int param_1)	1
+0807b000	TimerDeInit	void TimerDeInit(void)	0
+0807b020	TimerChangeSpeed	void TimerChangeSpeed(int param_1)	1
+0807b040	TimerDelay	undefined4 TimerDelay(undefined4 param_1)	1
+0807b050	TimerSetTicks	void TimerSetTicks(undefined4 param_1)	1
+0807b060	TimerGetFPS	longdouble TimerGetFPS(void)	0
+0807b0d0	TimerSetFPSDelay	void TimerSetFPSDelay(int param_1)	1
+0807b0f0	TimerSyncReset	void TimerSyncReset(void)	0
+0807b110	TimerSetSyncFPS	void TimerSetSyncFPS(int param_1)	1
+0807b150	TimerGetSync	bool TimerGetSync(void)	0
+0807b160	TimerWaitSync	void TimerWaitSync(void)	0
+0807b1a0	TimerIsSync	undefined4 TimerIsSync(void)	0
+0807b1f0	TimerSkipSync	void TimerSkipSync(void)	0
+0807b200	TPFree	undefined4 TPFree(undefined4 * param_1)	1
+0807b2f0	TPReadMFPtr	undefined4 * TPReadMFPtr(int * param_1, int param_2)	2
+0807b780	TPReadMF	int * TPReadMF(int * param_1, int param_2)	2
+0807b7c0	TPReadFile	void * TPReadFile(char * param_1)	1
+0807b800	TPClone	undefined4 * TPClone(undefined4 * param_1)	1
+0807b840	TPReadFileForWrite	void * TPReadFileForWrite(char * param_1)	1
+0807b880	TPReadFilePtr	int * TPReadFilePtr(FILE * param_1, int param_2)	2
+0807bd10	TPWriteFile	undefined4 TPWriteFile(int param_1, char * param_2)	2
+0807bd80	TPGroupSeek	undefined4 TPGroupSeek(int param_1, char * param_2)	2
+0807be50	TPGroupSeekIdx	undefined4 TPGroupSeekIdx(int param_1, int param_2)	2
+0807beb0	TPGroupReset	void TPGroupReset(int param_1)	1
+0807bef0	TPGroupScanFirst	undefined4 TPGroupScanFirst(int param_1)	1
+0807bf00	TPGroupScanNext	undefined4 TPGroupScanNext(int param_1)	1
+0807bf70	TPGroupMatchCount	int TPGroupMatchCount(int param_1, char * param_2)	2
+0807bfc0	TPGetLineNo	undefined4 TPGetLineNo(int param_1, char * param_2)	2
+0807bfe0	TPGetLineNo_Skip	int TPGetLineNo_Skip(int param_1, char * param_2, int param_3)	3
+0807c0a0	TPGetValue	char * TPGetValue(int param_1, char * param_2)	2
+0807c1c0	TPSeekValue	int TPSeekValue(int param_1, char * param_2)	2
+0807c210	TPSeekEog	int TPSeekEog(int param_1)	1
+0807c250	TPGetValueNewStr	char * TPGetValueNewStr(int param_1, char * param_2)	2
+0807c2b0	TPGetValueNext	char * TPGetValueNext(int param_1, char * param_2)	2
+0807c3e0	TPGetValueFloat	bool TPGetValueFloat(int param_1, char * param_2, float * param_3)	3
+0807c420	TPGetValueInt	bool TPGetValueInt(int param_1, char * param_2, uint * param_3)	3
+0807c460	TPScanf	int TPScanf(int param_1, char * param_2, char * param_3, ...)	3
+0807c4a0	TPAccessReset	void TPAccessReset(int param_1)	1
+0807c4d0	TPAccessFirstLine	undefined4 TPAccessFirstLine(int param_1)	1
+0807c4f0	TPReaccessCurLine	undefined4 TPReaccessCurLine(int param_1)	1
+0807c510	TPAccessNextLine	undefined4 TPAccessNextLine(int param_1)	1
+0807c550	TPAccessPrevLine	undefined4 TPAccessPrevLine(int param_1)	1
+0807c580	TPGetLine	bool TPGetLine(int param_1, char * param_2)	2
+0807c5c0	TPGetGroupText	int TPGetGroupText(int param_1, int param_2, int param_3)	3
+0807c670	TPWLineNo	int TPWLineNo(int param_1, int param_2)	2
+0807c6e0	TPGroupRename	undefined4 TPGroupRename(int param_1, char * param_2, ...)	2
+0807c850	TPPrintf	undefined4 TPPrintf(int param_1, char * param_2, char * param_3, ...)	3
+0807ca00	TPPrintf_Skip	undefined4 TPPrintf_Skip(int param_1, char * param_2, int param_3, char * param_4, ...)	4
+0807cbc0	TPInsertLine	undefined4 TPInsertLine(int param_1, char * param_2)	2
+0807cca0	TPDeleteLine	undefined4 TPDeleteLine(int param_1)	1
+0807cd50	TPDeleteAllLines	void TPDeleteAllLines(int param_1)	1
+0807cd80	TPWExpandLinespace	undefined4 TPWExpandLinespace(int param_1)	1
+0807cdd0	strgetto	void strgetto(char * param_1, char * param_2, int param_3, char param_4)	4
+0807ce20	TPisspace	undefined4 TPisspace(char param_1)	1
+0807ce40	V_Alloc	undefined4 V_Alloc(int param_1, int param_2)	2
+0807ce60	V_AllocDepth	undefined4 V_AllocDepth(int param_1, int param_2, int param_3)	3
+0807ce80	V_AllocDepthAry	int * V_AllocDepthAry(int param_1, int param_2, int param_3, size_t param_4)	4
+0807cf60	V_DeAlloc	undefined4 V_DeAlloc(int param_1)	1
+0807cfa0	V_SetBuf	undefined4 V_SetBuf(int * param_1, int param_2)	2
+0807d030	V_BufGetSurface	undefined4 V_BufGetSurface(int * param_1, int param_2)	2
+0807d060	V_BufLock	undefined4 V_BufLock(int * param_1, int param_2)	2
+0807d0a0	V_BufUnlock	void V_BufUnlock(int * param_1, int param_2)	2
+0807d0e0	V_BufLockCurrent	void V_BufLockCurrent(void)	0
+0807d100	V_BufUnlockCurrent	void V_BufUnlockCurrent(void)	0
+0807d120	V_BufToScreen	void V_BufToScreen(int * param_1, int param_2)	2
+0807d200	V_BufToScreenXY	void V_BufToScreenXY(int * param_1, int param_2, int param_3, int param_4)	4
+0807d350	V_BufToScreenStretch	void V_BufToScreenStretch(int * param_1, int param_2)	2
+0807d470	blit_32to16_RGBtoBGR	void blit_32to16_RGBtoBGR(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7, int param_8)	8
+0807d690	stretch_blit_32to16_RGBtoBGR	void stretch_blit_32to16_RGBtoBGR(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7, int param_8, int param_9, int param_10)	10
+0807da70	W_Define	undefined4 W_Define(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807db40	W_DefineV	void W_DefineV(uint * param_1)	1
+0807db60	W_GetV	void W_GetV(undefined4 * param_1)	1
+0807db90	W_Cls	void W_Cls(uint param_1)	1
+0807dc40	W_PutPixel	void W_PutPixel(int param_1, int param_2, uint param_3)	3
+0807dd30	W_PutPixelTransAdd16	void W_PutPixelTransAdd16(int param_1, int param_2, uint param_3)	3
+0807de20	W_PutPixelXor16	void W_PutPixelXor16(int param_1, int param_2)	2
+0807de90	W_Line	void W_Line(float param_1, float param_2, float param_3, float param_4, uint param_5)	5
+0807e020	DoDrawLine	void DoDrawLine(int param_1, int param_2, float param_3, float param_4, float param_5, float param_6, undefined2 param_7)	7
+0807e660	CyrusT	longdouble CyrusT(float param_1, float param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8)	8
+0807e6a0	TrivialTestPoint	uint TrivialTestPoint(int param_1, int param_2)	2
+0807e6f0	DoDrawClippedLine	void DoDrawClippedLine(int param_1, int param_2, float param_3, float param_4, float param_5, float param_6, undefined2 param_7)	7
+0807ec50	W_HLine	void W_HLine(uint param_1, uint param_2, int param_3, uint param_4)	4
+0807ed10	W_VLine	void W_VLine(int param_1, uint param_2, uint param_3, uint param_4)	4
+0807ede0	W_HLineTransAdd16	void W_HLineTransAdd16(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807ef20	W_HLineTransAdd16_B50	void W_HLineTransAdd16_B50(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807f060	W_VLineTransAdd16	void W_VLineTransAdd16(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807f1b0	W_VLineTransAdd16_B50	void W_VLineTransAdd16_B50(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807f300	W_HLineTransSub16	void W_HLineTransSub16(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807f430	W_HLineTransSub16_B50	void W_HLineTransSub16_B50(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807f560	W_VLineTransSub16	void W_VLineTransSub16(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807f6a0	W_VLineTransSub16_B50	void W_VLineTransSub16_B50(uint param_1, uint param_2, uint param_3, uint param_4)	4
+0807f7e0	W_Box	void W_Box(int param_1, int param_2, int param_3, int param_4, uint param_5)	5
+0807f900	W_BoxTransAdd16	void W_BoxTransAdd16(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5)	5
+0807f970	W_BoxTransAdd16_B50	void W_BoxTransAdd16_B50(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5)	5
+0807f9e0	W_BoxTransSub16	void W_BoxTransSub16(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5)	5
+0807fa50	W_BoxTransSub16_B50	void W_BoxTransSub16_B50(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5)	5
+0807fac0	W_BoxFill	void W_BoxFill(int param_1, int param_2, int param_3, int param_4, uint param_5)	5
+0807fbf0	W_BoxFillTransAdd16	void W_BoxFillTransAdd16(uint param_1, int param_2, uint param_3, int param_4, uint param_5)	5
+0807fdb0	W_BoxFillTransAdd16_B50	void W_BoxFillTransAdd16_B50(uint param_1, int param_2, uint param_3, int param_4, uint param_5)	5
+0807ff60	W_BoxFillTransSub16	void W_BoxFillTransSub16(uint param_1, int param_2, uint param_3, int param_4, uint param_5)	5
+08080120	W_BoxFillTransSub16_B50	void W_BoxFillTransSub16_B50(uint param_1, int param_2, uint param_3, int param_4, uint param_5)	5
+080802e0	unzlocal_getByte	undefined4 unzlocal_getByte(_IO_FILE * param_1, uint * param_2)	2
+08080330	unzlocal_getShort	int unzlocal_getShort(_IO_FILE * param_1, uint * param_2)	2
+08080390	unzlocal_getLong	int unzlocal_getLong(_IO_FILE * param_1, uint * param_2)	2
+08080420	strcmpcasenosensitive_internal	int strcmpcasenosensitive_internal(char * param_1, char * param_2)	2
+08080480	unzStringFileNameCompare	undefined4 unzStringFileNameCompare(char * param_1, char * param_2, int param_3)	3
+080804c0	unzlocal_SearchCentralDir	int unzlocal_SearchCentralDir(FILE * param_1)	1
+080805e0	unzOpen	undefined4 * unzOpen(char * param_1)	1
+080807a0	unzClose	undefined4 unzClose(void * param_1)	1
+080807e0	unzGetGlobalInfo	undefined4 unzGetGlobalInfo(int param_1, undefined4 * param_2)	2
+08080810	unzlocal_DosDateToTmuDate	void unzlocal_DosDateToTmuDate(uint param_1, int * param_2)	2
+08080870	unzlocal_GetCurrentFileInfoInternal	uint unzlocal_GetCurrentFileInfoInternal(undefined4 * param_1, uint * param_2, uint * param_3, size_t param_4, uint param_5, size_t param_6, void * param_7, size_t param_8, void * param_9)	9
+08080c30	unzGetCurrentFileInfo	undefined4 unzGetCurrentFileInfo(undefined4 * param_1, uint * param_2, size_t param_3, uint param_4, size_t param_5, void * param_6, size_t param_7, void * param_8)	8
+08080c70	unzGoToFirstFile	uint unzGoToFirstFile(undefined4 * param_1)	1
+08080cc0	unzGoToNextFile	undefined4 unzGoToNextFile(undefined4 * param_1)	1
+08080d40	unzLocateFile	uint unzLocateFile(undefined4 * param_1, char * param_2, int param_3)	3
+08080e10	unzlocal_CheckCurrentFileCoherencyHeader	uint unzlocal_CheckCurrentFileCoherencyHeader(undefined4 * param_1, int * param_2, int * param_3, uint * param_4)	4
+08081040	unzOpenCurrentFile	undefined4 unzOpenCurrentFile(undefined4 * param_1)	1
+080811a0	unzReadCurrentFile	uint unzReadCurrentFile(int param_1, int param_2, uint param_3)	3
+080813a0	unztell	undefined4 unztell(int param_1)	1
+080813c0	unzeof	uint unzeof(int param_1)	1
+080813e0	unzGetLocalExtrafield	uint unzGetLocalExtrafield(int param_1, size_t param_2, uint param_3)	3
+08081480	unzCloseCurrentFile	undefined4 unzCloseCurrentFile(int param_1)	1
+08081500	unzGetGlobalComment	uint unzGetGlobalComment(undefined4 * param_1, undefined1 * param_2, uint param_3)	3
+08081580	NewListNode	undefined4 NewListNode(void)	0
+08081590	AddNodeToEnd	void AddNodeToEnd(int * param_1)	1
+080815b0	MoveNodeToEnd	void MoveNodeToEnd(int * param_1)	1
+080815f0	MoveNodeToStart	void MoveNodeToStart(void)	0
+08081600	EB_GUIInit	undefined4 EB_GUIInit(undefined4 param_1)	1
+08081730	EB_GUIDeInit	void EB_GUIDeInit(void)	0
+08081740	EB_GUISetWinAttr	void EB_GUISetWinAttr(int param_1, uint param_2)	2
+08081760	EB_GUINewWindow	int * EB_GUINewWindow(char * param_1, int param_2, int param_3, int param_4, int * param_5)	5
+08081970	EB_GUICloseWindow	void EB_GUICloseWindow(void * param_1)	1
+080819b0	EB_GUIDrawClipboard	void EB_GUIDrawClipboard(int * param_1, int param_2, int param_3, uint param_4)	4
+08081ab0	EB_GUIPutSurface	void EB_GUIPutSurface(void)	0
+08081ac0	EB_GUIRaiseWindow	undefined4 EB_GUIRaiseWindow(int * param_1)	1
+08081ae0	EB_GUIPutSprite	void EB_GUIPutSprite(int param_1, int * param_2, int param_3, int param_4, int param_5)	5
+08081b50	EB_GUIClearWindow	void EB_GUIClearWindow(int param_1)	1
+08081b90	EB_GUIDrawWindow	void EB_GUIDrawWindow(uint * param_1)	1
+08081dd0	EB_DrawWindows	undefined4 EB_DrawWindows(void)	0
+08081e00	EB_GUIMoveWindow	void EB_GUIMoveWindow(int * param_1, int param_2, int param_3)	3
+08081e60	DetermineFocus	undefined4 DetermineFocus(int param_1, int * param_2)	2
+08081eb0	EB_GUIUpdate	void EB_GUIUpdate(void)	0
+08081ff0	EBT_ThreadCreate	undefined4 EBT_ThreadCreate(pthread_t * param_1, undefined4 param_2, __start_routine * param_3, void * param_4)	4
+08082020	EBT_MutexInit	undefined4 EBT_MutexInit(void)	0
+08082040	EBT_MutexDestroy	int EBT_MutexDestroy(pthread_mutex_t * __mutex)	1
+08082050	EBT_MutexLock	int EBT_MutexLock(pthread_mutex_t * m)	1
+08082060	EBT_MutexUnlock	int EBT_MutexUnlock(pthread_mutex_t * m)	1
+08082070	AftImgNew	undefined4 AftImgNew(int param_1)	1
+080820c0	AftImgInit	undefined4 AftImgInit(int * param_1, int param_2)	2
+08082150	AftImgFree	undefined4 AftImgFree(int * param_1)	1
+08082180	AftImgDeInit	void AftImgDeInit(int * param_1)	1
+080821f0	AftImgSetup	void AftImgSetup(int param_1, undefined4 * param_2, undefined4 param_3)	3
+08082230	AftImgUpdate	undefined4 AftImgUpdate(int * param_1, float param_2, float param_3, float param_4, undefined4 param_5, float param_6, uint param_7, int param_8)	8
+080823f0	AftImgDraw	void AftImgDraw(int * param_1, int param_2, int param_3, int param_4)	4
+08082880	ipow	int ipow(int param_1, int param_2)	2
+080828d0	StackErrorExit	void StackErrorExit(void)	0
+080828f0	PriorityCheck	undefined4 PriorityCheck(undefined4 param_1)	1
+08082980	OpLength	undefined4 OpLength(undefined4 param_1)	1
+080829b0	OpTypeCheck	bool OpTypeCheck(undefined4 param_1, int param_2)	2
+080829e0	OperCode	int OperCode(undefined1 * param_1)	1
+08082ad0	InfToPostArray	char * InfToPostArray(byte * param_1, float * param_2, void * param_3, int param_4, byte * param_5, undefined4 * param_6, int param_7)	7
+08083780	InfixToPostfix	undefined4 InfixToPostfix(byte * param_1, int * param_2, int param_3, undefined4 * param_4, int param_5)	5
+08083870	FreeExpression	undefined4 FreeExpression(int * param_1)	1
+080838f0	FreeExpNoTrig	void FreeExpNoTrig(undefined4 * param_1)	1
+08083930	FreeExpArray	undefined4 FreeExpArray(void * param_1)	1
+08083980	ConstExpI	undefined4 ConstExpI(int * param_1, int param_2)	2
+080839c0	ConstExpF	void ConstExpF(int * param_1, int param_2)	2
+08083a00	expcpy	undefined4 expcpy(int * param_1, int * param_2)	2
+08083aa0	expcpytrig	undefined4 expcpytrig(int * param_1, int * param_2)	2
+08083b40	ExpMulF	undefined4 ExpMulF(int * param_1, float param_2)	2
+08083c00	ExpDivI	undefined4 ExpDivI(int * param_1, int param_2)	2
+08083cd0	ShowExp	void ShowExp(char * param_1, int * param_2, undefined4 param_3)	3
+08083e40	EvalExpressionI	int EvalExpressionI(int param_1, undefined4 param_2, int param_3)	3
+08083f60	EvalExpressionF	longdouble * EvalExpressionF(int * param_1, int * param_2)	2
+08084020	EvalExpression	undefined4 EvalExpression(int * param_1, int * param_2, int * param_3, int * param_4)	4
+08085240	BGMParse	bool BGMParse(int param_1, undefined1 * param_2, char * param_3)	3
+080852b0	BGMStart	void BGMStart(int * param_1)	1
+080853c0	BGMPause	void BGMPause(int * param_1)	1
+08085440	BGMSysPause	void BGMSysPause(int * param_1)	1
+080854c0	BGMGetPause	undefined4 BGMGetPause(int param_1)	1
+080854e0	BGMResume	undefined4 BGMResume(int * param_1)	1
+08085570	BGMSysResume	void BGMSysResume(int * param_1)	1
+08085600	BGMGetVolume	int BGMGetVolume(int * param_1)	1
+08085660	BGMSetVolume	void BGMSetVolume(int * param_1, uint param_2)	2
+080856e0	BGMPoll	void BGMPoll(int * param_1)	1
+08085760	BGMPollIgnoreDefocus	undefined4 BGMPollIgnoreDefocus(int * param_1)	1
+08085800	BGMCheckExtension	undefined4 BGMCheckExtension(char * param_1)	1
+08085810	BGMLoad	undefined4 BGMLoad(int * param_1, byte * param_2, int param_3)	3
+08085a60	BGMLoadAndStart	undefined4 BGMLoadAndStart(int * param_1, byte * param_2, int param_3, int param_4)	4
+08085b40	BGMFree	undefined4 BGMFree(int * param_1)	1
+08085be0	BGMPlayForScene	void BGMPlayForScene(byte * param_1, int param_2)	2
+08085c10	BGMStopForScene	void BGMStopForScene(void)	0
+08085c30	InitSelectScreenMatrix	bool InitSelectScreenMatrix(char * param_1)	1
+08085cd0	FreeSelectScreenMatrix	void FreeSelectScreenMatrix(void)	0
+08085d00	CharInfoInit	bool CharInfoInit(void)	0
+08085db0	CharInfoFree	void CharInfoFree(void)	0
+08085df0	FindCharacters	undefined4 FindCharacters(void)	0
+08087150	CharacterSelectScreen	undefined4 CharacterSelectScreen(undefined4 param_1, int param_2)	2
+08088630	CharacterSelectScreenDraw	undefined4 CharacterSelectScreenDraw(int param_1)	1
+08089810	BuildSelectList	int BuildSelectList(int param_1, undefined4 param_2, int param_3)	3
+08089da0	InitSelectDisp	void InitSelectDisp(int param_1)	1
+08089e00	UpdateSelectDisp	void UpdateSelectDisp(int * param_1)	1
+08089e50	SelectDispState	void SelectDispState(undefined4 * param_1, undefined4 param_2)	2
+08089e70	FlashBox	void FlashBox(int param_1, undefined4 param_2, undefined4 param_3)	3
+08089ec0	CharacterSelectScreenKey	int CharacterSelectScreenKey(uint param_1, int param_2, int * param_3, int * param_4, int param_5)	5
+0808a230	CharacterSelectStageKey	bool CharacterSelectStageKey(uint param_1, int param_2, uint * param_3, int param_4)	4
+0808a2a0	CharacterSelectMenuKey	undefined4 CharacterSelectMenuKey(uint param_1, undefined4 param_2, int param_3, int param_4)	4
+0808a3a0	CharselResetCursor	void CharselResetCursor(void)	0
+0808a3e0	CharselSaveCursor	void CharselSaveCursor(undefined4 param_1, undefined4 param_2, undefined4 param_3, int param_4, int param_5)	5
+0808a410	CharselRestoreCursor	void CharselRestoreCursor(int param_1, int param_2, int param_3)	3
+0808a4c0	CharselResetMenuPos	void CharselResetMenuPos(void)	0
+0808a4e0	CharselSaveMenuPos	void CharselSaveMenuPos(int param_1, undefined4 * param_2, int param_3)	3
+0808a520	CharselRestoreMenuPos	void CharselRestoreMenuPos(int param_1, int * param_2, int param_3)	3
+0808a560	CharselReadConfig	bool CharselReadConfig(int param_1)	1
+0808af70	VersusScreen	uint VersusScreen(void)	0
+0808b9f0	ArcadeListBuild	undefined4 ArcadeListBuild(void)	0
+0808ba60	ArcadeListBuildSet	void ArcadeListBuildSet(int * param_1, int param_2, int param_3)	3
+0808bd80	ArcadeListGetCurrent	undefined4 ArcadeListGetCurrent(void)	0
+0808bd90	ArcadeListGet	int ArcadeListGet(int param_1)	1
+0808bf70	ArcadeListGetCurSize	int ArcadeListGetCurSize(void)	0
+0808bff0	ArcadeListPeekCur	void ArcadeListPeekCur(int param_1)	1
+0808c010	ArcadeListPeekNext	void ArcadeListPeekNext(int param_1)	1
+0808c030	ArcadeListPeek	int ArcadeListPeek(int param_1, int param_2)	2
+0808c100	ArcadeListEnemiesLeft	int ArcadeListEnemiesLeft(void)	0
+0808c120	SurvivalBuildRandomTeam	void SurvivalBuildRandomTeam(undefined4 * param_1, int param_2, int param_3)	3
+0808c390	GetPlayerRowCol	undefined4 GetPlayerRowCol(int param_1, int * param_2, int * param_3)	3
+0808c410	SlctStateListChanged	undefined4 SlctStateListChanged(int param_1)	1
+0808c430	SlctStateListNextItem	int SlctStateListNextItem(int param_1)	1
+0808c470	SlctStateListUpdate	void SlctStateListUpdate(int param_1)	1
+0808c490	BuildSlctCtrl	void BuildSlctCtrl(int param_1, int param_2, int param_3)	3
+0808c630	BuildSlctTeamForArcade	void BuildSlctTeamForArcade(int param_1, int param_2, int param_3, undefined4 param_4, int param_5)	5
+0808c6d0	BuildMenuCtrl	void BuildMenuCtrl(int param_1, int param_2, int param_3)	3
+0808c8a0	MenuItemVal	void MenuItemVal(undefined4 * param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4)	4
+0808c8e0	CharReservePal	uint CharReservePal(uint param_1, int param_2)	2
+0808c9b0	CharStopUsingPal	void CharStopUsingPal(byte param_1, int param_2)	2
+0808ca00	CharStopUsingPalAll	void CharStopUsingPalAll(void)	0
+0808ca40	ParseCmdLine	void ParseCmdLine(MugenCmdLine * opts, int argc, char * * argv)	3
+0808d090	PrintHelp	undefined4 PrintHelp(void)	0
+0808d0f0	GlobalInputUpdate	void GlobalInputUpdate(void)	0
+0808d100	Warn	undefined4 Warn(int param_1, int param_2)	2
+0808d150	VWarn	undefined4 VWarn(int param_1, char * param_2, ...)	2
+0808d1c0	WarnR	undefined4 WarnR(int param_1, int param_2, int param_3)	3
+0808d220	StripDoublePercent	void StripDoublePercent(char * param_1)	1
+0808d250	FontDrawClipboard	void FontDrawClipboard(int * param_1, int * param_2, int param_3, int param_4, uint param_5)	5
+0808d300	ErrorExit	undefined4 ErrorExit(void)	0
+0808d3d0	ErrorExitM	undefined4 ErrorExitM(char * param_1, ...)	1
+0808d400	fileexist	bool fileexist(char * param_1)	1
+0808d440	ChangeFileDir	undefined4 ChangeFileDir(char * param_1, char * param_2, char * param_3)	3
+0808d5c0	FindFileDir	undefined4 FindFileDir(char * param_1, char * param_2, char * param_3)	3
+0808d5e0	FindFileDirEx	undefined4 FindFileDirEx(char * param_1, char * param_2, char * param_3, undefined4 * param_4)	4
+0808d750	GetQuotedString	undefined4 GetQuotedString(int param_1, char * param_2, char * param_3, size_t param_4, char * param_5)	5
+0808d830	MDYDateCmp	int MDYDateCmp(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+0808d870	datenotostr	void datenotostr(undefined4 param_1, int param_2, undefined * * param_3, char * param_4)	4
+0808d940	FrameSkipReset	void FrameSkipReset(void)	0
+0808d960	FrameSkipUpdate	void FrameSkipUpdate(void)	0
+0808da20	DrawToScreen	void DrawToScreen(void)	0
+0808dbb0	ScreenSnap	void ScreenSnap(void)	0
+0808dc30	ExplodArrayNew	int * ExplodArrayNew(size_t param_1, undefined4 param_2)	2
+0808dcb0	ExplodArrayFree	void ExplodArrayFree(int * param_1)	1
+0808dd20	ExplodArrayUpdate	void ExplodArrayUpdate(int * param_1)	1
+0808dd50	ExplodUpdate	undefined4 ExplodUpdate(int * param_1, int param_2)	2
+0808ded0	ExplodArrayDraw	void ExplodArrayDraw(int * param_1, int param_2)	2
+0808df40	ExplodDraw	void ExplodDraw(int param_1)	1
+0808e210	ExplodArrayDrawShadow	void ExplodArrayDrawShadow(int * param_1)	1
+0808e2b0	ExplodDrawShadow	void ExplodDrawShadow(int param_1, int * param_2, uint param_3, int * param_4)	4
+0808e840	ExplodArrayReset	void ExplodArrayReset(undefined4 * param_1)	1
+0808e870	ExplodDefault	void ExplodDefault(undefined4 * param_1)	1
+0808e990	ExplodMakeFromInfo	void ExplodMakeFromInfo(int * param_1, int param_2, int * param_3)	3
+0808ea70	ExplodModifyFromInfo	void ExplodModifyFromInfo(int * param_1, int param_2, int * param_3)	3
+0808eb10	ExplodSetParams	void ExplodSetParams(int * param_1, int param_2, int param_3, int * param_4, int param_5)	5
+0808f300	ExplodAdd	int ExplodAdd(undefined4 * param_1, int param_2, int * param_3, int param_4)	4
+0808f3c0	ExplodAddSprite	int ExplodAddSprite(undefined4 * param_1, int param_2, int param_3, int * param_4)	4
+0808f460	ExplodAddText	int ExplodAddText(int * param_1, char * param_2, int param_3, int param_4, int param_5)	5
+0808f4f0	ExplodRemove	void ExplodRemove(int * param_1, int param_2)	2
+0808f520	ExplodRemoveID	void ExplodRemoveID(undefined4 * param_1, int param_2, int param_3)	3
+0808f580	ExplodRemoveGetHit	void ExplodRemoveGetHit(undefined4 * param_1, int param_2)	2
+0808f5d0	ExplodAccessID	int ExplodAccessID(undefined4 * param_1, int param_2, int param_3)	3
+0808f620	ExplodGetUniqID	undefined4 ExplodGetUniqID(void)	0
+0808f630	ExplodBindChange	void ExplodBindChange(undefined4 * param_1, int param_2, int param_3, int param_4)	4
+0808f680	ExplodCount	int ExplodCount(int * param_1, int param_2, int param_3)	3
+0808f6d0	SysExplodParse	undefined4 SysExplodParse(int param_1, int * param_2, undefined4 param_3)	3
+0808f900	SysExplodParseGetSprGrpImgNo	undefined4 SysExplodParseGetSprGrpImgNo(int * param_1, int * param_2, int * param_3)	3
+0808f930	SysExplodCreateDraw	void SysExplodCreateDraw(int * param_1, int * param_2, int * param_3, int * param_4, int param_5, int param_6, int param_7, int param_8)	8
+0808f940	SysExplodCreateDrawPal	int SysExplodCreateDrawPal(int * param_1, int * param_2, int * param_3, int * param_4, int param_5, int param_6, int param_7, int param_8)	8
+0808fa20	SysExplodCreate	int SysExplodCreate(int * param_1, int * param_2, int * param_3, int * param_4, int param_5, int param_6, int param_7)	7
+0808fc90	SysExplodCreate_Fight	undefined4 SysExplodCreate_Fight(int * param_1, int param_2, int param_3)	3
+0808fcd0	SysExplodCreate_Sys	void SysExplodCreate_Sys(int * param_1, int param_2, int param_3)	3
+0808fd20	SysExplodCreateDraw_Fight	undefined4 SysExplodCreateDraw_Fight(int * param_1, int param_2, int param_3, int param_4)	4
+0808fd70	SysExplodCreateDraw_Sys	undefined4 SysExplodCreateDraw_Sys(int * param_1, int param_2, int param_3, int param_4)	4
+0808fdc0	GameLoop	undefined4 GameLoop(undefined4 param_1)	1
+08091100	GameUpdate	undefined4 GameUpdate(void)	0
+08091e30	GameWinScreenUpdate	void GameWinScreenUpdate(void)	0
+08091fc0	GameSurvivalResultsUpdate	void GameSurvivalResultsUpdate(void)	0
+08092180	GameDemoUpdate	undefined4 GameDemoUpdate(void)	0
+08092250	GameRoundUpdate	undefined4 GameRoundUpdate(void)	0
+08093540	GameRoundDraw	void GameRoundDraw(void)	0
+08093900	GameInputUpdate	undefined4 GameInputUpdate(void)	0
+08094350	CameraMoveAbs	undefined4 CameraMoveAbs(float param_1, float param_2)	2
+080943d0	CameraMoveP	void CameraMoveP(void)	0
+08094d00	ComboAdd	void ComboAdd(int param_1, int param_2)	2
+08094d70	ComboClear	void ComboClear(int param_1)	1
+08094d90	ComboDisplay	void ComboDisplay(int param_1)	1
+08095050	ComboDisplayUpdate	void ComboDisplayUpdate(int param_1)	1
+08095110	PlayerComboCountCheck	void PlayerComboCountCheck(int param_1)	1
+080951b0	GameBGDraw	void GameBGDraw(void)	0
+080952f0	GameFGDraw	void GameFGDraw(void)	0
+08095310	GameBarsDraw	void GameBarsDraw(int param_1)	1
+08096400	GameLifeBarDraw	void GameLifeBarDraw(undefined4 param_1, int param_2, int * param_3, int param_4)	4
+080968c0	GameBarsUpdate	void GameBarsUpdate(void)	0
+08096930	GameLifeBarUpdate	void GameLifeBarUpdate(int param_1)	1
+08096ab0	GamePowerBarDraw	undefined4 GamePowerBarDraw(int param_1, int param_2, int param_3, undefined4 param_4, int param_5, int param_6)	6
+08096c10	GamePowerBarUpdate	int GamePowerBarUpdate(int param_1)	1
+08096d00	RequestNewAftImg	int RequestNewAftImg(int param_1)	1
+08096d30	GameAftImgReset	void GameAftImgReset(int param_1)	1
+08096d70	GameAftImgCount	undefined4 GameAftImgCount(int param_1)	1
+08096db0	PlayerAftImgUpdate	void PlayerAftImgUpdate(int param_1)	1
+08096e80	PlayerAftImgDraw	void PlayerAftImgDraw(int param_1)	1
+08096ed0	ProjArrayAftImgUpdate	void ProjArrayAftImgUpdate(int * param_1)	1
+08096f00	ProjAftImgUpdate	void ProjAftImgUpdate(int param_1)	1
+08096fa0	ProjArrayAftImgDraw	void ProjArrayAftImgDraw(int * param_1)	1
+08096fd0	ProjAftImgDraw	void ProjAftImgDraw(int param_1)	1
+08097020	GameClsnDraw	void GameClsnDraw(int param_1, float param_2, float param_3, float param_4, float param_5, uint param_6, uint param_7, int param_8)	8
+08097210	TeamLifeBack	undefined4 TeamLifeBack(int param_1)	1
+080972e0	WinIconCheckTeam	void WinIconCheckTeam(int param_1, int param_2, uint param_3)	3
+08097360	WinIconCheck	void WinIconCheck(int param_1, uint param_2, int param_3)	3
+08097420	TeamHasFullLife	undefined4 TeamHasFullLife(int param_1)	1
+080974b0	ShowDebugInfo	void ShowDebugInfo(int param_1)	1
+08097940	ContinueScreenLoop	byte ContinueScreenLoop(void)	0
+080980d0	HelperMake	int * HelperMake(int * param_1, char * param_2, int * param_3)	3
+08098930	HelperDestroy	void HelperDestroy(int param_1)	1
+08098ad0	HelperParent	uint HelperParent(int param_1)	1
+08098b00	HelperRoot	undefined4 HelperRoot(int param_1)	1
+08098b10	HelperCount	undefined4 HelperCount(int param_1, int param_2)	2
+08098bb0	HelperAccessID	undefined4 HelperAccessID(int param_1, int param_2)	2
+08098c50	CloseAllFunc	void CloseAllFunc(void)	0
+08098c60	GameInit	void GameInit(MugenCmdLine opts, int * mode)	2
+08099350	GameDeInit	void GameDeInit(int param_1)	1
+08099490	GameInitPads	void GameInitPads(void)	0
+080995f0	GameDefKeyInit	void GameDefKeyInit(void)	0
+08099640	GameInputSetup	bool GameInputSetup(void)	0
+080997c0	GfxResize	bool GfxResize(int param_1, int param_2, undefined4 param_3, int param_4)	4
+08099880	GameLoadFightData	undefined4 GameLoadFightData(FILE * param_1)	1
+0809bc20	GameFreeFightData	void GameFreeFightData(void)	0
+0809bcf0	GameVarInit	undefined4 GameVarInit(void)	0
+0809c160	GameVarLoadFonts	undefined4 GameVarLoadFonts(void)	0
+0809c200	GameVarDeInit	undefined4 GameVarDeInit(void)	0
+0809c320	GameAftImgArrayNew	undefined4 * GameAftImgArrayNew(size_t param_1, int param_2)	2
+0809c3b0	GameAftImgArrayFree	undefined4 GameAftImgArrayFree(void * param_1)	1
+0809c400	SwitchCallbacksInit	void SwitchCallbacksInit(void)	0
+0809c410	SwitchCallbacksDeInit	void SwitchCallbacksDeInit(void)	0
+0809c420	SwitchAwayCallback	void SwitchAwayCallback(void)	0
+0809c440	SwitchBackCallback	void SwitchBackCallback(void)	0
+0809c470	gcc2_compiled.	int gcc2_compiled.(int argc, char * * argv)	2
+0809c6f0	QuickVSSetup	void QuickVSSetup(MugenCmdLine * opts)	1
+0809cb60	MainLoop	void MainLoop(int param_1)	1
+0809d120	GamePlay	undefined4 GamePlay(void)	0
+0809d630	ArcadeWinScreen	undefined4 ArcadeWinScreen(void)	0
+0809d830	SurvivalResultsScreen	void SurvivalResultsScreen(void)	0
+0809da60	DemoFightSetup	void DemoFightSetup(void)	0
+0809dc00	ContinueScreen	byte ContinueScreen(void)	0
+0809dc10	GameModeInFightScreen	bool GameModeInFightScreen(void)	0
+0809dc30	GameModeInPassiveFightScreen	bool GameModeInPassiveFightScreen(void)	0
+0809dc50	GameLoadStage	undefined4 GameLoadStage(void)	0
+0809e630	GameBGLoad	bool GameBGLoad(void)	0
+0809e730	GameUnloadStage	void GameUnloadStage(void)	0
+0809e8d0	GameStgInitFightData	undefined4 GameStgInitFightData(void)	0
+0809eb00	GameStgDeInitFightData	void GameStgDeInitFightData(void)	0
+0809eb60	GameNextRound	void GameNextRound(void)	0
+0809ece0	GameReloadStage	undefined4 GameReloadStage(void)	0
+0809edf0	GameMatchReset	void GameMatchReset(void)	0
+0809f210	GameRoundReset	void GameRoundReset(void)	0
+0809f880	GameRoundResetPlayerPos	int GameRoundResetPlayerPos(void)	0
+0809f960	GameRoundWinner	int GameRoundWinner(void)	0
+0809f970	GameMatchWinner	int GameMatchWinner(void)	0
+0809fa40	LogPreMatch	void LogPreMatch(void)	0
+0809fc40	LogMatch	void LogMatch(void)	0
+0809fd70	IntroScreen	void IntroScreen(void)	0
+0809fd90	PlayCutscene	void PlayCutscene(char * param_1, char * param_2)	2
+080a01b0	ModeSelect	void ModeSelect(void)	0
+080a1830	OptionsScreen	void OptionsScreen(void)	0
+080a3aa0	KeyConfigScreen	int KeyConfigScreen(int param_1, int param_2)	2
+080a4ff0	TrainingMenuUpdate	undefined4 TrainingMenuUpdate(uint param_1)	1
+080a5480	TrainingMenuReset	undefined4 TrainingMenuReset(void)	0
+080a54b0	TrainingMenuDraw	void TrainingMenuDraw(void)	0
+080a5b70	InfoTextDraw	void InfoTextDraw(char * param_1, int param_2, int param_3)	3
+080a5d70	PlayerAIInit	undefined4 PlayerAIInit(int param_1, int param_2)	2
+080a5dd0	PlayerAIDeInit	void PlayerAIDeInit(int param_1)	1
+080a5e00	AILearnDataLoad	undefined4 AILearnDataLoad(char * param_1, undefined4 * param_2)	2
+080a6080	AILearnDataSave	undefined4 AILearnDataSave(char * param_1, int param_2)	2
+080a61d0	AIStateSetInit	undefined4 AIStateSetInit(int param_1)	1
+080a6230	AIStateSetDeInit	void AIStateSetDeInit(undefined4 * param_1)	1
+080a6270	AIStateSetClear	void AIStateSetClear(int param_1)	1
+080a62a0	AIStateSetMerge	undefined4 AIStateSetMerge(int param_1, int param_2)	2
+080a6380	AIStateSetCopy	void AIStateSetCopy(int param_1, int param_2)	2
+080a63b0	PlayerAISetLevel	void PlayerAISetLevel(int param_1, undefined4 param_2)	2
+080a63c0	PlayerResetAI	void PlayerResetAI(int param_1)	1
+080a6440	PlayerAI	void PlayerAI(int param_1)	1
+080a6570	PlayerAIProcessCommands	void PlayerAIProcessCommands(int param_1)	1
+080a65c0	AIInsertCommand	undefined4 AIInsertCommand(int * param_1, int param_2)	2
+080a6600	AICopyCommands	void AICopyCommands(int param_1, int * param_2)	2
+080a6630	AIClearCommands	void AIClearCommands(undefined4 * param_1)	1
+080a6640	AICountCommands	undefined4 AICountCommands(int * param_1)	1
+080a6660	PlayerAILearnMoveStart	undefined4 PlayerAILearnMoveStart(int param_1)	1
+080a67f0	PlayerAILearnMoveUpdate	void PlayerAILearnMoveUpdate(int param_1, int param_2)	2
+080a71f0	AILearnClsnUpdate	int AILearnClsnUpdate(int param_1, int param_2)	2
+080a7460	AILearnIdleClsnUpdate	void AILearnIdleClsnUpdate(int param_1)	1
+080a7620	AIIdleClsnMatchState	int AIIdleClsnMatchState(int param_1)	1
+080a7670	PlayerAILearnMoveEnd	undefined4 PlayerAILearnMoveEnd(int param_1, int param_2)	2
+080a79d0	PlayerAIGetAIPLHS	undefined4 PlayerAIGetAIPLHS(int param_1)	1
+080a7a20	AIFetchLearnDataArray	undefined4 AIFetchLearnDataArray(int param_1, int param_2)	2
+080a7a50	PlayerAIMsgAttack	void PlayerAIMsgAttack(int param_1)	1
+080a7ad0	PlayerAIMsgAttackEnd	void PlayerAIMsgAttackEnd(int param_1)	1
+080a7b20	PlayerAIBroadcastMsg	int PlayerAIBroadcastMsg(int param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5)	5
+080a7bf0	PlayerAIFindMsg	int PlayerAIFindMsg(int param_1, int param_2, int param_3)	3
+080a7c40	PlayerAIGetMsg	undefined4 * PlayerAIGetMsg(undefined4 * param_1, int param_2, int param_3, int param_4)	4
+080a7ce0	PlayerAIGetAndRemoveMsg	undefined4 * PlayerAIGetAndRemoveMsg(undefined4 * param_1, int param_2, int param_3, int param_4)	4
+080a7d80	PlayerAIClearMsg	void PlayerAIClearMsg(int param_1)	1
+080a7d90	PlayerAIMsgStateUpdate	void PlayerAIMsgStateUpdate(int param_1)	1
+080a7de0	PlayerAISctrlProjectile	void PlayerAISctrlProjectile(int param_1, undefined4 * param_2)	2
+080a7e00	AIForNormal	void AIForNormal(int param_1, int param_2)	2
+080a7f30	AIForNormalDecisions	undefined4 AIForNormalDecisions(int param_1, int param_2)	2
+080a86d0	AIMovePlanRoute	undefined4 AIMovePlanRoute(int param_1, undefined4 param_2, int param_3, int param_4)	4
+080a88d0	AIMoveReachedDest	undefined4 AIMoveReachedDest(int param_1)	1
+080a8910	AIMoveReachedDestIdx	undefined4 AIMoveReachedDestIdx(int param_1, int param_2)	2
+080a8a10	AIForNormalIdle	undefined4 AIForNormalIdle(int param_1)	1
+080a8ad0	AISetIdleAction	void AISetIdleAction(int param_1, undefined4 param_2)	2
+080a8ae0	AIForNormalMove	undefined4 AIForNormalMove(int param_1)	1
+080a8dd0	AIForNormalAttack	undefined4 AIForNormalAttack(int param_1, int param_2)	2
+080a8fb0	AIAttackSetupAttack	undefined4 AIAttackSetupAttack(int param_1, undefined4 param_2, undefined4 param_3)	3
+080a8fe0	AIForNormalGuard	undefined4 AIForNormalGuard(int param_1, int param_2)	2
+080a90c0	AIAttackInRange	int AIAttackInRange(int param_1, undefined4 param_2, int param_3, int param_4)	4
+080a93a0	AIBuildCounterAttackList	int AIBuildCounterAttackList(int param_1, undefined4 param_2)	2
+080a9640	AIForNormalRandom	undefined4 AIForNormalRandom(int param_1, int param_2, int param_3)	3
+080a9e50	AIForTrainingMode	void AIForTrainingMode(int param_1, int param_2)	2
+080aa560	AICheckForAttacks	undefined4 AICheckForAttacks(int param_1)	1
+080aa600	AIValMake	void AIValMake(float * param_1, float param_2)	2
+080aa650	AIValMerge	float * AIValMerge(float * param_1, float param_2, float param_3, float param_4, float param_5, float param_6, float param_7, float param_8)	8
+080aa720	AIValMergeR	void AIValMergeR(float * param_1, float param_2, float param_3, float param_4, int param_5)	5
+080aa780	AILearnStopRecord	undefined4 AILearnStopRecord(int param_1)	1
+080aa7b0	AIMergeLearnData	void AIMergeLearnData(int * param_1, int param_2, int param_3)	3
+080ab080	AIChangeState	undefined4 AIChangeState(int param_1, undefined4 param_2)	2
+080ab0a0	AIKBReleaseDir	void AIKBReleaseDir(int param_1)	1
+080ab0e0	AIKBReleaseDirExcept	void AIKBReleaseDirExcept(int param_1, uint param_2)	2
+080ab130	AIKBReleaseAll	void AIKBReleaseAll(int param_1)	1
+080ab170	AIKBReleaseAllExcept	void AIKBReleaseAllExcept(int param_1, uint param_2)	2
+080ab1c0	PlayerNearestEnemy	int PlayerNearestEnemy(int param_1)	1
+080ab3b0	PartnerAccess	int PartnerAccess(int param_1, int param_2)	2
+080ab430	PartnerCount	int PartnerCount(int param_1)	1
+080ab4b0	EnemyAccess	int EnemyAccess(int param_1, int param_2)	2
+080ab540	EnemyCount	int EnemyCount(int param_1)	1
+080ab5d0	EnemyAccessNear	undefined4 EnemyAccessNear(int param_1, int param_2)	2
+080ab6d0	PlayerAccessID	int PlayerAccessID(int param_1)	1
+080ab740	PlayerGetDamagedLife	int PlayerGetDamagedLife(int param_1)	1
+080ab760	PlayerInCorner	undefined4 PlayerInCorner(int param_1)	1
+080ab7e0	PlayerDistX	undefined4 PlayerDistX(int param_1, int param_2)	2
+080ab830	PlayerBodyDistX	int PlayerBodyDistX(int param_1, int param_2)	2
+080ab930	PlayerInAnyGuardDist	undefined4 PlayerInAnyGuardDist(int param_1)	1
+080ab9f0	PlayerInGuardDist	undefined4 PlayerInGuardDist(int param_1, int param_2)	2
+080abab0	HitdefAffectTeam	bool HitdefAffectTeam(int param_1, int param_2, uint param_3)	3
+080abae0	PlayerAreEnemies	undefined4 PlayerAreEnemies(int param_1, int param_2)	2
+080abb10	PlayerGetWidth	int PlayerGetWidth(int param_1, int param_2, uint param_3)	3
+080abbf0	PlayerAnimExist	bool PlayerAnimExist(int param_1, int param_2)	2
+080abc20	PlayerSelfAnimExist	bool PlayerSelfAnimExist(int * param_1, int param_2)	2
+080abc70	PlayerLyingDead	undefined4 PlayerLyingDead(int param_1)	1
+080abc90	PlayerFindTarget	int * PlayerFindTarget(int param_1, int param_2)	2
+080abcc0	TargetAccessID	undefined4 TargetAccessID(int param_1, int param_2)	2
+080abd00	TargetCount	int TargetCount(int param_1, int param_2)	2
+080abd40	PlayerKBUpdate	void PlayerKBUpdate(int * param_1)	1
+080ac660	PlayerCacheLoad	int PlayerCacheLoad(int param_1)	1
+080ac930	PlayerCacheFree	void PlayerCacheFree(int param_1)	1
+080ac950	PlayerCacheFreePriority	undefined4 PlayerCacheFreePriority(int param_1, int param_2)	2
+080ac9b0	PlayerCacheChangePriority	void PlayerCacheChangePriority(int param_1, int param_2)	2
+080aca00	PlayerIsCached	bool PlayerIsCached(int param_1)	1
+080aca40	PlayerCacheClear	void PlayerCacheClear(void)	0
+080acb40	PlayerCacheHasUnused	undefined4 PlayerCacheHasUnused(void)	0
+080acba0	PlayerDefLoad	void * PlayerDefLoad(char * param_1, char * param_2)	2
+080acc70	PlayerDefLoadZip	int * PlayerDefLoadZip(char * param_1, int * param_2)	2
+080ada90	PlayerDefLoadPtr	char * PlayerDefLoadPtr(char * param_1, FILE * param_2)	2
+080ae4a0	PlayerCNSLoadTP	undefined4 PlayerCNSLoadTP(int param_1, int param_2)	2
+080aeca0	PlayerSTLoadTP	bool PlayerSTLoadTP(int param_1, int param_2)	2
+080aecd0	PlayerSTLoadAppend	undefined4 PlayerSTLoadAppend(int param_1, char * param_2)	2
+080aed20	PlayerCMDLoad	undefined4 PlayerCMDLoad(char * param_1, uint * param_2)	2
+080aed90	PlayerCMDLoadTP	undefined4 PlayerCMDLoadTP(uint param_1, uint * param_2)	2
+080af400	ParseCMD	undefined4 ParseCMD(int * param_1, char * param_2, undefined4 * param_3)	3
+080af680	ParseCMDElem	undefined4 ParseCMDElem(undefined1 * param_1, undefined4 * param_2, undefined4 * param_3)	3
+080af780	CmdSetFreeLabel	void CmdSetFreeLabel(int param_1)	1
+080af7b0	StringArrayFree	void StringArrayFree(void * param_1, int param_2)	2
+080af800	CmdSetDeInit	void CmdSetDeInit(int * param_1)	1
+080af870	PlayerRCFree	void PlayerRCFree(void * param_1)	1
+080af8f0	PlayerNew	int * PlayerNew(int param_1)	1
+080afcc0	GetRampedAILevel	int GetRampedAILevel(void)	0
+080afdd0	PlayerChangePal	undefined4 PlayerChangePal(int param_1, int param_2)	2
+080aff80	PlayerFree	undefined4 PlayerFree(int * param_1)	1
+080b0090	PlayerCheck	undefined4 PlayerCheck(int * param_1)	1
+080b02d0	ResetPersistVar	void ResetPersistVar(undefined4 * param_1)	1
+080b02f0	GameResetPersistVars	undefined4 GameResetPersistVars(void)	0
+080b0310	TeamResetPersistVars	void TeamResetPersistVars(int param_1)	1
+080b03a0	PlayerSavePersistVars	void PlayerSavePersistVars(int param_1, undefined4 * param_2)	2
+080b0410	PlayerRestorePersistVars	void PlayerRestorePersistVars(int param_1, int param_2)	2
+080b0470	GameLoadAndActivateTeam	void GameLoadAndActivateTeam(int param_1)	1
+080b0560	GameActivateAI	void GameActivateAI(void)	0
+080b0610	GameLoadAndCreateChars	undefined4 GameLoadAndCreateChars(int param_1)	1
+080b09d0	GameFreeChars	undefined4 GameFreeChars(int param_1)	1
+080b0b50	GameFreePlayerDependencies	undefined4 GameFreePlayerDependencies(int * param_1)	1
+080b0cb0	TeamReorderAll	int TeamReorderAll(int param_1)	1
+080b0fe0	PlayerReset	void PlayerReset(int * param_1)	1
+080b15d0	PlayerEnableSet	undefined4 PlayerEnableSet(int param_1, int param_2)	2
+080b1730	PlayerChangeState	byte PlayerChangeState(int param_1, int param_2)	2
+080b17d0	PlayerLifeSet	undefined4 PlayerLifeSet(int param_1, uint param_2)	2
+080b18d0	PlayerLifeSetNoIcon	void PlayerLifeSetNoIcon(int param_1, uint param_2)	2
+080b1950	PlayerPowerSet	void PlayerPowerSet(int param_1, uint param_2)	2
+080b1990	PlayerChangeAnim	void PlayerChangeAnim(int * param_1, int param_2)	2
+080b1a10	PlayerChangeAnimElem	void PlayerChangeAnimElem(int * param_1, int param_2, int param_3)	3
+080b1ac0	PlayerSelfAnim	undefined4 PlayerSelfAnim(int * param_1, int param_2)	2
+080b1ae0	PlayerSelfAnimElem	void PlayerSelfAnimElem(int * param_1, int param_2, int param_3)	3
+080b1b00	PlayerAutoTurn	undefined4 PlayerAutoTurn(int param_1, int param_2, int param_3)	3
+080b1bc0	PlayerTurnAround	undefined4 PlayerTurnAround(int param_1)	1
+080b1bf0	PlayerUpdate	void PlayerUpdate(int * player)	1
+080b2cf0	PlayerUpdateBindTo	undefined4 PlayerUpdateBindTo(int param_1)	1
+080b2db0	ScreenBound	void ScreenBound(int param_1)	1
+080b2f00	StageBound	void StageBound(int param_1)	1
+080b2fa0	GameClsnUpdate	void GameClsnUpdate(void)	0
+080b3430	PlayerPushCheck	void PlayerPushCheck(int param_1, int param_2, int param_3)	3
+080b36a0	PlayerCheckOverlap	void PlayerCheckOverlap(int param_1, int param_2)	2
+080b37d0	PlayerCheckP1HitP2	undefined4 PlayerCheckP1HitP2(int param_1, int param_2)	2
+080b3830	PlayerCheckHit	bool PlayerCheckHit(int param_1, int param_2)	2
+080b3b40	Player1HitP2	void Player1HitP2(int * param_1, int * param_2)	2
+080b4400	PlayerGetHit	undefined4 PlayerGetHit(int * param_1, int * param_2, int param_3, float param_4, float param_5, float param_6, int param_7, int param_8, int param_9)	9
+080b4f10	PlayerTakeDamage	void PlayerTakeDamage(int param_1, int param_2, int param_3, int param_4)	4
+080b4fa0	PlayerGetCorrectedDamage	int PlayerGetCorrectedDamage(int param_1, int param_2, int param_3)	3
+080b5040	PlayerGetHitG	undefined4 PlayerGetHitG(int * param_1, int * param_2, int param_3, int param_4)	4
+080b5310	PlayerCheckReversal	undefined4 PlayerCheckReversal(int param_1, int param_2)	2
+080b5510	Player1ReverseP2	void Player1ReverseP2(int * param_1, int * param_2)	2
+080b5a90	PlayerCheckHitProj	void PlayerCheckHitProj(int param_1, int * param_2)	2
+080b5db0	PlayerCheckProjHit	void PlayerCheckProjHit(int * param_1, int * param_2)	2
+080b6760	PlayerProjDoHit	undefined4 PlayerProjDoHit(int param_1)	1
+080b67e0	CheckProjHitProj	undefined4 CheckProjHitProj(int param_1, int param_2)	2
+080b6a60	PlayerCheckFlagHit	undefined4 PlayerCheckFlagHit(int param_1, uint param_2)	2
+080b6b00	PlayerCheckAttrHit	undefined4 PlayerCheckAttrHit(int param_1, uint param_2)	2
+080b6b20	AttrMatch	bool AttrMatch(uint param_1, uint param_2)	2
+080b6b40	PlayerAttrStateSet	void PlayerAttrStateSet(int param_1)	1
+080b6ba0	PlayerDropBoundTargets	void PlayerDropBoundTargets(int param_1, int * param_2)	2
+080b6c60	PlayerSparkCreate	int PlayerSparkCreate(int * param_1, int param_2, int param_3, int param_4, int param_5, undefined4 param_6, int param_7)	7
+080b6da0	PlayerMakeDust	int PlayerMakeDust(int param_1)	1
+080b6f40	PlayerCalcDraw	undefined4 PlayerCalcDraw(int param_1)	1
+080b71c0	PlayerDrawAnim	void PlayerDrawAnim(int param_1, float param_2)	2
+080b73c0	PlayerDrawShadow	void PlayerDrawShadow(int param_1, int * param_2, int * param_3)	3
+080b79b0	PlayerDrawClsn	void PlayerDrawClsn(int param_1, float param_2)	2
+080b8460	PalGrpAdd	undefined4 PalGrpAdd(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+080b8610	PalGrpRemove	void PalGrpRemove(PalGrpFlag f)	1
+080b86d0	PalGrpAddSpr	undefined4 PalGrpAddSpr(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	6
+080b8730	PalGrpBuildFight	void PalGrpBuildFight(void)	0
+080b8960	PalGrpClear	undefined4 PalGrpClear(void)	0
+080b89e0	PalGrpResetPalette	void PalGrpResetPalette(void)	0
+080b8a20	PalGrpSetAdd	void PalGrpSetAdd(PalGrpFlag f, int r, int g, int b)	4
+080b8ac0	PalGrpSetMul	void PalGrpSetMul(PalGrpFlag f, int r, int g, int b)	4
+080b8b70	PalGrpSetInvertAll	void PalGrpSetInvertAll(PalGrpFlag f, int invert)	2
+080b8c00	PalGrpSetColorBal	void PalGrpSetColorBal(PalGrpFlag f, int colorbal)	2
+080b8c90	PalGrpSetClear	void PalGrpSetClear(PalGrpFlag f)	1
+080b8d10	PalGrpMakeFlag	PalGrpFlag PalGrpMakeFlag(PalGrpFlag * __return_storage_ptr__, uint group, int unused)	3
+080b8d80	PalGrpMakeFlagALL	PalGrpFlag PalGrpMakeFlagALL(PalGrpFlag * __return_storage_ptr__)	1
+080b8dd0	PalGrpOrFlag	PalGrpFlag PalGrpOrFlag(PalGrpFlag * __return_storage_ptr__, PalGrpFlag a, PalGrpFlag b)	3
+080b8e20	PalGrpXorFlag	PalGrpFlag PalGrpXorFlag(PalGrpFlag * __return_storage_ptr__, PalGrpFlag a, PalGrpFlag b)	3
+080b8e70	PalGrpAndFlagZero	int PalGrpAndFlagZero(PalGrpFlag a, PalGrpFlag b)	2
+080b8e90	PalGrpFlagEqual	int PalGrpFlagEqual(PalGrpFlag a, PalGrpFlag b)	2
+080b8eb0	PalGrpFlagIsNonZero	int PalGrpFlagIsNonZero(PalGrpFlag a)	1
+080b8ed0	PalFXReset	void PalFXReset(undefined4 * param_1)	1
+080b8f10	PalFXUpdate	void PalFXUpdate(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7, int param_8)	8
+080b9170	ProjArrayNew	undefined4 ProjArrayNew(size_t param_1, undefined4 param_2, undefined4 param_3)	3
+080b91e0	ProjArrayFree	void ProjArrayFree(undefined4 * param_1)	1
+080b9210	ProjArrayAdd	int ProjArrayAdd(int * param_1, int * param_2, void * param_3, int param_4)	4
+080b92b0	ProjArrayDelete	void ProjArrayDelete(int * param_1, int param_2)	2
+080b9310	ProjArrayUpdate	void ProjArrayUpdate(int * param_1)	1
+080b9670	ProjArrayCalcDraw	void ProjArrayCalcDraw(int * param_1)	1
+080b97a0	ProjArrayCountActive	undefined4 ProjArrayCountActive(int * param_1)	1
+080b97e0	ProjArrayCountActiveID	int ProjArrayCountActiveID(int * param_1, int param_2)	2
+080b9830	ProjClsnDetect	undefined4 ProjClsnDetect(int * param_1, int * param_2, int param_3, int param_4, int param_5)	5
+080b9910	ProjArrayDraw	undefined4 ProjArrayDraw(int * param_1)	1
+080b9980	ProjArrayDrawShadow	void ProjArrayDrawShadow(int * param_1)	1
+080b9a00	ProjDrawShadow	void ProjDrawShadow(int param_1, int * param_2, uint param_3, int * param_4)	4
+080b9ea0	ProjArrayClsnDraw	void ProjArrayClsnDraw(int * param_1, float param_2)	2
+080b9ee0	ProjClsnDraw	void ProjClsnDraw(int param_1, float param_2)	2
+080b9fd0	GameSndPlay	undefined4 GameSndPlay(int * param_1, int param_2, int param_3, int param_4)	4
+080ba000	GameSndPlayID	void GameSndPlayID(int param_1, int * param_2, int param_3, int param_4, int param_5)	5
+080ba090	GameSndPlayIDPos	int GameSndPlayIDPos(int param_1, int param_2, int * param_3, int param_4, int param_5, int param_6)	6
+080ba180	ScrPositionToPan	int ScrPositionToPan(int param_1)	1
+080ba230	PanVolumeAdjust	undefined4 PanVolumeAdjust(int param_1, int param_2)	2
+080ba2a0	GameSetVol	void GameSetVol(int param_1, uint param_2)	2
+080ba330	PlayerSndID	int PlayerSndID(int param_1, int param_2)	2
+080ba360	ParseSndGI	void ParseSndGI(int param_1, char * param_2, undefined4 * param_3, int param_4)	4
+080ba390	SCtrlParseElemType	undefined4 SCtrlParseElemType(int param_1, int param_2, int param_3)	3
+080bee10	SCtrlParseElem	bool SCtrlParseElem(int param_1, int * param_2, undefined4 param_3, int param_4)	4
+080bf1d0	PlayerDoSCtrlApplyElem	undefined4 PlayerDoSCtrlApplyElem(float * param_1, int param_2, int * param_3)	3
+080bf290	PlayerSCtrlApplyElem	undefined4 PlayerSCtrlApplyElem(int * player, int param_2, int * param_3)	3
+080c3630	SCtrlRCElemFree	undefined4 SCtrlRCElemFree(undefined4 * param_1)	1
+080c3810	TPGetValuePrefix	undefined4 TPGetValuePrefix(int param_1, undefined4 param_2, undefined4 param_3)	3
+080c3850	StringAdd	char * StringAdd(char * param_1, undefined4 param_2, undefined4 param_3)	3
+080c3880	SCtrlParseAftImgParams	undefined4 SCtrlParseAftImgParams(int param_1, int param_2, int * param_3, undefined4 param_4)	4
+080c3e20	SCtrlInitAftImgParams	undefined4 SCtrlInitAftImgParams(int param_1, int param_2, undefined4 param_3, int * param_4)	4
+080c40c0	AftImgParamsEFree	void AftImgParamsEFree(int * param_1)	1
+080c41f0	SCtrlParseEnvShake	undefined4 SCtrlParseEnvShake(int param_1, int param_2, int * param_3, undefined4 param_4)	4
+080c4310	SCtrlInitEnvShake	undefined4 SCtrlInitEnvShake(int * player, undefined4 * param_2, int * param_3)	3
+080c43e0	EnvShakeEFree	void EnvShakeEFree(int * param_1)	1
+080c4420	SCtrlParseExplod	undefined4 SCtrlParseExplod(int param_1, int param_2, int * param_3, int param_4)	4
+080c4b10	ExplodInfoFree	void ExplodInfoFree(int * param_1)	1
+080c4c90	SCtrlParsePalFX	bool SCtrlParsePalFX(int param_1, int param_2, int param_3, int param_4)	4
+080c4e80	SCtrlInitPalFX	undefined4 SCtrlInitPalFX(int * param_1, undefined4 * param_2, int param_3)	3
+080c5020	PalFXEFree	void PalFXEFree(int param_1)	1
+080c50c0	SCtrlParsePlaySndInfo	undefined4 SCtrlParsePlaySndInfo(int param_1, int param_2, int * param_3)	3
+080c52a0	SCtrlDoPlaySndInfo	int SCtrlDoPlaySndInfo(int * player, int param_2)	2
+080c55f0	PlaySndInfoFree	void PlaySndInfoFree(int * param_1)	1
+080c5650	SCtrlParseHitOverride	bool SCtrlParseHitOverride(int param_1, int param_2, int * param_3)	3
+080c5740	SCtrlInitHitOverride	undefined4 SCtrlInitHitOverride(undefined4 * param_1, undefined4 * param_2, int param_3)	3
+080c57e0	HitOverrideEFree	void HitOverrideEFree(int param_1)	1
+080c5810	SCtrlParseHitDef	bool SCtrlParseHitDef(int param_1, int param_2, undefined4 * param_3)	3
+080c7360	SCtrlInitHitDef	undefined4 SCtrlInitHitDef(undefined4 * param_1, int param_2, int * param_3)	3
+080c7f30	HitDefEFree	void HitDefEFree(int param_1)	1
+080c83a0	SCtrlParseProjectile	undefined4 SCtrlParseProjectile(int param_1, int param_2, int * param_3)	3
+080c8b90	SCtrlInitProjectile	int SCtrlInitProjectile(int param_1, int * param_2, int param_3, int * param_4)	4
+080c93d0	ProjMakeInfoFree	void ProjMakeInfoFree(int * param_1)	1
+080c95c0	SCtrlParseHelper	bool SCtrlParseHelper(int param_1, int param_2, char * param_3)	3
+080c9a90	HelperInfoFree	void HelperInfoFree(int param_1)	1
+080c9bc0	SCtrlParsePause	bool SCtrlParsePause(int param_1, int param_2, int * param_3)	3
+080c9c50	SCtrlInitPause	undefined4 SCtrlInitPause(int param_1, int param_2, int param_3)	3
+080c9d80	PauseInfoFree	void PauseInfoFree(int * param_1)	1
+080c9dc0	SCtrlParseSuperPause	bool SCtrlParseSuperPause(int param_1, int param_2, int * param_3)	3
+080c9f50	SuperPauseInfoFree	void SuperPauseInfoFree(int * param_1)	1
+080c9fd0	MoreExpFree	void MoreExpFree(int * param_1)	1
+080ca000	SCtrlParseTrigger	char * SCtrlParseTrigger(char * param_1, int param_2, undefined4 * param_3, void * param_4, int param_5, int * param_6)	6
+080ccef0	SCtrlParseTriggerCMD	undefined4 SCtrlParseTriggerCMD(char * param_1, int param_2, int param_3, undefined4 * param_4)	4
+080ccfc0	SCtrlParseTriggerRange	undefined4 SCtrlParseTriggerRange(char * param_1, int param_2, int * param_3)	3
+080cd2b0	SCtrlTrigArity	char SCtrlTrigArity(int param_1)	1
+080cd2f0	SCtrlTrigArrayTest	undefined4 SCtrlTrigArrayTest(int * param_1, int param_2, int param_3)	3
+080cd3c0	SCtrlTrigTest	bool SCtrlTrigTest(int * param_1, int * param_2)	2
+080cd450	SCtrlTrigEval	void SCtrlTrigEval(int * param_1, int * param_2)	2
+080d0740	TriggerFree	void TriggerFree(void * param_1)	1
+080d0780	trigcpy	undefined4 trigcpy(int * param_1, int * param_2)	2
+080d0830	SPopI	char SPopI(int param_1, float * param_2)	2
+080d0900	SPopF	char SPopF(undefined4 param_1, float * param_2)	2
+080d09a0	StackUnderflow	undefined4 StackUnderflow(void)	0
+080d09c0	ItoP_TPConstI	undefined4 ItoP_TPConstI(int param_1, char * param_2, int * param_3, int param_4, int param_5)	5
+080d0a30	ItoP_TPConstF	undefined4 ItoP_TPConstF(int param_1, char * param_2, int * param_3, int param_4, int param_5)	5
+080d0aa0	SCtrlReadExpList	byte * SCtrlReadExpList(byte * param_1, char * param_2, int param_3, undefined4 * param_4, int param_5)	5
+080d0c90	SCtrlReadExpListArray	int SCtrlReadExpListArray(byte * param_1, char * param_2, undefined4 param_3, undefined4 * param_4, int param_5, int param_6, int * param_7, int param_8)	8
+080d0e80	ParsePosType	int ParsePosType(char * param_1)	1
+080d0ee0	ParseSpecialFlag	undefined4 ParseSpecialFlag(char * param_1, undefined4 * param_2, undefined4 * param_3)	3
+080d12f0	ParseAnim	bool ParseAnim(byte * param_1, undefined4 param_2, undefined4 * param_3, int param_4)	4
+080d1370	ParseSnd	undefined4 ParseSnd(byte * param_1, undefined4 param_2, undefined4 param_3, undefined4 * param_4, int param_5)	5
+080d13f0	ParseVel	bool ParseVel(byte * param_1, int * param_2, int * param_3, int param_4)	4
+080d1530	ParseHitAttr	uint ParseHitAttr(int param_1, int param_2)	2
+080d1850	ParseHitFlag	uint ParseHitFlag(char * param_1)	1
+080d18e0	PlayerGetRedirInfo	void PlayerGetRedirInfo(int param_1, undefined4 * param_2)	2
+080d19b0	SctrlReadFileTP	int * SctrlReadFileTP(int param_1, int param_2)	2
+080d1b30	SctrlAddFileTP	undefined4 SctrlAddFileTP(int * param_1, int param_2, int param_3)	3
+080d1c90	SCtrlParseState	undefined4 SCtrlParseState(int param_1, int * param_2, int * param_3, int param_4)	4
+080d2460	SCtrlInit	undefined4 SCtrlInit(undefined4 * param_1, undefined4 param_2)	2
+080d2480	SCtrlRCFree	void SCtrlRCFree(undefined4 * param_1)	1
+080d2590	PlayerSCtrlUpdate	undefined4 PlayerSCtrlUpdate(int * player)	1
+080d2a60	PlayerSCtrlUpdateSpec	void PlayerSCtrlUpdateSpec(int * player, int param_2, uint param_3)	3
+080d2b60	GameLoadSystem	undefined4 GameLoadSystem(void)	0
+080d39b0	GameUnloadSystem	void GameUnloadSystem(void)	0
+080d3b40	GameReloadSystemSprSnd	undefined4 GameReloadSystemSprSnd(void)	0
+080d3dd0	GameUnloadSystemSprSnd	void GameUnloadSystemSprSnd(void)	0
+080d3e70	GameConfigRead	undefined4 GameConfigRead(char * param_1)	1
+080d4ea0	GameResetOptions	void GameResetOptions(void)	0
+080d4ef0	GameLoadOptions	undefined4 GameLoadOptions(void)	0
+080d51e0	GameSaveOptions	void GameSaveOptions(void)	0
+080d5480	PlayerLoadKeys	bool PlayerLoadKeys(int param_1, int param_2, char * param_3)	3
+080d5580	PlayerSaveKeys	void PlayerSaveKeys(int param_1, undefined4 param_2, char * param_3)	3
+080d56a0	PlayerKeysRemoveZero	void PlayerKeysRemoveZero(int param_1, undefined4 param_2)	2
+080d56d0	PlayerKeysConvertToZero	void PlayerKeysConvertToZero(int param_1, int param_2)	2
+080d5700	PrecacheInit	undefined4 PrecacheInit(undefined4 param_1)	1
+080d5770	PrecacheRequestTeam	undefined4 PrecacheRequestTeam(int param_1)	1
+080d57f0	PrecacheRequestCurArcadeTeam	void PrecacheRequestCurArcadeTeam(void)	0
+080d5800	PrecacheRequestNextArcadeTeam	void PrecacheRequestNextArcadeTeam(void)	0
+080d5810	PrecacheRequestArcadeTeam	undefined4 PrecacheRequestArcadeTeam(int param_1)	1
+080d58a0	PrecacheRequestChar	bool PrecacheRequestChar(int param_1)	1
+080d5900	PrecacheStart	undefined4 PrecacheStart(void)	0
+080d59f0	PrecacheRequestCancel	void PrecacheRequestCancel(void)	0
+080d5a30	PrecacheIsRunning	int PrecacheIsRunning(void)	0
+080d5a70	PrecacheIsDone	undefined4 PrecacheIsDone(void)	0
+080d5ad0	PrecacheFinish	void PrecacheFinish(void)	0
+080d5b60	PrecacheWorkerThread	void PrecacheWorkerThread(void)	0
+080d5d90	IntQueueAddUnique	bool IntQueueAddUnique(int * param_1, int param_2, int param_3)	3
+080d5df0	IntQueueIsEmpty	bool IntQueueIsEmpty(int * param_1)	1
+080d5e00	IntQueuePeekTop	undefined4 IntQueuePeekTop(int * param_1, int * param_2)	2
+080d5e20	IntQueueDequeue	undefined4 IntQueueDequeue(int * param_1, int * param_2)	2
+080d5e60	IntQueueClear	undefined4 IntQueueClear(undefined4 * param_1)	1

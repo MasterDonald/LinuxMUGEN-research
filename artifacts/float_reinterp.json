@@ -1,0 +1,51 @@
+{
+ "0x080b9670": {
+  "name": "ProjArrayCalcDraw",
+  "A": [
+   "0x4280"
+  ],
+  "B": [],
+  "G": []
+ },
+ "0x080b5db0": {
+  "name": "PlayerCheckProjHit",
+  "A": [
+   "0x44",
+   "0x48"
+  ],
+  "B": [],
+  "G": []
+ },
+ "0x08091100": {
+  "name": "GameUpdate",
+  "A": [
+   "0x1cc70"
+  ],
+  "B": [],
+  "G": []
+ },
+ "0x080b6f40": {
+  "name": "PlayerCalcDraw",
+  "A": [
+   "0x4280"
+  ],
+  "B": [],
+  "G": []
+ },
+ "0x080b3b40": {
+  "name": "Player1HitP2",
+  "A": [
+   "0x1354"
+  ],
+  "B": [],
+  "G": []
+ },
+ "0x080b4400": {
+  "name": "PlayerGetHit",
+  "A": [
+   "0x104c"
+  ],
+  "B": [],
+  "G": []
+ }
+}

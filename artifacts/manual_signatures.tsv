@@ -1,0 +1,66 @@
+addr	prototype	evidence
+08082050	int EBT_MutexLock(pthread_mutex_t *m)	0x8082050: jmp __pthread_mutex_lock (argument passes through on the stack)
+08082060	int EBT_MutexUnlock(pthread_mutex_t *m)	0x8082060: jmp __pthread_mutex_unlock (argument passes through on the stack)
+0804e550	void ClipboardPrint(int * param_1, char *param_2, ...)	oracle reads 3 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+0804e5a0	undefined4 ClipboardAppend(int * param_1, char *param_2, ...)	oracle reads 3 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+080520f0	void V_FontWrite(int * param_1, int param_2, int param_3, uint param_4, char *param_5, ...)	oracle reads 6 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+08052150	void V_FontWriteRight(int * param_1, int param_2, int param_3, uint param_4, char *param_5, ...)	oracle reads 6 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+080521b0	void V_FontWriteBank(int * param_1, int param_2, int param_3, int param_4, char *param_5, ...)	oracle reads 6 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+0807c460	int TPScanf(int param_1, char * param_2, char *param_3, ...)	oracle reads 4 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+0807c6e0	undefined4 TPGroupRename(int param_1, char *param_2, ...)	oracle reads 3 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+0807c850	undefined4 TPPrintf(int param_1, char * param_2, char *param_3, ...)	oracle reads 4 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+0807ca00	undefined4 TPPrintf_Skip(int param_1, char * param_2, int param_3, char *param_4, ...)	oracle reads 5 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+0808d100	undefined4 Warn(int param_1, int param_2)	asm_param_oracle: 2 stack slots read, Ghidra had 1
+0808d150	undefined4 VWarn(int param_1, char *param_2, ...)	oracle reads 3 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+0808d1c0	undefined4 WarnR(int param_1, int param_2, int param_3)	asm_param_oracle: 3 stack slots read, Ghidra had 1
+0808d3d0	undefined4 ErrorExitM(char *param_1, ...)	oracle reads 2 slots; body passes &stack (first variadic slot) to vsprintf/vsscanf
+080a8dd0	undefined4 AIForNormalAttack(int param_1, int param_2)	asm_param_oracle: 2 stack slots read, Ghidra had 1
+080a8fe0	undefined4 AIForNormalGuard(int param_1, int param_2)	asm_param_oracle: 2 stack slots read, Ghidra had 1
+080aa720	void AIValMergeR(float * param_1, float param_2, float param_3, float param_4, int param_5)	asm_param_oracle: 5 stack slots read, Ghidra had 4
+080b1b00	undefined4 PlayerAutoTurn(int param_1, int param_2, int param_3)	asm_param_oracle: 3 stack slots read, Ghidra had 2
+080b8610	void PalGrpRemove(int param_1, int param_2, int param_3, int param_4, int param_5)	asm_param_oracle: 5 stack slots read, Ghidra had 0
+080b8a20	void PalGrpSetAdd(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7, int param_8)	asm_param_oracle: 8 stack slots read, Ghidra had 0
+080b8ac0	void PalGrpSetMul(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7, int param_8)	asm_param_oracle: 8 stack slots read, Ghidra had 0
+080b8b70	void PalGrpSetInvertAll(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	asm_param_oracle: 6 stack slots read, Ghidra had 0
+080b8c00	void PalGrpSetColorBal(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	asm_param_oracle: 6 stack slots read, Ghidra had 0
+080b8c90	void PalGrpSetClear(int param_1, int param_2, int param_3, int param_4, int param_5)	asm_param_oracle: 5 stack slots read, Ghidra had 0
+080b8dd0	undefined4 * PalGrpOrFlag(undefined4 * param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, int param_7)	asm_param_oracle: 7 stack slots read, Ghidra had 6
+080b8e20	undefined4 * PalGrpXorFlag(undefined4 * param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, int param_7)	asm_param_oracle: 7 stack slots read, Ghidra had 6
+080b8e70	undefined4 PalGrpAndFlagZero(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	asm_param_oracle: 6 stack slots read, Ghidra had 0
+080b8e90	undefined4 PalGrpFlagEqual(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6)	asm_param_oracle: 6 stack slots read, Ghidra had 0
+080b8eb0	undefined4 PalGrpFlagIsNonZero(int param_1)	asm_param_oracle: 1 stack slots read, Ghidra had 0
+080b8f10	void PalFXUpdate(int * param_1, int param_2, int param_3, int param_4, int param_5, int param_6, int param_7, int param_8)	asm_param_oracle: 8 stack slots read, Ghidra had 1
+080ba360	void ParseSndGI(int param_1, char * param_2, undefined4 * param_3, int param_4)	asm_param_oracle: 4 stack slots read, Ghidra had 3
+080d0aa0	byte * SCtrlReadExpList(byte * param_1, char * param_2, int param_3, undefined4 * param_4, int param_5)	asm_param_oracle: 5 stack slots read, Ghidra had 4
+080d1530	uint ParseHitAttr(int param_1, int param_2)	asm_param_oracle: 2 stack slots read, Ghidra had 0
+081d4ed0	int fclose(FILE *stream)	public API is cdecl (i386 SysV ABI); Parameter ID misread GCC padding pushes as regparm
+081d50f0	char * fgets(char *s, int n, FILE *stream)	public API is cdecl (i386 SysV ABI); Parameter ID misread GCC padding pushes as regparm
+081d53a0	size_t fread(void *ptr, size_t size, size_t n, FILE *stream)	public API is cdecl (i386 SysV ABI); Parameter ID misread GCC padding pushes as regparm
+081d5480	long ftell(FILE *stream)	public API is cdecl (i386 SysV ABI); Parameter ID misread GCC padding pushes as regparm
+081d5570	size_t fwrite(void *ptr, size_t size, size_t n, FILE *stream)	public API is cdecl (i386 SysV ABI); Parameter ID misread GCC padding pushes as regparm
+081bc100	void cd_set_volume(int l, int r)	public API is cdecl (i386 SysV ABI); Parameter ID misread GCC padding pushes as regparm
+080b8d10	PalGrpFlag PalGrpMakeFlag(uint group, int unused)	ret $4 (hidden struct return); 2 stack args after the hidden pointer
+080b8d80	PalGrpFlag PalGrpMakeFlagALL(void)	ret $4; fills 5 words with 0xffffffff
+080b8dd0	PalGrpFlag PalGrpOrFlag(PalGrpFlag a, PalGrpFlag b)	ret $4; ORs 0x20(%esp,i) into 0xc(%esp,i) for 5 words
+080b8e20	PalGrpFlag PalGrpXorFlag(PalGrpFlag a, PalGrpFlag b)	ret $4; same layout as PalGrpOrFlag
+080b8e70	int PalGrpAndFlagZero(PalGrpFlag a, PalGrpFlag b)	test 0x18(%esp,i),0x4(%esp,i) over 5 words; returns 1 if any common bit
+080b8e90	int PalGrpFlagEqual(PalGrpFlag a, PalGrpFlag b)	cmp 0x18(%esp,i),0x4(%esp,i) over 5 words
+080b8eb0	int PalGrpFlagIsNonZero(PalGrpFlag a)	tests 0x4(%esp,i*4) for 5 words
+080b8610	void PalGrpRemove(PalGrpFlag f)	5 stack slots
+080b8c90	void PalGrpSetClear(PalGrpFlag f)	5 stack slots
+080b8b70	void PalGrpSetInvertAll(PalGrpFlag f, int invert)	reads slot 5 (0x34 at depth 0x1c)
+080b8c00	void PalGrpSetColorBal(PalGrpFlag f, int colorbal)	reads slot 5, compared with 0x100
+080b8a20	void PalGrpSetAdd(PalGrpFlag f, int r, int g, int b)	8 stack slots
+080b8ac0	void PalGrpSetMul(PalGrpFlag f, int r, int g, int b)	8 stack slots
+0808ca40	void ParseCmdLine(MugenCmdLine *opts, int argc, char **argv)	zeroes 0xcb dwords at arg 0; called with argc/argv from main
+0809c6f0	void QuickVSSetup(MugenCmdLine *opts)	main passes the address of the options block (%ebx)
+0809c470	int _mangled_main(int argc, char **argv)	Allegro END_OF_MAIN renames main; umain.c main() calls it
+08051350	char * MFfgets(char *s, int n, int *mf)	call sites push (buf, 0x100, mf) like fgets
+080513f0	size_t MFfread(void *ptr, size_t size, size_t n, int *mf)	call sites mirror fread
+08098c60	void GameInit(MugenCmdLine opts, int *mode)	main pushes &mode (D0+0x10) before copying 0xcb dwords of opts (see overrides/0x0809c470)
+080d2a60	void PlayerSCtrlUpdateSpec(int *player, int param_2, uint param_3)	param_1 indexed as int array and cast to pointers; floats are fields of the same struct
+080bf290	undefined4 PlayerSCtrlApplyElem(int *player, int param_2, int *param_3)	same player-struct evidence
+080b1bf0	void PlayerUpdate(int *player)	same player-struct evidence
+080d2590	undefined4 PlayerSCtrlUpdate(int *player)	same player-struct evidence
+080c52a0	int SCtrlDoPlaySndInfo(int *player, int param_2)	returns a pointer value (return (float)piVar3 was a reinterpretation); param_1 is the player struct
+080c4310	undefined4 SCtrlInitEnvShake(int *player, undefined4 *param_2, int *param_3)	caller passes (param_1 + 0x135): a pointer, not a float

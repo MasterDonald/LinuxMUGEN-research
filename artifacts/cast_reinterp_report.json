@@ -1,0 +1,202 @@
+{
+ "rewritten": {
+  "AnimPerDraw": 2,
+  "AnimPerDrawScale": 2,
+  "BGArrayMoveOffset": 29,
+  "BGArrayUpdate": 12,
+  "BGArrayCtrlUpdate": 20,
+  "BGDraw": 2,
+  "ClsnParseLine": 6,
+  "TimerGetFPS": 1,
+  "AftImgUpdate": 1,
+  "AftImgDraw": 8,
+  "InfToPostArray": 2,
+  "InfixToPostfix": 1,
+  "ExpMulF": 5,
+  "ExpDivI": 5,
+  "ShowExp": 3,
+  "EvalExpressionF": 1,
+  "EvalExpression": 67,
+  "ExplodUpdate": 20,
+  "ExplodDrawShadow": 5,
+  "ExplodSetParams": 2,
+  "GameUpdate": 2,
+  "CameraMoveAbs": 4,
+  "CameraMoveP": 53,
+  "TeamLifeBack": 4,
+  "ContinueScreenLoop": 4,
+  "HelperMake": 6,
+  "ArcadeWinScreen": 3,
+  "SurvivalResultsScreen": 3,
+  "GameLoadStage": 2,
+  "GameMatchReset": 1,
+  "GameRoundReset": 1,
+  "PlayerAILearnMoveUpdate": 11,
+  "PlayerAILearnMoveEnd": 4,
+  "AIValMake": 1,
+  "AIValMerge": 4,
+  "PlayerKBUpdate": 1,
+  "PlayerReset": 2,
+  "PlayerUpdate": 61,
+  "Player1HitP2": 8,
+  "PlayerGetHit": 46,
+  "PlayerGetHitG": 3,
+  "Player1ReverseP2": 7,
+  "PlayerCheckHitProj": 2,
+  "PlayerCheckProjHit": 14,
+  "PlayerCalcDraw": 4,
+  "PlayerDrawShadow": 5,
+  "PalFXUpdate": 0,
+  "ProjArrayCalcDraw": 2,
+  "ProjDrawShadow": 4,
+  "PlayerSCtrlApplyElem": 67,
+  "SCtrlDoPlaySndInfo": 1,
+  "SCtrlParseHitDef": 2,
+  "SCtrlInitProjectile": 6,
+  "SCtrlTrigEval": 47,
+  "SPopI": 1,
+  "SPopF": 1,
+  "PlayerSCtrlUpdate": 3
+ },
+ "count_mismatch": {
+  "BGArrayMoveOffset": {
+   "i2f found/expected": [
+    23,
+    21
+   ],
+   "f2i found/expected": [
+    8,
+    8
+   ]
+  },
+  "Trig_Init": {
+   "i2f found/expected": [
+    0,
+    1
+   ],
+   "f2i found/expected": [
+    0,
+    0
+   ]
+  },
+  "GameUpdate": {
+   "i2f found/expected": [
+    2,
+    4
+   ],
+   "f2i found/expected": [
+    0,
+    0
+   ]
+  },
+  "GameMatchReset": {
+   "i2f found/expected": [
+    0,
+    1
+   ],
+   "f2i found/expected": [
+    1,
+    3
+   ]
+  },
+  "PlayerUpdate": {
+   "i2f found/expected": [
+    41,
+    40
+   ],
+   "f2i found/expected": [
+    20,
+    20
+   ]
+  },
+  "Player1HitP2": {
+   "i2f found/expected": [
+    7,
+    8
+   ],
+   "f2i found/expected": [
+    1,
+    1
+   ]
+  },
+  "PlayerGetHit": {
+   "i2f found/expected": [
+    30,
+    32
+   ],
+   "f2i found/expected": [
+    16,
+    18
+   ]
+  },
+  "PlayerCheckHitProj": {
+   "i2f found/expected": [
+    2,
+    3
+   ],
+   "f2i found/expected": [
+    0,
+    0
+   ]
+  },
+  "PlayerCheckProjHit": {
+   "i2f found/expected": [
+    14,
+    16
+   ],
+   "f2i found/expected": [
+    0,
+    0
+   ]
+  },
+  "PlayerCalcDraw": {
+   "i2f found/expected": [
+    4,
+    5
+   ],
+   "f2i found/expected": [
+    0,
+    0
+   ]
+  },
+  "ProjArrayCalcDraw": {
+   "i2f found/expected": [
+    2,
+    3
+   ],
+   "f2i found/expected": [
+    0,
+    0
+   ]
+  },
+  "PlayerSCtrlApplyElem": {
+   "i2f found/expected": [
+    34,
+    34
+   ],
+   "f2i found/expected": [
+    33,
+    34
+   ]
+  }
+ },
+ "alignment_errors": [
+  "TimerGetFPS line 15 occ 2: only 1 casts"
+ ],
+ "skipped_type_check": [
+  "BGArrayMoveOffset: (longdouble)fsin(lVar5 + lVar5) classified reint_i2f",
+  "BGArrayMoveOffset: (longdouble)fsin(lVar4 + lVar4) classified reint_i2f",
+  "PalFXUpdate: (longdouble)fsin(lVar4 + lVar4) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)log2((longdouble)local_100[0]) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)fscale((longdouble)1 + lVar21,lVar20) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)f2xm1((longdouble)1.4426950408889634 * (longdouble classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)fpatan((longdouble)local_100[0],(longdouble)1) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)fpatan(SQRT((longdouble)1.0 - lVar20 * lVar20),lVa classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)fpatan(lVar20,SQRT((longdouble)1.0 - lVar20 * lVar classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)fptan((longdouble)local_100[0]) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)fcos((longdouble)local_100[0]) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)fsin((longdouble)local_100[0]) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)log2(lVar20) classified reint_i2f",
+  "SCtrlTrigEval: (longdouble)log2((longdouble)local_108) classified reint_i2f"
+ ]
+}

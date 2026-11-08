@@ -1,0 +1,164 @@
+addr	name	type	evidence
+082870f0	clsnxscale	int	{'ref': 7}
+082870f4	clsnyscale	int	{'ref': 7}
+082870f8	ElecOutOfMem	int	{'ref': 3}
+082870fc	ErrorNumber	int	{'ref': 7}
+08287100	TempStore	int	{'ref': 5}
+08287104	G_RenderMode	int	{'ref': 2}
+08287108	G_CurMode	int	{'ref': 1}
+0828710c	G_ColDepth	int	{'ref': 2}
+08287110	G_BytesPerPixel	int	{'ref': 5}
+08287114	G_BlitMode	int	{'ref': 7}
+08287118	G_BlitModeAuto	int	{'ref': 5}
+0828711c	G_Capabilities	int	{'ref': 3}
+08287120	SinTable	int *	{'ref': 27, 'index': 1, 'assign_to_ptrvar': 1, 'deref': 1}
+08287124	G_Screenptr	int *	{'ref': 19, 'int_offset': 1, 'index': 2}
+08287128	G_ScreenPage	int[2]	{'ref': 12}
+0828712c	DAT_0828712c	SKIP-inside-array	{'ref': 11}
+08287130	scrRGB16toBGR32	int	{'ref': 6}
+08287134	uinpkeymap	int *	{'ref': 16, 'assign_to_ptrvar': 2}
+08287138	uinpbuf	byte[16]	{}
+08287148	uinpbufptr	void *	{'ref': 8}
+08287160	KBHitHook	int *	{'ref': 6, 'deref': 1}
+08287164	KBInstalled	int	{'ref': 8}
+0828716c	KBRepeat	int	{'ref': 11}
+08287170	KBFilterRelease	int	{'ref': 2}
+08287174	KBBufferType	int	{'ref': 1}
+08287178	kb_mutex	int	{'ref': 9}
+08287180	KBAllegRemapMap	byte[464]	{'ref': 101}
+08287360	KBRawTable	byte[257]	{'ref': 2}
+08287480	KBRawNames	byte[1028]	{'ref': 1}
+082878a0	KBRawTableShift	byte[257]	{'ref': 1}
+082879c0	PadInstalled	int	{'ref': 15}
+082879c4	numpads	int	{'ref': 10}
+082879c8	PadHitHook	int *	{'ref': 5, 'deref': 1}
+082879cc	MasterPal	int *	{'index': 6, 'ref': 43, 'assign_to_ptrvar': 6, 'int_offset': 13, 'deref': 2}
+082879d0	palupdatecount	int	{'ref': 2}
+082879d8	SndMode	int	{'ref': 39}
+082879dc	SndDriverInstalled	int	{'ref': 6}
+082879e0	SndPanMul	int	{'ref': 3, 'int_offset': 1}
+082879e4	SndNumVoices	int	{'ref': 19}
+082879e8	VoiceInfo	int *	{'ref': 41, 'assign_to_ptrvar': 1}
+082879ec	tmpspl	int *	{'ref': 7, 'index': 1}
+082879f0	MP3Installed	int	{'ref': 10}
+082879f4	MP3Paused	int	{'ref': 5}
+082879f8	MODInstalled	int	{'ref': 11}
+082879fc	CDAInstalled	int	{'ref': 18}
+08287a00	CDALoop	int	{'ref': 3}
+08287a04	CDATrack	int	{'ref': 10}
+08287a08	CDAPauseflag	int	{'ref': 5}
+08287a0c	ReadMode	int	{'ref': 3}
+08287a10	BufferedReadMode	int	{'ref': 4}
+08287a14	CalculatedFPS	int	{'ref': 3}
+08287a18	oldtime_0	int	{'ref': 3}
+08287a1c	CurCall_1	int	{'ref': 4}
+08287a20	TPCaseSensitive	int	{'ref': 3}
+08287a24	V_Current	int *	{'ref': 136, 'assign_to_ptrvar': 4}
+08287a28	V_CurrentIdx	int	{'ref': 131}
+08287a2c	MyStackIdx	int *	{'ref': 414, 'assign_to_ptrvar': 19}
+08287a30	dataSetup	int	{'ref': 12}
+08287a34	PTR_s_January_08287a34	void *	{'ref': 1}
+08287a38	PTR_s_February_08287a38	void *	{}
+08287a64	framesskipped_0	int	{'ref': 5}
+08287a68	snapcount_1	int	{'ref': 3}
+08287a6c	id_0	int	{'ref': 2}
+08287a70	framestep_0	byte	{'ref': 4}
+08287a74	g	int *	{'ref': 2913, 'int_offset': 2288, 'index': 80, 'assign_to_ptrvar': 105, 'arrow': 2, 'float': 5}
+08287a78	MUGENDATE_Y	int	{'ref': 12}
+08287a7c	MUGENDATE_M	int	{'ref': 7}
+08287a80	MUGENDATE_D	int	{'ref': 8}
+08287a84	MUGENEXPDATE_Y	int	{'ref': 4}
+08287a88	MUGENEXPDATE_M	int	{'ref': 4}
+08287a8c	MUGENEXPDATE_D	int	{'ref': 4}
+08287a94	ShowInfoNow_0	int	{'ref': 6}
+08287a98	PTR_DAT_08287a98	void *	{'ref': 1}
+08287a9c	PTR_s_A_08282490_0xc_08287a9c	void *	{}
+08287ab8	PTR_s_1_08283cdb_0x13_08287ab8	void *	{'ref': 1}
+08287abc	DAT_08287abc	int	{}
+08287ae0	CnstName	void *[67]	{'ref': 1}
+08287ae4	PTR_s_data_power_08287ae4	SKIP-inside-array	{}
+08287c00	CnstType	int[67]	{'ref': 2}
+08287d20	cachelastfreedtime	int	{'ref': 4}
+08287d24	DAT_08287d24	int	{'ref': 1}
+08287d28	DAT_08287d28	int	{}
+08287d40	PTR_s_a_0828363f_0x14_08287d40	void *	{'ref': 1}
+08287d44	PTR_s_b_082818b9_0x12_08287d44	void *	{}
+08287d5c	DAT_08287d5c	int	{'ref': 1}
+08287d60	DAT_08287d60	int	{}
+08287f58	DAT_08287f58	int	{'ref': 1}
+08287f5c	DAT_08287f5c	int	{}
+08288040	nokoflag_0	int	{'ref': 5}
+082a62c0	KBBuffer	byte[1032]	{'ref': 24}
+082a66c8	shiftflags	byte[16]	{'index': 3, 'ref': 1}
+082a66e0	PadType	int	{'ref': 5}
+082a66e4	PadID	int	{'ref': 1}
+082a6700	padbuf	byte[1032]	{'ref': 23}
+082a6b08	padbitflag	int[4]	{'ref': 15}
+082a6b0c	DAT_082a6b0c	SKIP-inside-array	{}
+082a6b18	padoldbitflag	int[4]	{'ref': 3}
+082a6b1c	DAT_082a6b1c	SKIP-inside-array	{}
+082a6b40	VoiceVol	int	{'ref': 6}
+082a6b44	MidiVol	int	{'ref': 6}
+082a6b80	GlobalTemp	byte[32]	{'ref': 2}
+082a6be0	cellHead	int *	{'ref': 21, 'assign_to_ptrvar': 2}
+082a6be4	slct	int	{'ref': 175, 'int_offset': 121}
+082a6be8	cellRows	int	{'ref': 12}
+082a6bec	cellCols	int	{'ref': 30}
+082c0680	DebugTmpStr	byte[256]	{'index': 1}
+082c0780	ErrorMessage	byte[256]	{'ref': 147}
+082c0880	S_Size	int	{'ref': 1}
+082c0884	V_Height	int	{'ref': 39}
+082c0888	W_y2	int	{'ref': 204, 'float': 23}
+082c088c	V_Size	int	{'ref': 1}
+082c0890	W_Width	int	{'ref': 2}
+082c0894	W_x1	int	{'ref': 250, 'float': 44}
+082c0898	V_BytesPerPixel	int	{'ref': 2}
+082c089c	W_Skip	int	{'ref': 2}
+082c08a0	W_Height	int	{'ref': 1}
+082c08a4	S_Width	int	{'ref': 13}
+082c08a8	S_Height	int	{'ref': 13}
+082c08ac	V_ColDepth	int	{'ref': 169}
+082c08b0	W_x2	int	{'ref': 225, 'float': 23}
+082c08b4	V_Width	int	{'ref': 69, 'int_offset': 1}
+082c08b8	W_y1	int	{'ref': 230, 'float': 23}
+082c08c0	uinpflag	byte[385]	{'ref': 27}
+082c08c1	DAT_082c08c1	SKIP-inside-array	{}
+082c09c0	DAT_082c09c0	SKIP-inside-array	{}
+082c09c1	DAT_082c09c1	SKIP-inside-array	{}
+082c0a60	keyflag	byte[257]	{'ref': 9}
+082c0a61	DAT_082c0a61	SKIP-inside-array	{'ref': 2}
+082c0a70	DAT_082c0a70	SKIP-inside-array	{'ref': 1}
+082c0a7d	DAT_082c0a7d	SKIP-inside-array	{'ref': 3}
+082c0a8a	DAT_082c0a8a	SKIP-inside-array	{'ref': 3}
+082c0a96	DAT_082c0a96	SKIP-inside-array	{'ref': 3}
+082c0a98	DAT_082c0a98	SKIP-inside-array	{'ref': 1}
+082c0a99	DAT_082c0a99	SKIP-inside-array	{'ref': 1}
+082c0a9d	DAT_082c0a9d	SKIP-inside-array	{'ref': 1}
+082c0afd	DAT_082c0afd	SKIP-inside-array	{'ref': 3}
+082c0b18	DAT_082c0b18	SKIP-inside-array	{'ref': 1}
+082c0b61	keypauseflag	byte	{'ref': 12}
+082c0b80	padflag	byte[129]	{'ref': 6}
+082c0b81	DAT_082c0b81	SKIP-inside-array	{}
+082c0c04	TimerFPS	int	{'ref': 3}
+082c0c08	Ticks	int	{'ref': 15}
+082c0c0c	FPSUpdateTicks	int	{'ref': 4, 'float': 1}
+082c0c10	SyncRate	int	{'ref': 5}
+082c0c14	TicksUpdate	int	{'ref': 2}
+082c0c18	SyncCur	int	{'ref': 12}
+082c0c1c	SyncLast	int	{'ref': 7, 'int_offset': 1}
+082c0c20	TicksPerSecond	int	{'ref': 5, 'float': 3}
+082c0c24	InSync	int	{'ref': 5}
+082c0c40	num_windows	int	{'ref': 7}
+082c0c44	GUI_state	int	{'ref': 11}
+082c0c48	GUI_root	int *	{'ref': 9, 'index': 1, 'assign_to_ptrvar': 1}
+082c0c4c	EB_ListTail	int *	{'ref': 11, 'assign_to_ptrvar': 1, 'index': 4, 'deref': 1}
+082c0c60	window_order	byte[2048]	{'ref': 2}
+082c1460	EB_ListHead	int *	{'ref': 9, 'assign_to_ptrvar': 2}
+082c1464	GUI_globalfont	int *	{'ref': 7, 'assign_to_ptrvar': 1, 'index': 1}
+082c1468	EB_ListCurrent	int	{'ref': 1}
+082c146c	has_focus	int *	{'ref': 10, 'index': 3, 'assign_to_ptrvar': 1, 'deref': 1}
+082c147c	DAT_082c147c	int	{}
+082c1480	MyStack	int[128]	{'ref': 98}
+082c1484	DAT_082c1484	SKIP-inside-array	{}
+082c1488	DAT_082c1488	SKIP-inside-array	{}
+082c148c	DAT_082c148c	SKIP-inside-array	{}

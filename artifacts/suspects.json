@@ -1,0 +1,1119 @@
+{
+ "0x807c210": {
+  "name": "TPSeekEog",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80574b0": {
+  "name": "SndVoiceCleanup",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x809fd90": {
+  "name": "PlayCutscene",
+  "indicators": [
+   "ADDRINT",
+   "UNAFF"
+  ]
+ },
+ "0x80b3830": {
+  "name": "PlayerCheckHit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808b9f0": {
+  "name": "ArcadeListBuild",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8099880": {
+  "name": "GameLoadFightData",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8053b20": {
+  "name": "KBIStuffBufNoFlip",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8058400": {
+  "name": "CDAPoll",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8081760": {
+  "name": "EB_GUINewWindow",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80a01b0": {
+  "name": "ModeSelect",
+  "indicators": [
+   "ADDRINT",
+   "UNAFF"
+  ]
+ },
+ "0x80acc70": {
+  "name": "PlayerDefLoadZip",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8083870": {
+  "name": "FreeExpression",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x805a600": {
+  "name": "W_ScaleSpriteTransAdd_B_S",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8056c00": {
+  "name": "SndArrayFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x804c3c0": {
+  "name": "BGArrayFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80aed20": {
+  "name": "PlayerCMDLoad",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8048c90": {
+  "name": "AnimFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x808d5e0": {
+  "name": "FindFileDirEx",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d5810": {
+  "name": "PrecacheRequestArcadeTeam",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80802e0": {
+  "name": "unzlocal_getByte",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8081ff0": {
+  "name": "EBT_ThreadCreate",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8049b70": {
+  "name": "PRSprArrayFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x809e630": {
+  "name": "GameBGLoad",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8083cd0": {
+  "name": "ShowExp",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80ae4a0": {
+  "name": "PlayerCNSLoadTP",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808f940": {
+  "name": "SysExplodCreateDrawPal",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80504e0": {
+  "name": "SiSceneUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80943d0": {
+  "name": "CameraMoveP",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80ccef0": {
+  "name": "SCtrlParseTriggerCMD",
+  "indicators": [
+   "REG-IN",
+   "UNAFF"
+  ]
+ },
+ "0x807d350": {
+  "name": "V_BufToScreenStretch",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b0090": {
+  "name": "PlayerCheck",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8058380": {
+  "name": "CDAPause",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808d750": {
+  "name": "GetQuotedString",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804a190": {
+  "name": "AnimPerArrayUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804ac50": {
+  "name": "ArrayAddResize",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80bf290": {
+  "name": "PlayerSCtrlApplyElem",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b5db0": {
+  "name": "PlayerCheckProjHit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8091100": {
+  "name": "GameUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80ba390": {
+  "name": "SCtrlParseElemType",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8054570": {
+  "name": "KBBufferRawHook",
+  "indicators": [
+   "REG-IN",
+   "UNAFF"
+  ]
+ },
+ "0x8093900": {
+  "name": "GameInputUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b37d0": {
+  "name": "PlayerCheckP1HitP2",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80549d0": {
+  "name": "KBRawToChar",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8095310": {
+  "name": "GameBarsDraw",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8057750": {
+  "name": "SndReadFile",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8085a60": {
+  "name": "BGMLoadAndStart",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x805b210": {
+  "name": "W_ScaleSpriteTransSub_S",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808eb10": {
+  "name": "ExplodSetParams",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c4310": {
+  "name": "SCtrlInitEnvShake",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8055570": {
+  "name": "EBPalUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d5b60": {
+  "name": "PrecacheWorkerThread",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808fdc0": {
+  "name": "GameLoop",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80ac9b0": {
+  "name": "PlayerCacheChangePriority",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c9dc0": {
+  "name": "SCtrlParseSuperPause",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80afdd0": {
+  "name": "PlayerChangePal",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808d960": {
+  "name": "FrameSkipUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804ab00": {
+  "name": "ArrayFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8048b40": {
+  "name": "AnimRCFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x808dbb0": {
+  "name": "ScreenSnap",
+  "indicators": [
+   "REG-IN",
+   "UNAFF"
+  ]
+ },
+ "0x805a250": {
+  "name": "W_ScaleSpriteTransAdd_S",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808df40": {
+  "name": "ExplodDraw",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x807fac0": {
+  "name": "W_BoxFill",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804fb50": {
+  "name": "SiSceneReadTP",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x805c140": {
+  "name": "SpriteReadSFFPtr_1_01",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8054300": {
+  "name": "UInpHit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8082ad0": {
+  "name": "InfToPostArray",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8055980": {
+  "name": "MasterPalProcessChanges",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c5810": {
+  "name": "SCtrlParseHitDef",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8087150": {
+  "name": "CharacterSelectScreen",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8057290": {
+  "name": "SndVoiceStopAll",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80d4ef0": {
+  "name": "GameLoadOptions",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808d150": {
+  "name": "VWarn",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8050bd0": {
+  "name": "SiSceneFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80b6b00": {
+  "name": "PlayerCheckAttrHit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8058f40": {
+  "name": "SpriteDecompUnlockData",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80852b0": {
+  "name": "BGMStart",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808af70": {
+  "name": "VersusScreen",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804acb0": {
+  "name": "ArrayAddUniqueResize",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80ada90": {
+  "name": "PlayerDefLoadPtr",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x807bd80": {
+  "name": "TPGroupSeek",
+  "indicators": [
+   "ADDRINT"
+  ]
+ },
+ "0x80d3b40": {
+  "name": "GameReloadSystemSprSnd",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d1c90": {
+  "name": "SCtrlParseState",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x805cc80": {
+  "name": "SpriteReadPCXPtr",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8053fe0": {
+  "name": "UInpInit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b1bf0": {
+  "name": "PlayerUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b17d0": {
+  "name": "PlayerLifeSet",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x809cb60": {
+  "name": "MainLoop",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8097940": {
+  "name": "ContinueScreenLoop",
+  "indicators": [
+   "ADDRINT",
+   "UNAFF"
+  ]
+ },
+ "0x8058290": {
+  "name": "CDADeInit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b5510": {
+  "name": "Player1ReverseP2",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8093540": {
+  "name": "GameRoundDraw",
+  "indicators": [
+   "REG-IN",
+   "UNAFF"
+  ]
+ },
+ "0x80c52a0": {
+  "name": "SCtrlDoPlaySndInfo",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8048290": {
+  "name": "AnimRCReadFileTP",
+  "indicators": [
+   "ADDRINT",
+   "UNAFF"
+  ]
+ },
+ "0x809fa40": {
+  "name": "LogPreMatch",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8083780": {
+  "name": "InfixToPostfix",
+  "indicators": [
+   "SMALLPTR"
+  ]
+ },
+ "0x808a560": {
+  "name": "CharselReadConfig",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b2cf0": {
+  "name": "PlayerUpdateBindTo",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80583c0": {
+  "name": "CDAResume",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8083f60": {
+  "name": "EvalExpressionF",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808f6d0": {
+  "name": "SysExplodParse",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8056f80": {
+  "name": "SndVoiceUnreserveAll",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8054500": {
+  "name": "IntCircBufGet",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c5650": {
+  "name": "SCtrlParseHitOverride",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808da20": {
+  "name": "DrawToScreen",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804e6c0": {
+  "name": "ClsnArrayFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8050860": {
+  "name": "SiSceneUpdatePal",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8049af0": {
+  "name": "PRSprArrayNew",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x809c200": {
+  "name": "GameVarDeInit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x809d120": {
+  "name": "GamePlay",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8049e10": {
+  "name": "PRSprArrayScale",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80aed90": {
+  "name": "PlayerCMDLoadTP",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80acba0": {
+  "name": "PlayerDefLoad",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808d440": {
+  "name": "ChangeFileDir",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b3b40": {
+  "name": "Player1HitP2",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8052210": {
+  "name": "V_FontDrawAlign_I",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b67e0": {
+  "name": "CheckProjHitProj",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d12f0": {
+  "name": "ParseAnim",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8084020": {
+  "name": "EvalExpression",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b5a90": {
+  "name": "PlayerCheckHitProj",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c41f0": {
+  "name": "SCtrlParseEnvShake",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80aca40": {
+  "name": "PlayerCacheClear",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8081600": {
+  "name": "EB_GUIInit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8081b90": {
+  "name": "EB_GUIDrawWindow",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808ca40": {
+  "name": "ParseCmdLine",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80cd450": {
+  "name": "SCtrlTrigEval",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8052530": {
+  "name": "FontReadFilePtr_0_01",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8057be0": {
+  "name": "SndReadFileSNDPtr",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80980d0": {
+  "name": "HelperMake",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8083e40": {
+  "name": "EvalExpressionI",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d51e0": {
+  "name": "GameSaveOptions",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804b1d0": {
+  "name": "BGArrayReadTP",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x805c4c0": {
+  "name": "SpriteReadSFFListPtr_1_01",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x809bcf0": {
+  "name": "GameVarInit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8054470": {
+  "name": "IntCircBufDeInit",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80974b0": {
+  "name": "ShowDebugInfo",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x805b880": {
+  "name": "W_ScaleShadowTransSub_S",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80abd40": {
+  "name": "PlayerKBUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x807bd10": {
+  "name": "TPWriteFile",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80854e0": {
+  "name": "BGMResume",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80c83a0": {
+  "name": "SCtrlParseProjectile",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80554a0": {
+  "name": "EBPalReset",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x809dc50": {
+  "name": "GameLoadStage",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x809c470": {
+  "name": "gcc2_compiled.",
+  "indicators": [
+   "SMALLPTR",
+   "UNAFF"
+  ]
+ },
+ "0x807b200": {
+  "name": "TPFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x804a1e0": {
+  "name": "AnimPerArrayUpdateGrp",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8058150": {
+  "name": "MODUnload",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80af8f0": {
+  "name": "PlayerNew",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80cd3c0": {
+  "name": "SCtrlTrigTest",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c7360": {
+  "name": "SCtrlInitHitDef",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80582c0": {
+  "name": "CDAPlay",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8081eb0": {
+  "name": "EB_GUIUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80596b0": {
+  "name": "W_ScaleSprite_S",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8098c60": {
+  "name": "GameInit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8085810": {
+  "name": "BGMLoad",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80cd2f0": {
+  "name": "SCtrlTrigArrayTest",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x809e730": {
+  "name": "GameUnloadStage",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80a4ff0": {
+  "name": "TrainingMenuUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d2b60": {
+  "name": "GameLoadSystem",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x809c6f0": {
+  "name": "QuickVSSetup",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80a1830": {
+  "name": "OptionsScreen",
+  "indicators": [
+   "ADDRINT",
+   "UNAFF"
+  ]
+ },
+ "0x80d58a0": {
+  "name": "PrecacheRequestChar",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80b86d0": {
+  "name": "PalGrpAddSpr",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8048830": {
+  "name": "AnimElemParseLine",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80bee10": {
+  "name": "SCtrlParseElem",
+  "indicators": [
+   "ADDRINT",
+   "UNAFF"
+  ]
+ },
+ "0x8052a50": {
+  "name": "G_Init",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d2590": {
+  "name": "PlayerSCtrlUpdate",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x804bcf0": {
+  "name": "BGArrayReadCtrlTP",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8085df0": {
+  "name": "FindCharacters",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x808d300": {
+  "name": "ErrorExit",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d0900": {
+  "name": "SPopF",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80510c0": {
+  "name": "splitdirfile",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80d5900": {
+  "name": "PrecacheStart",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d0780": {
+  "name": "trigcpy",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c8b90": {
+  "name": "SCtrlInitProjectile",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8053ee0": {
+  "name": "UInpKBHook",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x80ab1c0": {
+  "name": "PlayerNearestEnemy",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80542a0": {
+  "name": "UInpGet",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8055af0": {
+  "name": "MasterPalConvertCol16",
+  "indicators": [
+   "REG-IN",
+   "ADDRINT"
+  ]
+ },
+ "0x80a3aa0": {
+  "name": "KeyConfigScreen",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80c4420": {
+  "name": "SCtrlParseExplod",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x8082150": {
+  "name": "AftImgFree",
+  "indicators": [
+   "REG-IN"
+  ]
+ },
+ "0x8054260": {
+  "name": "UInpStuff",
+  "indicators": [
+   "REG-IN",
+   "UNAFF"
+  ]
+ },
+ "0x80d5770": {
+  "name": "PrecacheRequestTeam",
+  "indicators": [
+   "UNAFF"
+  ]
+ },
+ "0x80d3e70": {
+  "name": "GameConfigRead",
+  "indicators": [
+   "UNAFF"
+  ]
+ }
+}
