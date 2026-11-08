@@ -1,0 +1,84 @@
+diff --color -u amp-0.7.6/audio.h libamp-build/audio.h
+--- a/audio.h	1997-08-21 15:00:18.000000000 +0200
++++ b/audio.h	2026-11-06 21:10:05.233809639 +0100
+@@ -7,6 +7,7 @@
+  */
+ 
+ #include <stdio.h>
++#include <allegro.h>   /* LibAmp: in_file is a PACKFILE */
+ 
+ struct AUDIO_HEADER {
+ 	int ID;
+@@ -46,7 +47,7 @@
+ /* global stuff 
+ */
+ 
+-extern FILE *in_file,*out_file;
++extern PACKFILE *in_file; extern FILE *out_file;
+ 
+ extern void statusDisplay(struct AUDIO_HEADER *header, int frameNo);
+ extern int decodeMPEG(void);
+@@ -96,7 +97,7 @@
+ 
+ #ifdef AUDIO
+ 
+-FILE *in_file,*out_file;
++PACKFILE *in_file; FILE *out_file;
+  
+ int scalefac_l[2][2][22];
+ int scalefac_s[2][2][13][3];
+Subdirectorios comunes: amp-0.7.6/doc y libamp-build/doc
+diff --color -u amp-0.7.6/getbits.c libamp-build/getbits.c
+--- a/getbits.c	1997-08-20 15:30:21.000000000 +0200
++++ b/getbits.c	2026-11-06 21:09:50.012304440 +0100
+@@ -6,6 +6,8 @@
+  * Created by: tomislav uzelac  Apr 1996 
+  * better synchronization, tomislav uzelac, Apr 23 1997
+  */
++#include <stdlib.h>
++#include <allegro.h>
+ #include "amp.h"
+ #include "audio.h"
+ #include "formats.h"
+@@ -236,19 +238,25 @@
+ int dummy_getinfo(int n)
+ {
+ 	n-=4;
+-        if ( fseek(in_file,n,SEEK_CUR) != 0)
+-                if (feof(in_file)) return GETHDR_EOF;
++	/* LibAmp: Allegro PACKFILEs only seek forward (VERIFIED 0x080e4d00) */
++	if (n < 0) abort();
++        if ( pack_fseek(in_file,n) != 0)
++                if (pack_feof(in_file)) return GETHDR_EOF;
+                 else return GETHDR_ERR;
+ 	return 0;
+ }
+ 
+ int rewind_stream(int nbytes)
+ {
++	/* LibAmp: a backward seek is impossible on a PACKFILE; the binary
++	 * aborts for every non-negative nbytes (VERIFIED 0x080e4d60). */
+ 	nbytes+=5;
+-	if (fseek(in_file, -nbytes, SEEK_CUR) != 0) {
++	if (-nbytes < 0) abort();
++	if (pack_fseek(in_file, -nbytes) != 0) {
+ 		/* what if we need to be at the very beginning? */
+ 		nbytes--;
+-		if (fseek(in_file, -nbytes, SEEK_CUR) != 0) return GETHDR_ERR;
++		if (-nbytes < 0) abort();
++		if (pack_fseek(in_file, -nbytes) != 0) return GETHDR_ERR;
+ 	}
+ 	return 0;
+ }
+@@ -258,8 +266,9 @@
+ #ifdef LINUX_REALTIME
+         return prefetch_get_input(bp,size);
+ #else /* LINUX_REALTIME */
+-	if ( fread( bp , 1, size, in_file) != size) 
+-                if (feof(in_file)) return GETHDR_EOF;
++	/* LibAmp: PACKFILE input (VERIFIED 0x080e4de0) */
++	if ( pack_fread( bp , size, in_file) != size) 
++                if (pack_feof(in_file)) return GETHDR_EOF;
+                 else return GETHDR_ERR;
+ 	return 0;
+ #endif /* LINUX_REALTIME */
