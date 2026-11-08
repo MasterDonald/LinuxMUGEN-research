@@ -83,7 +83,7 @@ podman run --rm -v "$PWD":/kit --platform linux/386 debian:bullseye sh -c \
 |---|---|
 | offline, Debian 11 i386 container, no network (2026-11-08, current sources) | built; `.text`, `.rodata` and `.data` byte-identical to the reference build below |
 | `--online`, CachyOS host (GCC 16.2.1, glibc 2.44), 2026-11-07 | all four downloads matched `SHA256SUMS`; built (older source revision) |
-| the reference build, tested against the original game (2026-11-08) | identical game state in 10 game-mode scenarios, the CNS test character, 25 parser error messages, 91 state-controller acceptance cases, and full matches with eight third-party characters (incl. Balam_Knowledge vs Blizzard_Sword_Princess); same results on Debian 11/12, Ubuntu 24.04, Fedora 42, Arch Linux and openSUSE Tumbleweed (research tree: experiments/test-results.md T33-T42) |
+| the reference build, tested against the original game (2026-11-08) | identical game state in 10 game-mode scenarios, the CNS test character, 25 parser error messages, 91 state-controller acceptance cases, and full matches with eight third-party characters (incl. Balam_Knowledge vs Blizzard_Sword_Princess); same results on Debian 11/12, Ubuntu 24.04, Fedora 42, Arch Linux and openSUSE Tumbleweed  |
 
 Reference build (Debian 11, GCC 10.2.1), SHA-256 of the sections:
 
