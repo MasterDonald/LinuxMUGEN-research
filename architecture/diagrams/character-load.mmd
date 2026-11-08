@@ -1,0 +1,15 @@
+flowchart TD
+  S[select.def entry] --> D{ZIP with same name?}
+  D -->|yes| Z[PlayerDefLoadZip: minizip unzOpen / unzLocateFile]
+  D -->|no| P[PlayerDefLoad: chars/name/name.def]
+  Z --> Q[PlayerDefLoadPtr: parse DEF via text parser]
+  P --> Q
+  Q --> V[check mugenversion]
+  Q --> C[PlayerCNSLoadTP: constants Data/Size/Velocity/Movement]
+  Q --> ST[SctrlReadFileTP/SctrlAddFileTP: st + stcommon common1.cns states]
+  Q --> CMD[PlayerCMDLoadTP: commands, Remap, Statedef -1]
+  Q --> AIR[AnimRCReadFile: actions + Clsn boxes]
+  Q --> SFF[SpriteReadSFF: v1.01, shared palette]
+  Q --> SND[SndReadFile: ElecbyteSnd]
+  Q --> ACT[Pal4Read3File: pal1..pal12, reversed order]
+  ST --> T[SCtrlParseTrigger -> InfToPostArray: postfix expressions]
