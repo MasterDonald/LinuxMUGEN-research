@@ -1,4 +1,4 @@
-# Engine structure map (unresolved question 6)
+# Engine structure map
 
 Field offsets of the engine's data structures, recovered from the
 2002.04.14 binary through the reconstructed source. Written 2026-11-08.
