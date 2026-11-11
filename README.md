@@ -20,8 +20,7 @@ goal is reached (see the status table). The repository holds:
 The following repository was made with Claude Opus 5.5 (under human 
 revisions and interventions). Documentation in some areas has been
 cut due to sensible data / intermediate environment preparations,
-if necessary, it will be updated accordingly. Code is NOT translated
-yet, though it is planned to be.
+if necessary, it will be updated accordingly.
 
 ## Status at a glance
 
