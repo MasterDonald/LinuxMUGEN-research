@@ -222,4 +222,5 @@ cd mugen-copy          # contains data/, chars/, stages/, font/
 
 Allegro 3.9.37 ("giftware"), JGMOD, libcda and amp keep their own licences;
 see the files inside the archives in `downloads/`. The reconstructed engine
-code has no licence from Elecbyte. Keep it private.
+code has no licence from Elecbyte, if the company contacts me to take
+down this repository, I'll immediately do it.
