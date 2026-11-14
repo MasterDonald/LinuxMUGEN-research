@@ -61,7 +61,7 @@ systems).
 | [preservation/original-environment.md](preservation/original-environment.md) |  [preservation/modern-linux.md](preservation/modern-linux.md): run the original or the rebuild today |
 | [reconstruction/README.md](reconstruction/README.md): the source tree, libraries and how to build | [RESEARCH-METHODOLOGY.md](RESEARCH-METHODOLOGY.md), TBA (If more doc is needed) |
 | [reconstruction/thirdparty/README.md](reconstruction/thirdparty/README.md): library provenance and patches | TBA (If more doc is needed) |
-| [engine/struct-map.md](engine/struct-map.md): structure sizes and field offsets (player record, character definition, `g`, controller elements) | TBA (If more doc is needed) |
+| [engine/struct-map.md](engine/struct-map.md): structure sizes and field offsets (player record, character definition, `g`, controller elements) | [OGengine-toolkit](OGengine-toolkit/) Tools for experimenting with the original copy |
 
 ## Evidence classes
 
