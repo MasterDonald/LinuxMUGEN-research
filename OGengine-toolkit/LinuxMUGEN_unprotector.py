@@ -102,7 +102,7 @@ def patch_elf_permissions(input_path, output_path, target_start, target_end):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python patch_elf.py <input_binary> <output_binary>")
+        print("Usage: LinuxMUGEN_unprotectory.py <input_binary> <output_binary>")
         sys.exit(1)
 
     input_file = sys.argv[1]
